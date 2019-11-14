@@ -1,3 +1,5 @@
+const path = require(`path`)
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Tailwind`,
@@ -5,6 +7,15 @@ module.exports = {
     author: `@taylorbryant`
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
