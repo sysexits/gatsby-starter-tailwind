@@ -36,11 +36,11 @@ const Member=(props)=>{
         <Layout>
             {entities.map(({node}) => {
                 return(
-                    <div className="w-full">
+                    <div>
                         <div className="max-w-4xl flex items-center flex-wrap mx-auto lg:my-0">
                             <div className="w-full lg:w-full rounded-lg lg:rounded-l-lg lg:rounded-r-none bg-white mx-6 lg:mx-0">
-                                <div className="p-4 md:p-12 text-center lg:text-left">
-                                    <div className="w-full items-center">
+                                <div className="text-center lg:text-left">
+                                    <div className="flex items-center justify-center lg:justify-start">
                                         <img src={node.img} alt="profilePicture" className="w-48 h-48 rounded-full object-cover" />
                                     </div>
                                     <h1 className="text-3xl font-bold pt-8 lg:pt-0">{node.name}</h1>

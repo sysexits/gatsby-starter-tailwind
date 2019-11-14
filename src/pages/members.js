@@ -50,18 +50,16 @@ const MemberPage = () =>{
         <div class="flex flex-wrap -mb-4">
             {professorNode.map((node,index) => {
             return (
-                <div className="w-full px-2 mb-4">
-                    <img class="w-64 h-64 rounded-full object-none object-center object-cover" src={node.img}></img>
+                <div className="flex justify-center px-2 mb-4">
+                    <img class="w-32 h-32 rounded-full object-cover" src={node.img}></img>
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">{node.name}</div>
-                        <div class="text-sm mb-2">{node.email}</div>
-                        {node.affiliation !== "KAIST" && 
-                            <div class="text-sm text-red-800 mb-2">* {node.affiliation}</div>
-                        }
-                        <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                        <div class="font-bold text-xl ">{node.name}</div>
+                        <div class="font-semibold text-sm ">Professor</div>
+                        <div class="text-sm mb-4">{node.email}</div>
+                        <button className="w-full bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                             <Link
                             key={node.name}
-                            to={`/members/${node.sitePrefix}`}>More</Link>
+                            to={`/members/${node.sitePrefix}`}>Detail Information</Link>
                             </button>
                     </div>
                 </div>
@@ -72,31 +70,25 @@ const MemberPage = () =>{
 
         <div className="w-full">
         <h3 className="bg-blue-800 w-full text-white text-lg font-bold inline-block p-3 mb-4">Ph.D. Students</h3>
-
-            <div class="flex flex-wrap -mb-4">
+        <div class="flex flex-wrap -mb-4">
             {phdNode.map((node,index) => {
             return (
-                <div className="w-1/2 px-2 mb-4">
-                    <img class="w-48 h-48 rounded-full object-none object-center object-cover" src={node.img}></img>
+                <div className="flex justify-center px-2 mb-4">
+                    <img class="w-32 h-32 rounded-full object-cover" src={node.img}></img>
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">{node.name}</div>
-                        <div class="text-sm mb-2">{node.email}</div>
-                        {node.affiliation !== "KAIST" && 
-                            <div class="text-sm text-red-800 mb-2">* {node.affiliation}</div>
-                        }
-                        <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                        <div class="font-bold text-xl">{node.name}</div>
+                        <div class="font-semibold text-sm">Ph.D Candidate</div>
+                        <div class="text-sm mb-4">{node.email}</div>
+                        <button className="w-full bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                             <Link
                             key={node.name}
-                            to={`/members/${node.sitePrefix}`}>More</Link>
+                            to={`/members/${node.sitePrefix}`}>Detail Information</Link>
                             </button>
                     </div>
                 </div>
                 )}
             )}
             </div>
-
-
-        
         </div>
 
 
@@ -105,18 +97,16 @@ const MemberPage = () =>{
         <div class="flex flex-wrap -mb-4">
             {msNode.map((node,index) => {
             return (
-                <div className="w-1/2 px-2 mb-4">
-                    <img class="w-48 h-48 rounded-full object-none object-center object-cover" src={node.img}></img>
+                <div className="flex justify-center px-2 mb-4">
+                    <img class="w-32 h-32 rounded-full object-cover" src={node.img}></img>
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">{node.name}</div>
-                        <div class="text-sm mb-2">{node.email}</div>
-                        {node.affiliation !== "KAIST" && 
-                            <div class="text-sm text-red-800 mb-2">* {node.affiliation}</div>
-                        }
-                        <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                        <div class="font-bold text-xl">{node.name}</div>
+                        <div class="font-semibold text-sm ">Master Student</div>
+                        <div class="text-sm mb-4">{node.email}</div>
+                        <button className="w-full bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                             <Link
                             key={node.name}
-                            to={`/members/${node.sitePrefix}`}>More</Link>
+                            to={`/members/${node.sitePrefix}`}>Detail Information</Link>
                             </button>
                     </div>
                 </div>
