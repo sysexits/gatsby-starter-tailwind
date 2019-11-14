@@ -37,19 +37,19 @@ const Member=(props)=>{
     const {slug} = fields
     return(
         <Layout>
-            <div className="flex justify-between items-center container mx-auto px-4 py-4">
-                <div className="w-full md:w-1/4 p-4 text-center">
+            <div className="flex items-center container mx-auto px-4 py-4">
+                <div className="w-full sm:w-1/4 md:w-1/4 p-4 text-center">
                     <Img
                         className="shadow-2xl"
                         fluid={image.childImageSharp.fluid}
                         alt="A corgi smiling happily"
                     /></div>
-                <div className="w-full justify-center md:w-3/4 p-4 text-center">
-                    <div className="font-bold text-xl mb-2">{title}</div>
-                    <div className="font-bold text-lg text-gray-800 mb-2">{type}</div>
-                    <div className="font-bold text-lg text-gray-800 mb-2">{email}</div>
+                <div className="w-full sm:w-3/4 justify-center md:w-3/4 p-4 text-center">
+                    <div className="font-bold text-xl">{title}</div>
+                    <div className="font-bold text-lg text-gray-800">{type}</div>
+                    <div className="font-bold text-lg text-gray-800">{email}</div>
                     
-                    <div className="px-6 py-4">
+                    <div className="w-full sm:w-auto px-6 py-4">
                         {tags.map((tag,index) => {
                             return (
                                 <span className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2">{tag}</span>
@@ -58,7 +58,7 @@ const Member=(props)=>{
                     </div>
                 </div>
             </div>
-            <div className="flex mb-4 flex-wrap">
+            <div className="flex flex-wrap">
                 <div
                     className="w-full"
                     dangerouslySetInnerHTML={{ __html: html }}

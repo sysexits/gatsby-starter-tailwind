@@ -56,12 +56,12 @@ function Header() {
               title: `Home`
             },
             {
-              route: `/about`,
-              title: `About`
+              route: `/members/jaehyunjang`,
+              title: `Members`
             },
             {
-              route: `/contact`,
-              title: `Contact`
+              route: `/publication/paper`,
+              title: `Publications`
             }
           ].map(link => (
             <Link

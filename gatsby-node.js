@@ -43,4 +43,35 @@ module.exports.createPages = async ({graphql,actions}) => {
             }
         })
     })
+    
+    const publicationTempate = path.resolve(`src/templates/publicationTemplate.js`)
+    const paperRes = await graphql(`
+        query {
+            allPapersJson(sort: {fields: date, order: DESC})
+            {
+                edges {
+                    node {
+                        id
+                    }
+                }
+            }
+        }
+    `)
+    const entities = paperRes.data.allPapersJson.edges
+    const visibleEntities = 5
+    const entitiesPerPage = 10
+    const numPaperPages = Math.ceil(entities.length / entitiesPerPage)
+    Array.from({length: numPaperPages}).forEach((_, i) => {
+        createPage({
+            path: i == 0 ? `/publication/paper` : `/publication/paper/${i + 1}`,
+            component: publicationTempate,
+            context: {
+                limit: entitiesPerPage,
+                skip: i * entitiesPerPage,
+                numPaperPages,
+                visibleEntities,
+                currentPage: i + 1
+            },
+        })
+    })
 }
