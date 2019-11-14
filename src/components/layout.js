@@ -14,24 +14,29 @@ function Layout({ children }) {
 
       <footer className="bg-blue-700">
         <nav className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-sm">
-          <p className="text-white">
-            Created by{` `}
-            <a
-              className="font-bold no-underline text-white"
-              href="https://bryant.io"
-            >
-              Taylor Bryant
-            </a>
-          </p>
-
-          <p>
-            <a
-              className="font-bold no-underline text-white"
-              href="https://github.com/taylorbryant/gatsby-starter-tailwind"
-            >
-              GitHub
-            </a>
-          </p>
+          <div>
+            <p className="text-white">
+              <a
+                className="hover:underline font-bold no-underline text-white"
+                href="https://www.kaist.ac.kr"
+              >
+                Korea Advanced Institute of Science and Technology (KAIST)
+              </a>
+              , All rights reserved.
+            </p>
+            <p className="text-white">
+            Computer Graphics and Visualization Lab., School of Computing, KAIST (Director: Prof. Jinah Park)
+            </p>
+            <p className="text-white">
+            291 Daehak-ro, Yuseong-gu, Daejeon 34141, Republic of Korea
+            </p>
+            <p className="text-white">
+            34141 대전광역시 유성구 대학로 291 한국과학기술원 전산학부 컴퓨터 그래픽스 및 가시화 연구실 (지도교수: 박진아)
+            </p>
+            <p className="text-white">
+            Tel.: +82-(0)42-350-7755 / E-mail: cgv at cgv.kaist.ac.kr
+            </p>
+          </div>
         </nav>
       </footer>
     </div>

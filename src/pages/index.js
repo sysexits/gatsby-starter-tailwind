@@ -2,37 +2,27 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
+import frontImage from "../images/frontimage.jpg";
 
 function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Home"
+        keywords={[`medical imaging`, `computer graphics`, `haptics`]}
+        title="Computer Graphics and Visualization Lab., KAIST"
       />
 
-      <section className="text-center">
-        <img
-          alt="Cat and human sitting on a couch"
-          className="block mx-auto w-1/2"
-          src={catAndHumanIllustration}
-        />
-
+      <section className="text-left">
         <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
-          Hey there! Welcome to your first Gatsby site.
+        Welcome to Computer Graphics and Visualization Lab.
         </h2>
-
-        <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{` `}
-          <a
-            className="font-bold no-underline text-gray-900"
-            href="https://tailwindcss.com/"
-          >
-            Tailwind
-          </a>
-          , a utility-first CSS framework.
-        </p>
+        <img
+          alt="Welcoming"
+          className="block mx-auto w-1/2"
+          src={frontImage}
+        />
+        <p class="text-lg my-4 text-gray-800"><b>Computer Graphics</b> deals with the computational generation of images and image sequences from given data, and <b>Visualization</b> addresses the issues of casting data to suitable representations. Moreover, <b>Computer Haptics</b> allows users to feel the data by touching.</p>
+        <p class="text-lg my-4 text-gray-800">Our laboratory focuses on visualization and interaction researches by combining computer graphics and computer haptics. We are interested in medical data visualization, VR simulation, and 3D interface.</p>
       </section>
     </Layout>
   );

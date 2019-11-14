@@ -2,9 +2,9 @@ const path = require(`path`)
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`
+    title: `Computer Graphics and Visualization Lab`,
+    description: `Computer Graphics and Visualization Lab., School of Computing, KAIST / 카이스트 전산학부 컴퓨터 그래픽스 및 가시화 연구실 (박진아 교수)`,
+    author: `Computer Graphics and Visualization Lab`
   },
   plugins: [
     `gatsby-plugin-sharp`,
