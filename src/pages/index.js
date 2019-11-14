@@ -13,7 +13,7 @@ function IndexPage() {
       />
 
       <section className="text-left">
-        <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
+        <h2 className="bg-yellow-400 text-xl font-bold inline-block mb-8 p-3">
         Welcome to Computer Graphics and Visualization Lab.
         </h2>
         <img
@@ -21,8 +21,8 @@ function IndexPage() {
           className="block mx-auto w-1/2"
           src={frontImage}
         />
-        <p class="text-lg my-4 text-gray-800"><b>Computer Graphics</b> deals with the computational generation of images and image sequences from given data, and <b>Visualization</b> addresses the issues of casting data to suitable representations. Moreover, <b>Computer Haptics</b> allows users to feel the data by touching.</p>
-        <p class="text-lg my-4 text-gray-800">Our laboratory focuses on visualization and interaction researches by combining computer graphics and computer haptics. We are interested in medical data visualization, VR simulation, and 3D interface.</p>
+        <p className="text-l my-8 text-gray-800"><b>Computer Graphics</b> deals with the computational generation of images and image sequences from given data, and <b>Visualization</b> addresses the issues of casting data to suitable representations. Moreover, <b>Computer Haptics</b> allows users to feel the data by touching.</p>
+        <p className="text-l my-4 text-gray-800">Our laboratory focuses on visualization and interaction researches by combining computer graphics and computer haptics. We are interested in medical data visualization, VR simulation, and 3D interface.</p>
       </section>
     </Layout>
   );
