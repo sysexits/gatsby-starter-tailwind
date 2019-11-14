@@ -37,7 +37,7 @@ const Member=(props)=>{
     const {slug} = fields
     return(
         <Layout>
-            <div className="flex justify-between items-center container mx-auto px-4">
+            <div className="flex justify-between items-center container mx-auto px-4 py-4">
                 <div className="w-full md:w-1/4 p-4 text-center">
                     <Img
                         className="shadow-2xl"
@@ -46,8 +46,8 @@ const Member=(props)=>{
                     /></div>
                 <div className="w-full justify-center md:w-3/4 p-4 text-center">
                     <div className="font-bold text-xl mb-2">{title}</div>
-                    <div className="text-xl mb-2">{type}</div>
-                    <div className="text-xl mb-2">{email}</div>
+                    <div className="font-bold text-lg text-gray-800 mb-2">{type}</div>
+                    <div className="font-bold text-lg text-gray-800 mb-2">{email}</div>
                     
                     <div className="px-6 py-4">
                         {tags.map((tag,index) => {
