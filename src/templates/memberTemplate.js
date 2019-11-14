@@ -1,70 +1,90 @@
 import React from 'react'
-import {graphql} from 'gatsby'
+import {graphql, Link} from 'gatsby'
 import Layout from "../components/layout";
 import Img from 'gatsby-image'
+import ReactModal from 'react-modal'
 
 export const query = graphql`
-    query( $slug: String )
+    query( $name: String )
     {
-        markdownRemark ( fields:{ slug:{ eq: $slug } } )
-        {
-            frontmatter {
-                type,
-                email,
-                title,
-                date,
-                image {
-                    childImageSharp {
-                        fluid (maxWidth: 200, maxHeight: 200){
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
-                },
-                tags
+        allMembersJson(filter: {sitePrefix: {eq: $name}}) {
+        edges {
+            node {
+                id
+                img 
+                interest
+                bio
+                name
+                status
+                graduate
+                affiliation
+                sitePrefix
+                email
+                office
+                tel
             }
-            html
-            fields{
-                slug
-            }   
+        }
         }
     }
 `
 
 
 const Member=(props)=>{
-    const { frontmatter, html,fields} = props.data.markdownRemark
-    const { title, type, email, image, tags } = frontmatter
-    const {slug} = fields
+    const entities = props.data.allMembersJson.edges 
+    
     return(
         <Layout>
-            <div className="flex items-center container mx-auto px-4 py-4">
-                <div className="w-full sm:w-1/4 md:w-1/4 p-4 text-center">
-                    <Img
-                        className="shadow-2xl"
-                        fluid={image.childImageSharp.fluid}
-                        alt="A corgi smiling happily"
-                    /></div>
-                <div className="w-full sm:w-3/4 justify-center md:w-3/4 p-4 text-center">
-                    <div className="font-bold text-xl">{title}</div>
-                    <div className="font-bold text-lg text-gray-800">{type}</div>
-                    <div className="font-bold text-lg text-gray-800">{email}</div>
-                    
-                    <div className="w-full sm:w-auto px-6 py-4">
-                        {tags.map((tag,index) => {
-                            return (
-                                <span className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2">{tag}</span>
-                            )}
-                        )}
+            {entities.map(({node}) => {
+                return(
+                    <div className="w-full">
+                        <div className="max-w-4xl flex items-center flex-wrap mx-auto lg:my-0">
+                            <div className="w-full lg:w-full rounded-lg lg:rounded-l-lg lg:rounded-r-none bg-white mx-6 lg:mx-0">
+                                <div className="p-4 md:p-12 text-center lg:text-left">
+                                    <div className="w-full items-center">
+                                        <img src={node.img} alt="profilePicture" className="w-48 h-48 rounded-full object-cover" />
+                                    </div>
+                                    <h1 className="text-3xl font-bold pt-8 lg:pt-0">{node.name}</h1>
+                                    <div className="mx-auto lg:mx-0 w-full pt-3 border-b-2 border-blue-800"></div>
+                                    {node.status === "professor" &&
+                                        <p className="pt-4 text-base font-bold flex items-center justify-center lg:justify-start">Professor</p>
+                                    }
+                                    {node.status === "phd" &&
+                                        <p className="pt-4 text-base font-bold flex items-center justify-center lg:justify-start">Ph.D Candidate</p>
+                                    }
+                                    {node.status === "ms" &&
+                                        <p className="pt-4 text-base font-bold flex items-center justify-center lg:justify-start">Master Program</p>
+                                    }
+                                    {node.office !== "" &&
+                                        <p className="pt-2 text-xs lg:text-sm flex items-center justify-center lg:justify-start">{node.office}</p>
+                                    }
+                                    {node.email !== "" &&
+                                        <p className="pt-2 text-xs lg:text-sm flex items-center justify-center lg:justify-start">{node.email}</p>
+                                    }
+                                    {node.tel !== "" &&
+                                        <p className="pt-2 text-xs lg:text-sm flex items-center justify-center lg:justify-start">{node.tel}</p>
+                                    }
+                                    {node.bio !== "" &&
+                                        <div className="mt-4 w-full text-left">
+                                            <h3 className="bg-blue-800 w-full text-white text-lg font-bold inline-block p-3">Profile</h3>
+                                            <p className="pt-2 pb-2 text-bold text-lg">{node.bio}</p>
+                                        </div>
+                                    }
+                                    
+                                    <div className="mt-4 w-full text-left">
+                                        <h3 className="bg-blue-800 w-full text-white text-lg font-bold inline-block p-3 mb-4">Research Interests</h3>
+                                        {node.interest.map((tag,index) => {
+                                            return (
+                                                <span className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mb-2 mr-2">{tag}</span>
+                                            )}
+                                        )}
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div className="flex flex-wrap">
-                <div
-                    className="w-full"
-                    dangerouslySetInnerHTML={{ __html: html }}
-                    />
-            </div>
-            
+                )
+            })}
         </Layout>
     )
 }

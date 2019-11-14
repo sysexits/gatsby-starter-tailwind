@@ -1,0 +1,169 @@
+[
+    {
+        "name": "Jinah Park",
+        "sitePrefix": "professor",
+        "status": "professor",
+        "affiliation": "KAIST",
+        "email": "jinahpark (at) kaist.ac.kr",
+        "office": "CS Building (E3-1) #2404",
+        "tel": "+82-(0)42-350-3555",
+        "graduate": false,
+        "img": "../images/members/professor.jpg",
+        "interest": [
+            "Modeling Deformable Objects",
+            "Interface for 3D Manipulation",
+            "Data Visualization",
+            "Computer Haptics",
+            "Virtual Training",
+            "Bio/Medical Applications"
+        ],
+        "bio": "Prof. Jinah Park received B.S.E. (1988) in Electrical Engineering from Columbia University in New York, and M.S.E. (1991) and Ph.D (1996) in Computer and Information Science from the University of Pennsylvania in Philadelphia. Her major academic contributions are in the field of medical imaging, where she developed a computational technique to analyze cardiac motion from MR tagging data. Her recent work includes developing a VR simulator for dental treatment with haptic feedback, as well as understanding 3D interaction behavior in VR environment. She is also developing deformable models for morphometry study applied to aging brain structures. She is currently an associate professor in the School of Computing at KAIST, and leading Computer Graphics and Visualization (CGV) research laboratory. She also leads KAIST Special Interest Group of Future Emerging Technology on Medical Imaging."
+    },
+    {
+        "name": "Joong-Youn Lee",
+        "sitePrefix": "joongyounlee",
+        "status": "phd",
+        "affiliation": "Korea Institute of Science and Technology (KISTI)",
+        "email": "osung (at) kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": false,
+        "img": "../images/members/joongyounlee.jpg",
+        "interest": [
+            "Scientific Visualization",
+            "Volume Rendering",
+            "Parallel Computing"
+        ],
+        "bio": ""
+     },
+     {
+        "name": "Taeho Kim",
+        "sitePrefix": "taehokim",
+        "status": "phd",
+        "affiliation": "KAIST",
+        "email": "kdhtheo (at) kaist.ac.kr",
+        "office": "CS Building (E3-1) #2413",
+        "tel": "+82-(0)42-350-7755",
+        "graduate": false,
+        "img": "../images/members/taehokim.jpg",
+        "interest": [
+            "Biomedical Image Analysis",
+            "Virtual Reality"
+        ],
+        "bio": "Taeho Kim is a Ph.D candidate in the Computer Graphics and Visualization Lab, KAIST. He received his MS degree in computer science from KAIST in 2013. Prior to coming to the CGV Lab, KAIST, he obtained his BS degree in computer science from KAIST."
+     },
+    {
+       "name": "Jaehyun Jang",
+       "sitePrefix": "jaehyunjang",
+       "status": "phd",
+       "affiliation": "KAIST",
+       "email": "jaehyunjang (at) kaist.ac.kr",
+       "office": "CS Building (E3-1) #2409",
+       "tel": "+82-(0)42-350-7755",
+       "graduate": false,
+       "img": "../images/members/jaehyunjang.jpg",
+       "interest": [
+           "Image Processing",
+           "Mid-air Haptics",
+           "Virtual Reality",
+           "Real-time Simulation",
+           "Multimodal Application"
+       ],
+       "bio": "Jaehyun Jang is a Ph.D candidate in the Computer Graphics and Visualization Lab, KAIST. He received his MS degree in computer science from KAIST in 2016. Prior to coming to the CGV Lab, KAIST, he obtained his BS degree in computer science from KAIST."
+    },
+    {
+        "name": "Jihoon Cho",
+        "sitePrefix": "jihooncho",
+        "status": "phd",
+        "affiliation": "KAIST",
+        "email": "zinic (at) kaist.ac.kr",
+        "office": "CS Building (E3-1) #2413",
+        "tel": "+82-(0)42-350-7755",
+        "graduate": false,
+        "img": "../images/members/jihooncho.jpg",
+        "interest": [
+            "Biomedical Image Analysis"
+        ],
+        "bio": "Jihoon Cho is a Ph.D candidate in the Computer Graphics and Visualization Lab, KAIST. He received his MS degree in computer science from KAIST in 2019. Prior to coming to the CGV Lab, KAIST, he obtained his BS degree in computer science from KAIST."
+     },
+     {
+        "name": "Soonchan Park",
+        "sitePrefix": "soonchanpark",
+        "status": "phd",
+        "affiliation": "Electronics and Telecommunications Research Institute (ETRI)",
+        "email": "parksc (at) etri.re.kr",
+        "office": "",
+        "tel": "",
+        "graduate": false,
+        "img": "../images/members/soonchanpark.jpg",
+        "interest": [
+            "Machine Learning"
+        ],
+        "bio": "Soonchan Park is a Ph.D candidate in the Computer Graphics and Visualization Lab, KAIST. He received his MS degree in computer science from KAIST in 2012. Prior to coming to the CGV Lab, KAIST, he obtained his BS degree in computer science from KAIST."
+     },
+    {
+        "name": "Hyunyul Cho",
+        "sitePrefix": "hyunyulcho",
+        "status": "ms",
+        "affiliation": "KAIST",
+        "email": "hyunyulcho (at) kaist.ac.kr",
+        "office": "CS Building (E3-1) #2413",
+        "tel": "+82-(0)42-350-7755",
+        "graduate": false,
+        "img": "../images/members/hyunyulcho.jpg",
+        "interest": [
+            "Computer Graphics",
+            "Computer Haptics"
+        ],
+        "bio": "Hyunyul Cho is a Master's student in the Computer Graphics and Visualization Lab, KAIST. He received his BS degree in computer science from KAIST in 2018."
+    },
+    {
+        "name": "Joowon Lim",
+        "sitePrefix": "joowonlim",
+        "status": "ms",
+        "affiliation": "KAIST",
+        "email": "marbleone (at) kaist.ac.kr",
+        "office": "CS Building (E3-1) #2413",
+        "tel": "+82-(0)42-350-7755",
+        "graduate": false,
+        "img": "../images/members/joowonlim.jpg",
+        "interest": [
+            "Computer Graphics",
+            "Bio/Medical Applications"
+        ],
+        "bio": "Joowon Lim is a Master's student in the Computer Graphics and Visualization Lab, KAIST. He received his BS degree in computer science from KAIST in 2019."
+    },
+    {
+        "name": "Hyunsoo Kim",
+        "sitePrefix": "hyunsookim",
+        "status": "ms",
+        "affiliation": "KAIST",
+        "email": "ppnchb (at) kaist.ac.kr",
+        "office": "CS Building (E3-1) #2413",
+        "tel": "+82-(0)42-350-7755",
+        "graduate": false,
+        "img": "../images/members/hyunsookim.jpg",
+        "interest": [
+            "Virtual Reality",
+            "Physical Simulation"
+        ],
+        "bio": "Hyunsoo Kim is a Master's student in the Computer Graphics and Visualization Lab, KAIST. He received his BS degree in computer science from KAIST in 2019."
+    },
+    {
+        "name": "Seokyeol Kim",
+        "sitePrefix": "seokyeolkim",
+        "status": "phd",
+        "affiliation": "Samsung Research",
+        "email": "",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "img": "../images/members/seokyeolkim.jpg",
+        "interest": [
+            "Computer Haptics",
+            "Virtual Reality",
+            "Data Visualization"
+        ],
+        "bio": ""
+    }
+]

@@ -18,28 +18,31 @@ module.exports.createPages = async ({graphql,actions}) => {
     // Render member pages
     const memberTemplate = path.resolve(`src/templates/memberTemplate.js`)
     const memberRes = await graphql(`
-        query{
-            allMarkdownRemark(
-                filter: { frontmatter: {category: {eq: "member"}} }
-            ){
-                edges{
-                    node{
-                        fields{
-                            slug
-                        }
-                    }
-                }
+    query {
+        allMembersJson(filter: {graduate: {eq: false}}) {
+            edges {
+            node {
+                id
+                img
+                interest
+                bio
+                name
+                status
+                graduate
+                affiliation
+                sitePrefix
+            }
             }
         }
-        `)
-    const memberPosts = memberRes.data.allMarkdownRemark.edges
+    }
+    `)
+    const memberPosts = memberRes.data.allMembersJson.edges
     memberPosts.forEach((post)=>{
-        const {slug} = post.node.fields
         createPage({
             component: memberTemplate,
-            path:`/members/${slug}`,
+            path:`/members/${post.node.sitePrefix}`,
             context:{
-                slug
+                name: `${post.node.sitePrefix}`
             }
         })
     })
