@@ -1,6 +1,687 @@
 [
     {
         "thumbnail": null,
+        "title": "Volume Data Exploration Interface on a Touchscreen",
+        "subtitle": "International Symposium of Science Museums 2019",
+        "vol": "",
+        "num": "",
+        "pp": "504-507",
+        "author": [
+            "Hyunsoo Kim",
+            "Jinah Park"
+        ],
+        "date": "2019.11.07",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Importance-Based Streamline Seeding Method Using a Regression Model",
+        "subtitle": "IEEE VIS 2019 (Poster)",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Joong-Youn Lee",
+            "Jinah Park"
+        ],
+        "date": "2019.10.20",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Interactive Exhibition from Wall Panels in a Museum",
+        "subtitle": "ACM International Conference on Interactive Surfaces and Spaces (ISS'19, Poster)",
+        "vol": "",
+        "num": "",
+        "pp": "367-372",
+        "author": [
+            "Jihoon Cho",
+            "Hyunsoo Kim",
+            "Joowon Lim",
+            "Taeho Kim",
+            "Jinah Park"
+        ],
+        "date": "2019.11.10",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Virtual Faucet: Stream Or Spray",
+        "subtitle": "IEEE World Haptics Conference 2019 (Demo)",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Jaehyun Jang",
+            "Jinah Park"
+        ],
+        "date": "2019.07.09",
+        "type": "International Conference",
+        "doi": "http://www.worldhaptics2019.org/program/demo/"
+    },
+    {
+        "thumbnail": null,
+        "title": "Clinical, Radiographic, Morphometric Risk Factors for Adjacent and Remote Vertebral Compression Fractures Over a Minimum Follow-Up of Four Years After Percutaneous Vertebroplasty for Osteoporotic Vertebral Compression Fractures: Novel Three-Dimensional Voxel-Based Morphometric Analysis",
+        "subtitle": "NASS Summer Spine Meeting 2019",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Hong-Jae Lee",
+            "Jinah Park"
+        ],
+        "date": "2019.07.31",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Metal Artifact Reduction of Dental CT using Optical Image of Dental Plaster Model",
+        "subtitle": "International Workshop on Advanced Image Technology- International Forum on Medical Imaging in Asia(IWAIT-IFMIA) 2019",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Yejin Kim",
+            "Jihoon Cho",
+            "Seungyong Cho",
+            "Jinah Park"
+        ],
+        "date": "2019.01.07",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Analysis of Risk Factos for Adjacent and Remote Vertebral Compression Fractures using Three-dimensional Voxel-based Morphometry after Percutaneous Vertebroplasty in Patients with Osteoporotic Vertebral Compression Fractures A minimum 4-year follow-up (Oral Presentation)",
+        "subtitle": "International Neurosurgical Conference (KNS 2018)",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Hong-Jae Lee",
+            "Jinah Park"
+        ],
+        "date": "2018.10.12",
+        "type": "International Conference",
+        "doi": "http://www.kns2018.or.kr/"
+    },
+    {
+        "thumbnail": null,
+        "title": "Touchable Video Streams: Towards Multi-sensory and Multi-contact Experiences",
+        "subtitle": "ACM TVX 2018 (Work-in-progress)",
+        "vol": "",
+        "num": "",
+        "pp": "155-160",
+        "author": [
+            "Seokyeol Kim",
+            "Jinah Park"
+        ],
+        "date": "2018.06.26",
+        "type": "International Conference",
+        "doi": "https://doi.org/10.1145/3210825.3213555"
+    },
+    {
+        "thumbnail": null,
+        "title": "Perception-Aware Uncertainty Glyphs in the 3D Vector Fields",
+        "subtitle": "EuroVis 2018 (Short Paper)",
+        "vol": "",
+        "num": "",
+        "pp": "1-5",
+        "author": [
+            "Joong-Youn Lee",
+            "Jinah Park"
+        ],
+        "date": "2018.06.04",
+        "type": "International Conference",
+        "doi": "http://dx.doi.org/10.2312/eurovisshort.20181069"
+    },
+    {
+        "thumbnail": null,
+        "title": "The Structure-aware Viewpoint Selection for 3D Branching Structures",
+        "subtitle": "IEEE PacificVis 2018 (Poster)",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Jaehyun Jang",
+            "Jinah Park"
+        ],
+        "date": "2018.04.11",
+        "type": "International Conference",
+        "doi": "http://itolab.is.ocha.ac.jp/pvis2018/program.html#Interactive-Session-1"
+    },
+    {
+        "thumbnail": null,
+        "title": "Analyzing 3D Cell Data of Optical Diffraction Tomography through Volume Rendering",
+        "subtitle": "International Workshop on Advanced Image Technology (IWAIT 2018)",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Taeho Kim",
+            "Jinah Park"
+        ],
+        "date": "2018.01.07",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Speckle Noise Reduction in Optical Diffraction Tomography using Convolutional Neural Network",
+        "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
+        "vol": "",
+        "num": "",
+        "pp": "P-IT-043",
+        "author": [
+            "Inwoo Hwang",
+            "Jinah Park"
+        ],
+        "date": "2017.08.31",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Interactive Multimodal Virtual Display of 2D-coordinates Plane",
+        "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
+        "vol": "",
+        "num": "",
+        "pp": "P-IT-034",
+        "author": [
+            "Minjoo Kim",
+            "Jinah Park"
+        ],
+        "date": "2017.08.31",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "2D Transfer Function Design for Live-cell Image Data using ISODATA Clustering Method",
+        "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
+        "vol": "",
+        "num": "",
+        "pp": "P-IT-033",
+        "author": [
+            "Jihoon Cho",
+            "Taeho Kim",
+            "Jinah Park"
+        ],
+        "date": "2017.08.31",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Hand Gesture Modification based on Laban Movement Analysis to Express an Avatar's Affection in a Communicative VR Environment",
+        "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
+        "vol": "",
+        "num": "",
+        "pp": "P-IT-030",
+        "author": [
+            "YoungJin An",
+            "Taeho Kim",
+            "Jinah Park"
+        ],
+        "date": "2017.08.31",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Design of State Machine Interface for Building Communicative Environment with Virtual Reality Avatar",
+        "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
+        "vol": "",
+        "num": "",
+        "pp": "P-IT-015",
+        "author": [
+            "Andrew Lee",
+            "Taeho Kim",
+            "Jinah Park"
+        ],
+        "date": "2017.08.31",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Real-time Brittle Fracture Simulation for Haptic Interaction based on a Node-link Model",
+        "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
+        "vol": "",
+        "num": "",
+        "pp": "P-IT-005",
+        "author": [
+            "Hyunyul Cho",
+            "Seokyeol Kim",
+            "Jinah Park"
+        ],
+        "date": "2017.08.31",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Voxel-based Haptic Rendering during Shape Changes",
+        "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
+        "vol": "",
+        "num": "",
+        "pp": "P-IT-001",
+        "author": [
+            "Kimin Kim",
+            "Jinah Park"
+        ],
+        "date": "2017.08.31",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Robust Haptic Exploration of Remote Environments Represented by Streamed Point Cloud Data",
+        "subtitle": "IEEE World Haptics Conference 2017",
+        "vol": "",
+        "num": "",
+        "pp": "358-363",
+        "author": [
+            "Seokyeol Kim",
+            "Jinah Park"
+        ],
+        "date": "2017.06.06",
+        "type": "International Conference",
+        "doi": "https://doi.org/10.1109/WHC.2017.7989928"
+    },
+    {
+        "thumbnail": null,
+        "title": "Collaborative Haptic Exploration of Remote Environments with Guidance Cues",
+        "subtitle": "CASA 2017 Workshop on Recent Developments and Challenges in Immersive Experiences and Digital Character Animation",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Seokyeol Kim"
+        ],
+        "date": "2017.05.22",
+        "type": "International Conference",
+        "doi": "http://casa2017.kaist.ac.kr/wordpress/workshop3/"
+    },
+    {
+        "thumbnail": null,
+        "title": "Principal Elements for Visualizing Event Sequence Data Applied to 3D Cascading Diagrams",
+        "subtitle": "IEEE International Conference on Big Data and Smart Computing (BigComp 2017)",
+        "vol": "",
+        "num": "",
+        "pp": "59-63",
+        "author": [
+            "Youngju Oh",
+            "Seokyeol Kim",
+            "Jinah Park"
+        ],
+        "date": "2017.02.13",
+        "type": "International Conference",
+        "doi": "https://doi.org/10.1109/BIGCOMP.2017.7881716"
+    },
+    {
+        "thumbnail": null,
+        "title": "3D Foot Posture Quantification using Articular Surface Information from the Template-based Deformable Model",
+        "subtitle": "International Forum on Medical Imaging in Asia (IFMIA) 2017",
+        "vol": "",
+        "num": "",
+        "pp": "274-276",
+        "author": [
+            "Taeho Kim",
+            "Doojae Lee",
+            "Dong Yeon Lee",
+            "Jinah Park"
+        ],
+        "date": "2017.01.19",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "3D Foot Posture Quantification using Articular Surface Information from the Template-based Deformable Model",
+        "subtitle": "International Forum on Medical Imaging in Asia (IFMIA) 2017",
+        "vol": "",
+        "num": "",
+        "pp": "274-276",
+        "author": [
+            "Taeho Kim",
+            "Doojae Lee",
+            "Dong Yeon Lee",
+            "Jinah Park"
+        ],
+        "date": "2017.01.19",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Modeling 3D Cell Nucleus by Template-based Deformable Model with Confined-region Determined by Cellular Characteristics",
+        "subtitle": "International Forum on Medical Imaging in Asia (IFMIA) 2017",
+        "vol": "",
+        "num": "",
+        "pp": "17-20",
+        "author": [
+            "Seoyoung Kim",
+            "Taeho Kim",
+            "Jinah Park"
+        ],
+        "date": "2017.01.19",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Engaging Weight Feedback for Bimanual Interaction",
+        "subtitle": "AsiaHaptics 2016",
+        "vol": "432",
+        "num": "",
+        "pp": "193-195",
+        "author": [
+            "Stuart Burmeister",
+            "Kimin Kim",
+            "Jinah Park"
+        ],
+        "date": "2016.11.29",
+        "type": "International Conference",
+        "doi": "https://doi.org/10.1007/978-981-10-4157-0_33"
+    },
+    {
+        "thumbnail": null,
+        "title": "Weight-bearing 3D Foot Model Reconstruction from Simple Standing Radiographs Using Deformable Surface Fitting Method",
+        "subtitle": "Asian Federation of Foot and Ankle Surgeons (AFFAS)",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Sang Gyo Seo",
+            "Jaeil Kim",
+            "Dong Yeon Lee",
+            "Ho Seong Lee",
+            "Woo Chun Lee",
+            "Jinah Park"
+        ],
+        "date": "2016.11.19",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Weight-bearing 3D Foot Reconstruction from Standing Radiograph using Deformable Surface Fittiing",
+        "subtitle": "Foot International (i-FAB) 2016",
+        "vol": "",
+        "num": "",
+        "pp": "881-885",
+        "author": [
+            "Sang Gyo Seo",
+            "Jaeil Kim",
+            "Chang Hyun Ryu",
+            "Dong Yeon Lee",
+            "Jinah Park"
+        ],
+        "date": "2016.06.23",
+        "type": "International Conference",
+        "doi": "http://dx.doi.org/10.1016/j.fas.2016.05.287"
+    },
+    {
+        "thumbnail": null,
+        "title": "A Unified Virtual Fixture Model for Haptic Telepresence Systems based on Streaming Point Cloud Data and Implicit Surfaces",
+        "subtitle": "International Conference on Control, Automation and Systems (ICCAS 2016)",
+        "vol": "",
+        "num": "",
+        "pp": "881-885",
+        "author": [
+            "Seokyeol Kim",
+            "Jinah Park"
+        ],
+        "date": "2016.10.16",
+        "type": "International Conference",
+        "doi": "https://doi.org/10.1109/ICCAS.2016.7832418"
+    },
+    {
+        "thumbnail": null,
+        "title": "Haptic Exploration of Remote Environments with Gesture-based Collaborative Guidance",
+        "subtitle": "ACM Symposium on Spatial User Interaction 2016 (SUI'16, Poster)",
+        "vol": "",
+        "num": "",
+        "pp": "211-211",
+        "author": [
+            "Seokyeol Kim",
+            "Jinah Park"
+        ],
+        "date": "2016.10.15",
+        "type": "International Conference",
+        "doi": "http://dx.doi.org/10.1145/2983310.2989201"
+    },
+    {
+        "thumbnail": null,
+        "title": "Reliable Measurement of 3D Foot Bone Angles based on the Frame-of-Reference Derived from a Sole of the Foot",
+        "subtitle": "Medical Imaging 2016: Computer-Aided Diagnosis",
+        "vol": "9785",
+        "num": "",
+        "pp": "97853F",
+        "author": [
+            "Taeho Kim",
+            "Dong Yeon Lee",
+            "Jinah Park"
+        ],
+        "date": "2016.02.27",
+        "type": "International Conference",
+        "doi": "http://dx.doi.org/10.1117/12.2217388"
+    },
+    {
+        "thumbnail": null,
+        "title": "Template-based Automatic Extraction of the Joint Space of Foot Bones from CT Scan",
+        "subtitle": "Medical Imaging 2016: Image Processing",
+        "vol": "9784",
+        "num": "",
+        "pp": "97841U",
+        "author": [
+            "Eunbi Park",
+            "Taeho Kim",
+            "Jinah Park"
+        ],
+        "date": "2016.02.27",
+        "type": "International Conference",
+        "doi": "http://dx.doi.org/10.1117/12.2214956"
+    },
+    {
+        "thumbnail": null,
+        "title": "Optical Diffraction Tomography using a Digital Micromirror Device for Stable Measurements of 4D Refractive Index Tomography of Cells",
+        "subtitle": "Quantitative Phase Imaging II",
+        "vol": "9718",
+        "num": "",
+        "pp": "971814",
+        "author": [
+            "Seungwoo Shin",
+            "Kyoohyun Kim",
+            "Taeho Kim",
+            "Jonghee Yoon",
+            "Kihyun Hong",
+            "Jinah Park",
+            "YongKeun Park"
+        ],
+        "date": "2016.02.13",
+        "type": "International Conference",
+        "doi": "http://dx.doi.org/10.1117/12.2216769"
+    },
+    {
+        "thumbnail": null,
+        "title": "3D Computational Position Analysis based on the Articular Surface of Tarsal Bone: A Preliminary Study",
+        "subtitle": "AOFAS Annual Meeting 2015",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Dong Yeon Lee",
+            "Taeho Kim",
+            "Sang Gyo Seo",
+            "Eo jin Kim",
+            "Woo-chun Lee",
+            "Keith Wapner",
+            "Jinah Park"
+        ],
+        "date": "2015.07.15",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "3D Computational Position Analysis based on the Articular Surface of Tarsal Bone: A Preliminary Study",
+        "subtitle": "ACM Symposium on Virtual Reality Software and Technology (VRST'14)",
+        "vol": "",
+        "num": "",
+        "pp": "27-30",
+        "author": [
+            "Deok-Jae Song",
+            "Jinah Park"
+        ],
+        "date": "2014.11.11",
+        "type": "International Conference",
+        "doi": "https://doi.org/10.1145/2671015.2671118"
+    },
+    {
+        "thumbnail": null,
+        "title": "AnyHaptics: A Haptic Plug-in for Existing Interactive 3D Graphics Applications",
+        "subtitle": "ACM Symposium on Virtual Reality Software and Technology (VRST'14)",
+        "vol": "",
+        "num": "",
+        "pp": "27-30",
+        "author": [
+            "Deok-Jae Song",
+            "Jinah Park"
+        ],
+        "date": "2014.11.11",
+        "type": "International Conference",
+        "doi": "https://doi.org/10.1145/2671015.2671118"
+    },
+    {
+        "thumbnail": null,
+        "title": "Distributed P2P-based Global Illumination for Multi-Users of Real-Time Rendering",
+        "subtitle": "International Conference on Future Web (ICFW 2014)",
+        "vol": "",
+        "num": "",
+        "pp": "65-72",
+        "author": [
+            "Deok-Jae Song",
+            "Jinah Park"
+        ],
+        "date": "2014.11.06",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "A SPH-based Dissolution Behavior Model for Real-time Fluid-Solid Interaction",
+        "subtitle": "SIGGRAPH Asia 2014 (Poster)",
+        "vol": "",
+        "num": "14",
+        "pp": "",
+        "author": [
+            "Seokyeol Kim",
+            "Jinah Park"
+        ],
+        "date": "2014.12.03",
+        "type": "International Conference",
+        "doi": "http://doi.acm.org/10.1145/2668975.2669000"
+    },
+    {
+        "thumbnail": null,
+        "title": "Novel Surface Modelling of the Brain’s Third Ventricle Reveals Local Morphological Differences in an Ageing Sample",
+        "subtitle": "20th Annual Scientific Meeting of the British Chapter of the ISMRM",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Maria C. Valdés Hernández",
+            "Jaeil Kim",
+            "Natalie A. Royle",
+            "Hojin Ryoo",
+            "Susana Muñoz Maniega",
+            "Benjamin S. Aribisala",
+            "Mark E. Bastin",
+            "Jinah Park",
+            "Ian J. Deary",
+            "Joanna M. Wardlaw"
+        ],
+        "date": "2014.09.04",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Anatomical Landmark and Region Mapping based on a Template Surface Deformation for Foot Bone Morphology",
+        "subtitle": "Annual meeting of American Orthopaedic Foot and Ankle Society (AOFAS)",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Jaeil Kim",
+            "Sang Gyo Seo",
+            "Dong Yeon Lee",
+            "Jinah Park"
+        ],
+        "date": "2014.09.19",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Brain Ventricular Morphology Analysis Using a Set of Ventricular-Specific Feature Descriptors",
+        "subtitle": "International Symposium on Biomedical Simulation (ISBMS 2014)",
+        "vol": "8789",
+        "num": "",
+        "pp": "141-149",
+        "author": [
+            "Jaeil Kim",
+            "Hojin Ryoo",
+            "Maria del C. Valdés Hernández",
+            "Natalie A. Royle",
+            "Jinah Park"
+        ],
+        "date": "2014.10.17",
+        "type": "International Conference",
+        "doi": "https://doi.org/10.1007/978-3-319-12057-7_16"
+    },
+    {
+        "thumbnail": null,
+        "title": "Automatic Hippocampal Multimodal Assessment for Studies of Stroke and Small Vessel Disease",
+        "subtitle": "Medical Image Understanding and Analysis 2014",
+        "vol": "",
+        "num": "",
+        "pp": "33-38",
+        "author": [
+            "Maria del C. Valdés Hernández",
+            "Jaeil Kim",
+            "Ian Whitteford",
+            "Xinyi Qiu",
+            "Joanna M. Wardlaw",
+            "Jinah Park"
+        ],
+        "date": "2014.07.11",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Cache Enhancement Methods for Out-Of-Core Pathline Computation",
+        "subtitle": "IEEE VIS 2013 (Poster)",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Joong-Youn Lee",
+            "Jinah Park"
+        ],
+        "date": "2013.10.18",
+        "type": "International Conference",
+        "doi": "http://ieeevis.org/year/2013/poster/cache-enhancement-methods-out-core-pathline-computation"
+    },
+    {
+        "thumbnail": null,
         "title": "Haptic Xylophone",
         "subtitle": "IEEE World Haptics Conference 2013 (Demo)",
         "vol": "",
