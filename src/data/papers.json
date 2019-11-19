@@ -1,73 +1,261 @@
 [
     {
         "thumbnail": null,
-        "title": "Realistic simulation of mixed sea using multiple spectrum-based wave systems",
+        "title": "Shape Retaining Chain Linked Model for Real-time Volume Haptic Rendering",
+        "subtitle": "IEEE Symposium on Volume Visualization and Graphics (VV 2002)",
+        "vol": "",
+        "num": "",
+        "pp": "65-72",
         "author": [
-            "Sekil Park",
-            "Jinah Park"
-        ],
-        "date": "2019-08-07",
-        "type": "International Journal",
-        "doi": "https://doi.org/10.1177/0037549719866504"
-    },
-    {
-        "thumbnail": null,
-        "title": "Voxel-based Haptic Rendering using Adaptive Sampling of a Local Distance Map",
-        "author": [
-            "Kimin Kim",
-            "Jinah Park"
-        ],
-        "date": "2019-06-01",
-        "type": "Domestic Journal",
-        "doi": "http://dx.doi.org/10.5626/JCSE.2019.13.2.66"
-    },
-    {
-        "thumbnail": null,
-        "title": "Lipid Droplet Tracking Method using Optical Flow in 3D Cell Image Data (3차원 세포 영상에서의 옵티컬 플로우를 이용한 지질방울 추적기법)",
-        "author": [
-            "Jihoon Cho",
-            "Jinah Park"
-        ],
-        "date": "2019-03-01",
-        "type": "Domestic Journal",
-        "doi": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07624147&language=ko_KR"
-    },
-    {
-        "thumbnail": null,
-        "title": "Clinical, Radiographic, Morphometric Risk Factors for Adjacent and Remote Vertebral Compression Fractures over a Minimum Follow-up of 4 Years after Percutaneous Vertebroplasty for Osteoporotic Vertebral Compression Fractures",
-        "author": [
-            "Hong-Jae Lee",
             "Jinah Park",
-            "Il-Woo Lee",
-            "Jin-seok Yi",
-            "Taeho Kim"
+            "Sang-Youn Kim",
+            "Seung-Woo Son",
+            "Dong-Soo Kwon"
         ],
-        "date": "2019-01-22",
-        "type": "International Journal",
-        "doi": "https://www.sciencedirect.com/science/article/pii/S1878875019301147"
+        "date": "2002.10.29",
+        "type": "International Conference",
+        "doi": "http://portal.acm.org/citation.cfm?id=584121"
     },
     {
         "thumbnail": null,
-        "title": "Metal artifact reduction of dental CT using optical image of dental plaster model",
+        "title": "Interactive Visualization of Fuzzy Set Operations",
+        "subtitle": "Visualization and Data Analysis 2010",
+        "vol": "7530",
+        "num": "",
+        "pp": "",
         "author": [
-            "Yejin Kim",
-            "Jihoon Cho",
-            "Seungyong Cho",
+            "Yeseul Park",
             "Jinah Park"
         ],
-        "date": "2019-01-07",
+        "date": "2010.01.18",
+        "type": "International Conference",
+        "doi": "http://dx.doi.org/10.1117/12.840229"
+    },
+    {
+        "thumbnail": null,
+        "title": "Adjusting Viewing Parameters for Efficient and Accurate 3D Interaction",
+        "subtitle": "International Conference on Artificial Reality and Telexistence (ICAT), Poster",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Dongwook Lee",
+            "Jinah Park"
+        ],
+        "date": "2005.12.08",
         "type": "International Conference",
         "doi": ""
     },
     {
         "thumbnail": null,
-        "title": "Analysis of Risk Factos for Adjacent and Remote Vertebral Compression Fractures using Three-dimensional Voxel-based Morphometry after Percutaneous Vertebroplasty in Patients with Osteoporotic Vertebral Compression Fractures A minimum 4-year follow-up",
+        "title": "Evaluation of Areal Touch Feedback for Palpation Simulation",
+        "subtitle": "IEEE Visualization 2005 (VIS 2005)",
+        "vol": "",
+        "num": "",
+        "pp": "100",
         "author": [
-            "Hong-Jae Lee",
-            "Jinah Park"
+            "Jinah Park",
+            "Sang Youn Kim",
+            "Ki Uk Kyung",
+            "Dong Soo Kwon"
         ],
-        "date": "2018-08-01",
+        "date": "2005.10.28",
+        "type": "International Conference",
+        "doi": "http://dx.doi.org/10.1109/VIS.2005.28"
+    },
+    {
+        "thumbnail": null,
+        "title": "Scientific Visualization of Time-Varying Oceanographic and Meteorological Data using VR",
+        "subtitle": "IEEE Visualization 2005 (VIS 2005)",
+        "vol": "",
+        "num": "",
+        "pp": "97",
+        "author": [
+            "Chang S. Kim",
+            "Jinah Kim",
+            "Hak Soo Lim",
+            "K Parks",
+            "Jinah Kim"
+        ],
+        "date": "2005.10.28",
+        "type": "International Conference",
+        "doi": "http://dx.doi.org/10.1109/VIS.2005.89"
+    },
+    {
+        "thumbnail": null,
+        "title": "Real Word in Virtual Space: Utilizing 3D Graphics for Geometry-Aware Services in Ubiquitous Computing Environment",
+        "subtitle": "Int'l Conference of Women Engineers and Scientists (ICWES13)",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Jinah Park",
+            "Sekil Park",
+            "Hyung-Jin Kim",
+            "Jinah Kim"
+        ],
+        "date": "2005.00.00",
         "type": "International Conference",
         "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "2D/3D Non-rigid Registration of Volumetric CT Lung Data using Thin-plate Spline",
+        "subtitle": "Int'l Workshop on Enterprise networking and Computing in Healthcare Industry (HEALTHCOM)",
+        "vol": "",
+        "num": "",
+        "pp": "197-201",
+        "author": [
+            "Jinah Kim",
+            "Jinah Park"
+        ],
+        "date": "2005.06.25",
+        "type": "International Conference",
+        "doi": "https://doi.org/10.1109/HEALTH.2005.1500439"
+    },
+    {
+        "thumbnail": null,
+        "title": "Mechanical Representation of Shape-retaining Chain Linked Model for Real-time Haptic Rendering",
+        "subtitle": "Int'l Symposium on Medical Simulation",
+        "vol": "3078",
+        "num": "",
+        "pp": "144-152",
+        "author": [
+            "Jinah Park",
+            "Sang-Youn Kim",
+            "Dongsoo Kwon"
+        ],
+        "date": "2004.06.18",
+        "type": "International Conference",
+        "doi": "https://link.springer.com/chapter/10.1007/978-3-540-25968-8_16"
+    },
+    {
+        "thumbnail": null,
+        "title": "Multiple-Contact Representation for the Real-Time Volume Haptic Rendering of a Non-Rigid Object",
+        "subtitle": "Int'l Conference on Haptic Interfaces for Virtual Environment and Teleoperator Systems (HAPTICS'04)",
+        "vol": "",
+        "num": "",
+        "pp": "242-249",
+        "author": [
+            "Sang-Youn Kim",
+            "Jinah Park",
+            "Dongsoo Kwon"
+        ],
+        "date": "2004.03.28",
+        "type": "International Conference",
+        "doi": "https://dl.acm.org/citation.cfm?id=1880305"
+    },
+    {
+        "thumbnail": null,
+        "title": "Palpation Simulator for Laparoscopic Surgery with Haptic Feedback",
+        "subtitle": "Int'l Conference on Biomedical Engineering (BioMed 2004)",
+        "vol": "",
+        "num": "",
+        "pp": "478-482",
+        "author": [
+            "Sang-Youn Kim",
+            "Jinah Park",
+            "Dongsoo Kwon"
+        ],
+        "date": "2004.02.18",
+        "type": "International Conference",
+        "doi": "http://www.actapress.com/PaperInfo.aspx?PaperID=16387"
+    },
+    {
+        "thumbnail": null,
+        "title": "Case Study: Visualization and Analysis of Mitogen-Activated Protein Kinase Pathways in the Literature",
+        "subtitle": "Int'l Conference on Visualization and Data Analysis",
+        "vol": "5295",
+        "num": "",
+        "pp": "275-285",
+        "author": [
+            "Changsu Lee",
+            "Jinah Park",
+            "Jong C. Park"
+        ],
+        "date": "2004.06.04",
+        "type": "International Conference",
+        "doi": "https://doi.org/10.1117/12.539243"
+    },
+    {
+        "thumbnail": null,
+        "title": "Information Visualization in 3-Dimensional Space for Text Data Mining",
+        "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN03)",
+        "vol": "",
+        "num": "",
+        "pp": "",
+        "author": [
+            "Jinah Park",
+            "Changsu Lee",
+            "Jong C. Park"
+        ],
+        "date": "2003.00.00",
+        "type": "International Conference",
+        "doi": ""
+    },
+    {
+        "thumbnail": null,
+        "title": "Mediatory Visualization for Structured Data and Textual Information",
+        "subtitle": "Int'l Conference on Visualization, Imaging and Image Processing (VIIP)",
+        "vol": "",
+        "num": "",
+        "pp": "926-932",
+        "author": [
+            "Changsu Lee",
+            "Jinah Park",
+            "Jong C. Park"
+        ],
+        "date": "2003.09.10",
+        "type": "International Conference",
+        "doi": "http://www.actapress.com/Abstract.aspx?paperId=14449"
+    },
+    {
+        "thumbnail": null,
+        "title": "Area-Contact Haptic Simulation",
+        "subtitle": "Int'l Symposium on Surgery Simulation and Soft Tissue Modeling (IS4TM)",
+        "vol": "2673",
+        "num": "",
+        "pp": "108-120",
+        "author": [
+            "Sang-Youn Kim",
+            "Jinah Park",
+            "Dong-Soo Kwon"
+        ],
+        "date": "2003.06.24",
+        "type": "International Conference",
+        "doi": "https://link.springer.com/chapter/10.1007/3-540-45015-7_11"
+    },
+    {
+        "thumbnail": null,
+        "title": "Deformation Modeling: A New Methodology for the Analysis of Handaxe Morphology and Variability",
+        "subtitle": "Multiple Approaches to the Study of Bifacial Technologies",
+        "vol": "",
+        "num": "",
+        "pp": "193-208",
+        "author": [
+            "April Nowell",
+            "Kyoungju Park",
+            "Dimitri Metaxas",
+            "Jinah Park"
+        ],
+        "date": "2003.05.01",
+        "type": "International Conference",
+        "doi": "https://hal.archives-ouvertes.fr/file/index/docid/573698/filename/Soressi_Dibble2003_eds_BifaceBook.pdf"
+    },
+    {
+        "thumbnail": null,
+        "title": "BiopathwayBuilder: Nested 3D Visualization System for Complex Molecular Interactions",
+        "subtitle": "Int'l Conference on Genome Informatics (GIW13)",
+        "vol": "13",
+        "num": "",
+        "pp": "447-448",
+        "author": [
+            "Changsu Lee",
+            "Jinah Park",
+            "Jong C. Park"
+        ],
+        "date": "2002.12.03",
+        "type": "International Conference",
+        "doi": "https://doi.org/10.11234/gi1990.13.447"
     }
 ]

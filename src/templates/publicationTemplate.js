@@ -3,6 +3,7 @@ import {graphql, Link} from 'gatsby'
 import Layout from "../components/layout";
 import Img from 'gatsby-image'
 import ReactModal from 'react-modal'
+import { NoUndefinedVariables } from 'graphql/validation/rules/NoUndefinedVariables';
 
 export const query = graphql`
     query( $skip: Int!, $limit: Int! )
@@ -26,6 +27,10 @@ export const query = graphql`
             }
             title
             type
+            subtitle
+            vol
+            num
+            pp
             }
         }
         }
@@ -39,7 +44,7 @@ const Publication=(props)=>{
     const totalPages = props.pathContext.numPaperPages
     const isFirst = currentPage === 1
     const isLast = currentPage === totalPages
-    const defaultPath = "/publication/paper/"
+    const defaultPath = "/publication/"
     const prevPage = currentPage - 1 === 1 ? "/" : (currentPage - 1).toString()
     const nextPage = (currentPage + 1).toString()
     var pageList = []
@@ -67,11 +72,19 @@ const Publication=(props)=>{
                                     {node.type === "Domestic Journal" && <h3 className="bg-green-100 text-lg font-bold inline-block py-3">{node.type}</h3>}
                                     {node.type === "Domestic Conference" && <h3 className="bg-purple-100 text-lg font-bold inline-block py-3">{node.type}</h3>}
                                     <div className="text-gray-900 font-bold text-xl mb-2">{node.title}</div>
+                                    {node.subtitle !== "" && <div className="text-gray-700 font-semibold text-lg mb-2">{node.subtitle}</div>}
+                                    {node.pp !== "" && 
+                                    <div className="text-gray-600 font-semibold text-sm, mb-2">
+                                        {node.vol !== "" && <span className="mr-2">Vol. {node.vol},</span> }
+                                        {node.num !== "" && <span className="mr-2">No. {node.num},</span> }
+                                        <span className="mr-2">pp. {node.pp}</span>                                        
+                                    </div>
+                                    }
                                     <p className="text-gray-700 text-base">{node.date}</p>
                                     <div className="w-full sm:w-auto py-2">
                                         {node.author.map((tag,index) => {
                                             return (
-                                                <span className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2">{tag}</span>
+                                                <span className="inline-block bg-blue-200 rounded-full my-1 px-3 py-1 text-sm font-semibold text-gray-800 mr-2">{tag}</span>
                                             )}
                                         )}
                                     </div>

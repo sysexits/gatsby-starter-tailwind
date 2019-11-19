@@ -58,19 +58,27 @@ function Header() {
           {[
             {
               route: `/`,
-              title: `Home`
+              title: `News`
+            },
+            {
+              route: `/`,
+              title: `Photos`
             },
             {
               route: `/members`,
               title: `Members`
             },
             {
-              route: `/publication/paper`,
+              route: `/`,
+              title: `Research Area`
+            },
+            {
+              route: `/publication`,
               title: `Publications`
             }
           ].map(link => (
             <Link
-              className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0 md:ml-3 no-underline text-white"
               key={link.title}
               to={link.route}
             >

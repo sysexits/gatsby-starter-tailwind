@@ -66,7 +66,7 @@ module.exports.createPages = async ({graphql,actions}) => {
     const numPaperPages = Math.ceil(entities.length / entitiesPerPage)
     Array.from({length: numPaperPages}).forEach((_, i) => {
         createPage({
-            path: i == 0 ? `/publication/paper` : `/publication/paper/${i + 1}`,
+            path: i == 0 ? `/publication` : `/publication/${i + 1}`,
             component: publicationTempate,
             context: {
                 limit: entitiesPerPage,
