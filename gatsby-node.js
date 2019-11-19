@@ -77,4 +77,35 @@ module.exports.createPages = async ({graphql,actions}) => {
             },
         })
     })
+
+    const iJournalRes = await graphql(`
+        query {
+            allPapersJson(filter: {type: {eq: "International Journal"}}, sort: {fields: date, order: DESC})
+            {
+                edges {
+                    node {
+                        id
+                    }
+                }
+            }
+        }
+    `)
+    const publicationByTagTempate = path.resolve(`src/templates/publicationByTagTemplate.js`)
+    const iJournals = iJournalRes.data.allPapersJson.edges
+    const numJournalPages = Math.ceil(iJournals.length / entitiesPerPage)
+    Array.from({length: numJournalPages}).forEach((_, i) => {
+        createPage({
+            path: i == 0 ? `/publication/tags/journal` : `/publication/tags/journal/${i + 1}`,
+            component: publicationByTagTempate,
+            context: {
+                limit: entitiesPerPage,
+                skip: i * entitiesPerPage,
+                numTotalPages: numJournalPages,
+                visibleEntities,
+                currentPage: i + 1,
+                currentTag: 'International Journal',
+                currentPath: "journal"
+            },
+        })
+    })
 }
