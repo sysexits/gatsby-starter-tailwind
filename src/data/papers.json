@@ -1,6 +1,118 @@
 [
     {
         "thumbnail": null,
+        "title": "Monitoring the Evolutionary Aspect of the Gene Ontology to Enhance Predictability and Usability",
+        "subtitle": "BMC Bioinformatics",
+        "vol": "9",
+        "num": "3",
+        "pp": "S7",
+        "author": [
+            "Jong C. Park",
+            "Tak-eun Kim",
+            "Jinah Park"
+        ],
+        "date": "2008.04.11",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1186/1471-2105-9-S3-S7"
+    },
+    {
+        "thumbnail": null,
+        "title": "Real-time Area-based Haptic Rendering and the Augmented Tactile Display Device for a Palpation Simulator",
+        "subtitle": "Advanced Robotics",
+        "vol": "21",
+        "num": "10",
+        "pp": "961-981",
+        "author": [
+            "Sangyoun Kim",
+            "Ki-Uk Kyung",
+            "Jinah Park"
+        ],
+        "date": "2007.07.00",
+        "type": "International Journal",
+        "doi": "http://dx.doi.org/10.1163/156855307781035619"
+    },
+    {
+        "thumbnail": null,
+        "title": "Visualization for Digesting a High Volume of the Biomedical Literature",
+        "subtitle": "Bioinformatics and Biosystems",
+        "vol": "1",
+        "num": "1",
+        "pp": "51-60",
+        "author": [
+            "Changsu Lee",
+            "Jinah Park",
+            "Jong C. Park"
+        ],
+        "date": "2006.03.00",
+        "type": "International Journal",
+        "doi": "http://dx.doi.org/10.4051/ibce.2009.1.0007"
+    },
+    {
+        "thumbnail": null,
+        "title": "The Real-Time Haptic Simulation of a Biomedical Volumetric Object with Shape-retaining Chain Linked Model",
+        "subtitle": "IEICE Transaction on Information and Systems",
+        "vol": "E88-D",
+        "num": "5",
+        "pp": "1012-1020",
+        "author": [
+            "Sang-Youn Kim",
+            "Jinah Park",
+            "Dong-Soo Kwon"
+        ],
+        "date": "2005.05.01",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1093/ietisy%2Fe88-d.5.1012"
+    },
+    {
+        "thumbnail": null,
+        "title": "Real-time Haptic Rendering of a High-resolution Volumetric Deformable Object in Collaborative Virtual Environment",
+        "subtitle": "Advanced Robotics",
+        "vol": "19",
+        "num": "9",
+        "pp": "951-976",
+        "author": [
+            "Sang-Youn Kim",
+            "Jinah Park",
+            "Dong-Soo Kwon"
+        ],
+        "date": "2005.01.00",
+        "type": "International Journal",
+        "doi": "http://dx.doi.org/10.1163/156855305774307022"
+    },
+    {
+        "thumbnail": null,
+        "title": "A Graphic Tool for Curating Molecular Interaction Networks from the Literature",
+        "subtitle": "Key Engineering Materials",
+        "vol": "35",
+        "num": "7",
+        "pp": "555-564",
+        "author": [
+            "Changsu Lee",
+            "Jinah Park",
+            "Jong C. Park"
+        ],
+        "date": "2005.10.00",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1016/j.compbiomed.2004.04.005"
+    },
+    {
+        "thumbnail": null,
+        "title": "Information Visualization with Text Data Mining for Knowledge Discovery Tools in Bioinformatics",
+        "subtitle": "Key Engineering Materials",
+        "vol": "277",
+        "num": "",
+        "pp": "259-265",
+        "author": [
+            "Jinah Park",
+            "Changsu Lee",
+            "Jong C. Park"
+        ],
+        "date": "2004.12.00",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.4028/www.scientific.net/KEM.277-279.259"
+    },
+    {
+        "thumbnail": null,
         "title": "Volume Data Exploration Interface on a Touchscreen",
         "subtitle": "International Symposium of Science Museums 2019",
         "vol": "",
