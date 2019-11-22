@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import {graphql,useStaticQuery,Link} from 'gatsby'
+import Img from 'gatsby-image'
 const MemberPage = () =>{
     const data = useStaticQuery(graphql`
     query{
@@ -8,7 +9,14 @@ const MemberPage = () =>{
             edges {
             node {
                 id
-                img
+                path {
+                    childImageSharp {
+                        fluid(maxWidth: 150, quality:100)
+                        {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
                 interest
                 bio
                 name
@@ -42,77 +50,43 @@ const MemberPage = () =>{
         }
     })
 
+    // Function for create each section
+    function createSection(sectionName, id, nodes, status)
+    {
+        return (
+            <div id={id}>
+                {id == "professor" && <h3 className="bg-green-700 w-full text-white text-xl font-bold inline-block p-4 mb-4">{sectionName}</h3>}
+                {id == "phd" && <h3 className="bg-blue-700 w-full text-white text-xl font-bold inline-block p-4 mb-4">{sectionName}</h3>}
+                {id == "msc" && <h3 className="bg-yellow-400 w-full text-black text-xl font-bold inline-block p-4 mb-4">{sectionName}</h3>}
+                <div class="flex flex-wrap -mx-2">
+                        {nodes.map((node,index) => {
+                            return (
+                                <div class="w-full md:w-1/2 lg:w-1/2 px-2 my-auto">
+                                    <div class="flex items-center justify-center">
+                                        <div class="w-full md:w-1/2 lg:w-1/2 px-2 mb-4 text-center">
+                                        <Img fluid={node.path.childImageSharp.fluid} className="mx-auto w-16 h-16 md:w-32 md:h-32 rounded-full" objectFit="cover" objectPosition="50% 50%"></Img>
+                                        </div>
+                                        <div class="w-full md:w-1/2 lg:w-1/2 px-2">
+                                            <h1 className="text-xl font-bold pt-0 lg:pt-0">{node.name}</h1>
+                                            <h1 className="text-normal font-semibold pt-0 lg:pt-0">{status}</h1>
+                                            <h1 className="text-sm font-medium pt-0 lg:pt-0">{node.email}</h1>
+                                            <h1 className="text-sm font-normal pt-0 lg:pt-0"><a href={node.sitePrefix} className="font-medium no-underline hover:underline text-black text-normal">Details</a></h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
+                        )}
+                </div>
+            </div>
+        )
+    }
     // console.log(edges)
     return(
         <Layout>
         <div className="w-full">
-        <h3 className="bg-blue-800 w-full text-white text-lg font-bold inline-block p-3 mb-4">Professor</h3>
-        <div class="flex flex-wrap -mb-4">
-            {professorNode.map((node,index) => {
-            return (
-                <div className="flex justify-center px-2 mb-4">
-                    <img class="w-32 h-32 rounded-full object-cover" src={node.img}></img>
-                    <div class="px-6 py-4">
-                        <div class="font-bold text-xl ">{node.name}</div>
-                        <div class="font-semibold text-sm ">Professor</div>
-                        <div class="text-sm mb-4">{node.email}</div>
-                        <button className="w-full bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                            <Link
-                            key={node.name}
-                            to={`/members/${node.sitePrefix}`}>Detail Information</Link>
-                            </button>
-                    </div>
-                </div>
-                )}
-            )}
-            </div>
-        </div>
-
-        <div className="w-full">
-        <h3 className="bg-blue-800 w-full text-white text-lg font-bold inline-block p-3 mb-4">Ph.D. Students</h3>
-        <div class="flex flex-wrap -mb-4">
-            {phdNode.map((node,index) => {
-            return (
-                <div className="flex justify-center px-2 mb-4">
-                    <img class="w-32 h-32 rounded-full object-cover" src={node.img}></img>
-                    <div class="px-6 py-4">
-                        <div class="font-bold text-xl">{node.name}</div>
-                        <div class="font-semibold text-sm">Ph.D Candidate</div>
-                        <div class="text-sm mb-4">{node.email}</div>
-                        <button className="w-full bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                            <Link
-                            key={node.name}
-                            to={`/members/${node.sitePrefix}`}>Detail Information</Link>
-                            </button>
-                    </div>
-                </div>
-                )}
-            )}
-            </div>
-        </div>
-
-
-        <div className="w-full">
-        <h3 className="bg-blue-800 w-full text-white text-lg font-bold inline-block p-3 mb-4">M.S. Students</h3>
-        <div class="flex flex-wrap -mb-4">
-            {msNode.map((node,index) => {
-            return (
-                <div className="flex justify-center px-2 mb-4">
-                    <img class="w-32 h-32 rounded-full object-cover" src={node.img}></img>
-                    <div class="px-6 py-4">
-                        <div class="font-bold text-xl">{node.name}</div>
-                        <div class="font-semibold text-sm ">Master Student</div>
-                        <div class="text-sm mb-4">{node.email}</div>
-                        <button className="w-full bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                            <Link
-                            key={node.name}
-                            to={`/members/${node.sitePrefix}`}>Detail Information</Link>
-                            </button>
-                    </div>
-                </div>
-                )}
-            )}
-            </div>
+            {createSection("Professor", "professor", professorNode, "Professor")}
+            {createSection("Ph.D Students", "phd", phdNode, "Ph.D Candidate")}
+            {createSection("M.S. Students", "msc", msNode, "Master Student")}
         </div>
         </Layout>
     )

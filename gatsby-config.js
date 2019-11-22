@@ -7,8 +7,6 @@ module.exports = {
     author: `Computer Graphics and Visualization Lab`
   },
   plugins: [
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -27,18 +25,10 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `uploads`,
-        path: `${__dirname}/static/images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `markdown-pages`,
         path: `${__dirname}/src/markdown-pages`,
       },
     },
-    `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -52,7 +42,12 @@ module.exports = {
         icon: `src/images/tailwind-icon.png`
       }
     },
-    `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [require("tailwindcss"), require("autoprefixer")]
+      }
+    },
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
@@ -60,6 +55,37 @@ module.exports = {
         purgeOnly: [`src/css/style.css`]
       }
     },
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
+    {
+      resolve:`gatsby-transformer-remark`,
+      options:{
+        plugins:[
+          'gatsby-remark-prismjs',"gatsby-remark-copy-linked-files",
+          {
+            resolve:`gatsby-remark-images`,
+            options:{
+              maxWidth: 750,
+              linkImagesToOriginal: true,
+              showCaptions: true,
+            }
+          }
+        ]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+            },
+          },
+        ],
+      },
+    },
+    'gatsby-plugin-sharp',
+    `gatsby-transformer-sharp`,
   ]
 };

@@ -1,12 +1,125 @@
 [
     {
         "thumbnail": null,
+        "title": "Realistic Simulation of Mixed Sea using Multiple Spectrum-based Wave Systems",
+        "subtitle": "SIMULATION",
+        "vol": "",
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "1-16",
+        "labelPP": "",
+		"author": [
+            "Sekil Park",
+            "Jinah Park"
+        ],
+        "date": "2019.08.07",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1177%2F0037549719866504"
+    },
+    {
+        "thumbnail": null,
+        "title": "Template-based Landmark and Region Mapping of Bone",
+        "subtitle": "Journal of Foot and Ankle Research",
+        "vol": "7",
+        "labelVol": "",
+		"num": "1",
+        "labelNum": "Suppl",
+		"pp": "42",
+        "labelPP": "A",
+		"author": [
+            "Jaeil Kim",
+            "Sang Gyo Seo",
+            "Dong Yeon Lee",
+            "Jinah Park"
+        ],
+        "date": "2014.04.08",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1186/1757-1146-7-S1-A42"
+    },
+    {
+        "thumbnail": null,
+        "title": "Study on Interaction-induced Symptoms with Respect to Virtual Grasping and Manipulation",
+        "subtitle": "International Journal of Human-Computer Studies",
+        "vol": "72",
+        "labelVol": "",
+		"num": "2",
+        "labelNum": "Issue",
+		"pp": "141-153",
+        "labelPP": "",
+		"author": [
+            "Yongwan Kim",
+            "Jinah Park"
+        ],
+        "date": "2014.02.01",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1016/j.ijhcs.2013.09.011"
+    },
+    {
+        "thumbnail": null,
+        "title": "A Statistical Model for Computing Causal Relationships to Assess Changes in a Marine Environment",
+        "subtitle": "Journal of Coastal Research",
+        "vol": "1",
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "980-985",
+        "labelPP": "",
+		"author": [
+            "Jinah Kim",
+            "Jinah Park"
+        ],
+        "date": "2012.12.07",
+        "type": "International Journal",
+        "doi": "https://www.jstor.org/stable/26482100"
+    },
+    {
+        "thumbnail": null,
+        "title": "Visualizing Marine Environmental Changes to the Saemangeum Coast",
+        "subtitle": "IEEE Computer Graphics and Applications",
+        "vol": "32",
+        "labelVol": "",
+		"num": "6",
+        "labelNum": "",
+		"pp": "82-87",
+        "labelPP": "",
+		"author": [
+            "Jinah Kim",
+            "Jinah Park"
+        ],
+        "date": "2012.11.16",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1109/MCG.2012.122"
+    },
+    {
+        "thumbnail": null,
+        "title": "Monitoring the Evolutionary Aspect of the Gene Ontology to Enhance Predictability and Usability",
+        "subtitle": "Information Visualization",
+        "vol": "9",
+        "labelVol": "",
+		"num": "3",
+        "labelNum": "",
+		"pp": "220-232",
+        "labelPP": "",
+		"author": [
+            "Yeseul Park",
+            "Jinah Park"
+        ],
+        "date": "2012.01.01",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1057/ivs.2010.3"
+    },
+    {
+        "thumbnail": null,
         "title": "Monitoring the Evolutionary Aspect of the Gene Ontology to Enhance Predictability and Usability",
         "subtitle": "BMC Bioinformatics",
         "vol": "9",
-        "num": "3",
-        "pp": "S7",
-        "author": [
+        "labelVol": "",
+		"num": "3",
+        "labelNum": "",
+		"pp": "S7",
+        "labelPP": "",
+		"author": [
             "Jong C. Park",
             "Tak-eun Kim",
             "Jinah Park"
@@ -20,9 +133,12 @@
         "title": "Real-time Area-based Haptic Rendering and the Augmented Tactile Display Device for a Palpation Simulator",
         "subtitle": "Advanced Robotics",
         "vol": "21",
-        "num": "10",
-        "pp": "961-981",
-        "author": [
+        "labelVol": "",
+		"num": "10",
+        "labelNum": "",
+		"pp": "961-981",
+        "labelPP": "",
+		"author": [
             "Sangyoun Kim",
             "Ki-Uk Kyung",
             "Jinah Park"
@@ -36,9 +152,12 @@
         "title": "Visualization for Digesting a High Volume of the Biomedical Literature",
         "subtitle": "Bioinformatics and Biosystems",
         "vol": "1",
-        "num": "1",
-        "pp": "51-60",
-        "author": [
+        "labelVol": "",
+		"num": "1",
+        "labelNum": "",
+		"pp": "51-60",
+        "labelPP": "",
+		"author": [
             "Changsu Lee",
             "Jinah Park",
             "Jong C. Park"
@@ -52,9 +171,12 @@
         "title": "The Real-Time Haptic Simulation of a Biomedical Volumetric Object with Shape-retaining Chain Linked Model",
         "subtitle": "IEICE Transaction on Information and Systems",
         "vol": "E88-D",
-        "num": "5",
-        "pp": "1012-1020",
-        "author": [
+        "labelVol": "",
+		"num": "5",
+        "labelNum": "",
+		"pp": "1012-1020",
+        "labelPP": "",
+		"author": [
             "Sang-Youn Kim",
             "Jinah Park",
             "Dong-Soo Kwon"
@@ -68,9 +190,12 @@
         "title": "Real-time Haptic Rendering of a High-resolution Volumetric Deformable Object in Collaborative Virtual Environment",
         "subtitle": "Advanced Robotics",
         "vol": "19",
-        "num": "9",
-        "pp": "951-976",
-        "author": [
+        "labelVol": "",
+		"num": "9",
+        "labelNum": "",
+		"pp": "951-976",
+        "labelPP": "",
+		"author": [
             "Sang-Youn Kim",
             "Jinah Park",
             "Dong-Soo Kwon"
@@ -84,9 +209,12 @@
         "title": "A Graphic Tool for Curating Molecular Interaction Networks from the Literature",
         "subtitle": "Key Engineering Materials",
         "vol": "35",
-        "num": "7",
-        "pp": "555-564",
-        "author": [
+        "labelVol": "",
+		"num": "7",
+        "labelNum": "",
+		"pp": "555-564",
+        "labelPP": "",
+		"author": [
             "Changsu Lee",
             "Jinah Park",
             "Jong C. Park"
@@ -100,9 +228,12 @@
         "title": "Information Visualization with Text Data Mining for Knowledge Discovery Tools in Bioinformatics",
         "subtitle": "Key Engineering Materials",
         "vol": "277",
-        "num": "",
-        "pp": "259-265",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "259-265",
+        "labelPP": "",
+		"author": [
             "Jinah Park",
             "Changsu Lee",
             "Jong C. Park"
@@ -116,9 +247,12 @@
         "title": "Volume Data Exploration Interface on a Touchscreen",
         "subtitle": "International Symposium of Science Museums 2019",
         "vol": "",
-        "num": "",
-        "pp": "504-507",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "504-507",
+        "labelPP": "",
+		"author": [
             "Hyunsoo Kim",
             "Jinah Park"
         ],
@@ -131,9 +265,12 @@
         "title": "Importance-Based Streamline Seeding Method Using a Regression Model",
         "subtitle": "IEEE VIS 2019 (Poster)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Joong-Youn Lee",
             "Jinah Park"
         ],
@@ -146,9 +283,12 @@
         "title": "Interactive Exhibition from Wall Panels in a Museum",
         "subtitle": "ACM International Conference on Interactive Surfaces and Spaces (ISS'19, Poster)",
         "vol": "",
-        "num": "",
-        "pp": "367-372",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "367-372",
+        "labelPP": "",
+		"author": [
             "Jihoon Cho",
             "Hyunsoo Kim",
             "Joowon Lim",
@@ -164,9 +304,12 @@
         "title": "Virtual Faucet: Stream Or Spray",
         "subtitle": "IEEE World Haptics Conference 2019 (Demo)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Jaehyun Jang",
             "Jinah Park"
         ],
@@ -179,9 +322,12 @@
         "title": "Clinical, Radiographic, Morphometric Risk Factors for Adjacent and Remote Vertebral Compression Fractures Over a Minimum Follow-Up of Four Years After Percutaneous Vertebroplasty for Osteoporotic Vertebral Compression Fractures: Novel Three-Dimensional Voxel-Based Morphometric Analysis",
         "subtitle": "NASS Summer Spine Meeting 2019",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Hong-Jae Lee",
             "Jinah Park"
         ],
@@ -194,9 +340,12 @@
         "title": "Metal Artifact Reduction of Dental CT using Optical Image of Dental Plaster Model",
         "subtitle": "International Workshop on Advanced Image Technology- International Forum on Medical Imaging in Asia(IWAIT-IFMIA) 2019",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Yejin Kim",
             "Jihoon Cho",
             "Seungyong Cho",
@@ -211,9 +360,12 @@
         "title": "Analysis of Risk Factos for Adjacent and Remote Vertebral Compression Fractures using Three-dimensional Voxel-based Morphometry after Percutaneous Vertebroplasty in Patients with Osteoporotic Vertebral Compression Fractures A minimum 4-year follow-up (Oral Presentation)",
         "subtitle": "International Neurosurgical Conference (KNS 2018)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Hong-Jae Lee",
             "Jinah Park"
         ],
@@ -226,9 +378,12 @@
         "title": "Touchable Video Streams: Towards Multi-sensory and Multi-contact Experiences",
         "subtitle": "ACM TVX 2018 (Work-in-progress)",
         "vol": "",
-        "num": "",
-        "pp": "155-160",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "155-160",
+        "labelPP": "",
+		"author": [
             "Seokyeol Kim",
             "Jinah Park"
         ],
@@ -241,9 +396,12 @@
         "title": "Perception-Aware Uncertainty Glyphs in the 3D Vector Fields",
         "subtitle": "EuroVis 2018 (Short Paper)",
         "vol": "",
-        "num": "",
-        "pp": "1-5",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "1-5",
+        "labelPP": "",
+		"author": [
             "Joong-Youn Lee",
             "Jinah Park"
         ],
@@ -256,9 +414,12 @@
         "title": "The Structure-aware Viewpoint Selection for 3D Branching Structures",
         "subtitle": "IEEE PacificVis 2018 (Poster)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Jaehyun Jang",
             "Jinah Park"
         ],
@@ -271,9 +432,12 @@
         "title": "Analyzing 3D Cell Data of Optical Diffraction Tomography through Volume Rendering",
         "subtitle": "International Workshop on Advanced Image Technology (IWAIT 2018)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Taeho Kim",
             "Jinah Park"
         ],
@@ -286,9 +450,12 @@
         "title": "Speckle Noise Reduction in Optical Diffraction Tomography using Convolutional Neural Network",
         "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
         "vol": "",
-        "num": "",
-        "pp": "P-IT-043",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "P-IT-043",
+        "labelPP": "",
+		"author": [
             "Inwoo Hwang",
             "Jinah Park"
         ],
@@ -301,9 +468,12 @@
         "title": "Interactive Multimodal Virtual Display of 2D-coordinates Plane",
         "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
         "vol": "",
-        "num": "",
-        "pp": "P-IT-034",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "P-IT-034",
+        "labelPP": "",
+		"author": [
             "Minjoo Kim",
             "Jinah Park"
         ],
@@ -316,9 +486,12 @@
         "title": "2D Transfer Function Design for Live-cell Image Data using ISODATA Clustering Method",
         "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
         "vol": "",
-        "num": "",
-        "pp": "P-IT-033",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "P-IT-033",
+        "labelPP": "",
+		"author": [
             "Jihoon Cho",
             "Taeho Kim",
             "Jinah Park"
@@ -332,9 +505,12 @@
         "title": "Hand Gesture Modification based on Laban Movement Analysis to Express an Avatar's Affection in a Communicative VR Environment",
         "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
         "vol": "",
-        "num": "",
-        "pp": "P-IT-030",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "P-IT-030",
+        "labelPP": "",
+		"author": [
             "YoungJin An",
             "Taeho Kim",
             "Jinah Park"
@@ -348,9 +524,12 @@
         "title": "Design of State Machine Interface for Building Communicative Environment with Virtual Reality Avatar",
         "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
         "vol": "",
-        "num": "",
-        "pp": "P-IT-015",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "P-IT-015",
+        "labelPP": "",
+		"author": [
             "Andrew Lee",
             "Taeho Kim",
             "Jinah Park"
@@ -364,9 +543,12 @@
         "title": "Real-time Brittle Fracture Simulation for Haptic Interaction based on a Node-link Model",
         "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
         "vol": "",
-        "num": "",
-        "pp": "P-IT-005",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "P-IT-005",
+        "labelPP": "",
+		"author": [
             "Hyunyul Cho",
             "Seokyeol Kim",
             "Jinah Park"
@@ -380,9 +562,12 @@
         "title": "Voxel-based Haptic Rendering during Shape Changes",
         "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN17)",
         "vol": "",
-        "num": "",
-        "pp": "P-IT-001",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "P-IT-001",
+        "labelPP": "",
+		"author": [
             "Kimin Kim",
             "Jinah Park"
         ],
@@ -395,9 +580,12 @@
         "title": "Robust Haptic Exploration of Remote Environments Represented by Streamed Point Cloud Data",
         "subtitle": "IEEE World Haptics Conference 2017",
         "vol": "",
-        "num": "",
-        "pp": "358-363",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "358-363",
+        "labelPP": "",
+		"author": [
             "Seokyeol Kim",
             "Jinah Park"
         ],
@@ -410,9 +598,12 @@
         "title": "Collaborative Haptic Exploration of Remote Environments with Guidance Cues",
         "subtitle": "CASA 2017 Workshop on Recent Developments and Challenges in Immersive Experiences and Digital Character Animation",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Seokyeol Kim"
         ],
         "date": "2017.05.22",
@@ -424,9 +615,12 @@
         "title": "Principal Elements for Visualizing Event Sequence Data Applied to 3D Cascading Diagrams",
         "subtitle": "IEEE International Conference on Big Data and Smart Computing (BigComp 2017)",
         "vol": "",
-        "num": "",
-        "pp": "59-63",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "59-63",
+        "labelPP": "",
+		"author": [
             "Youngju Oh",
             "Seokyeol Kim",
             "Jinah Park"
@@ -440,9 +634,12 @@
         "title": "3D Foot Posture Quantification using Articular Surface Information from the Template-based Deformable Model",
         "subtitle": "International Forum on Medical Imaging in Asia (IFMIA) 2017",
         "vol": "",
-        "num": "",
-        "pp": "274-276",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "274-276",
+        "labelPP": "",
+		"author": [
             "Taeho Kim",
             "Doojae Lee",
             "Dong Yeon Lee",
@@ -457,9 +654,12 @@
         "title": "3D Foot Posture Quantification using Articular Surface Information from the Template-based Deformable Model",
         "subtitle": "International Forum on Medical Imaging in Asia (IFMIA) 2017",
         "vol": "",
-        "num": "",
-        "pp": "274-276",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "274-276",
+        "labelPP": "",
+		"author": [
             "Taeho Kim",
             "Doojae Lee",
             "Dong Yeon Lee",
@@ -474,9 +674,12 @@
         "title": "Modeling 3D Cell Nucleus by Template-based Deformable Model with Confined-region Determined by Cellular Characteristics",
         "subtitle": "International Forum on Medical Imaging in Asia (IFMIA) 2017",
         "vol": "",
-        "num": "",
-        "pp": "17-20",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "17-20",
+        "labelPP": "",
+		"author": [
             "Seoyoung Kim",
             "Taeho Kim",
             "Jinah Park"
@@ -490,9 +693,12 @@
         "title": "Engaging Weight Feedback for Bimanual Interaction",
         "subtitle": "AsiaHaptics 2016",
         "vol": "432",
-        "num": "",
-        "pp": "193-195",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "193-195",
+        "labelPP": "",
+		"author": [
             "Stuart Burmeister",
             "Kimin Kim",
             "Jinah Park"
@@ -506,9 +712,12 @@
         "title": "Weight-bearing 3D Foot Model Reconstruction from Simple Standing Radiographs Using Deformable Surface Fitting Method",
         "subtitle": "Asian Federation of Foot and Ankle Surgeons (AFFAS)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Sang Gyo Seo",
             "Jaeil Kim",
             "Dong Yeon Lee",
@@ -525,9 +734,12 @@
         "title": "Weight-bearing 3D Foot Reconstruction from Standing Radiograph using Deformable Surface Fittiing",
         "subtitle": "Foot International (i-FAB) 2016",
         "vol": "",
-        "num": "",
-        "pp": "881-885",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "881-885",
+        "labelPP": "",
+		"author": [
             "Sang Gyo Seo",
             "Jaeil Kim",
             "Chang Hyun Ryu",
@@ -543,9 +755,12 @@
         "title": "A Unified Virtual Fixture Model for Haptic Telepresence Systems based on Streaming Point Cloud Data and Implicit Surfaces",
         "subtitle": "International Conference on Control, Automation and Systems (ICCAS 2016)",
         "vol": "",
-        "num": "",
-        "pp": "881-885",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "881-885",
+        "labelPP": "",
+		"author": [
             "Seokyeol Kim",
             "Jinah Park"
         ],
@@ -558,9 +773,12 @@
         "title": "Haptic Exploration of Remote Environments with Gesture-based Collaborative Guidance",
         "subtitle": "ACM Symposium on Spatial User Interaction 2016 (SUI'16, Poster)",
         "vol": "",
-        "num": "",
-        "pp": "211-211",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "211-211",
+        "labelPP": "",
+		"author": [
             "Seokyeol Kim",
             "Jinah Park"
         ],
@@ -573,9 +791,12 @@
         "title": "Reliable Measurement of 3D Foot Bone Angles based on the Frame-of-Reference Derived from a Sole of the Foot",
         "subtitle": "Medical Imaging 2016: Computer-Aided Diagnosis",
         "vol": "9785",
-        "num": "",
-        "pp": "97853F",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "97853F",
+        "labelPP": "",
+		"author": [
             "Taeho Kim",
             "Dong Yeon Lee",
             "Jinah Park"
@@ -589,9 +810,12 @@
         "title": "Template-based Automatic Extraction of the Joint Space of Foot Bones from CT Scan",
         "subtitle": "Medical Imaging 2016: Image Processing",
         "vol": "9784",
-        "num": "",
-        "pp": "97841U",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "97841U",
+        "labelPP": "",
+		"author": [
             "Eunbi Park",
             "Taeho Kim",
             "Jinah Park"
@@ -605,9 +829,12 @@
         "title": "Optical Diffraction Tomography using a Digital Micromirror Device for Stable Measurements of 4D Refractive Index Tomography of Cells",
         "subtitle": "Quantitative Phase Imaging II",
         "vol": "9718",
-        "num": "",
-        "pp": "971814",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "971814",
+        "labelPP": "",
+		"author": [
             "Seungwoo Shin",
             "Kyoohyun Kim",
             "Taeho Kim",
@@ -625,9 +852,12 @@
         "title": "3D Computational Position Analysis based on the Articular Surface of Tarsal Bone: A Preliminary Study",
         "subtitle": "AOFAS Annual Meeting 2015",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Dong Yeon Lee",
             "Taeho Kim",
             "Sang Gyo Seo",
@@ -642,27 +872,15 @@
     },
     {
         "thumbnail": null,
-        "title": "3D Computational Position Analysis based on the Articular Surface of Tarsal Bone: A Preliminary Study",
-        "subtitle": "ACM Symposium on Virtual Reality Software and Technology (VRST'14)",
-        "vol": "",
-        "num": "",
-        "pp": "27-30",
-        "author": [
-            "Deok-Jae Song",
-            "Jinah Park"
-        ],
-        "date": "2014.11.11",
-        "type": "International Conference",
-        "doi": "https://doi.org/10.1145/2671015.2671118"
-    },
-    {
-        "thumbnail": null,
         "title": "AnyHaptics: A Haptic Plug-in for Existing Interactive 3D Graphics Applications",
         "subtitle": "ACM Symposium on Virtual Reality Software and Technology (VRST'14)",
         "vol": "",
-        "num": "",
-        "pp": "27-30",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "27-30",
+        "labelPP": "",
+		"author": [
             "Deok-Jae Song",
             "Jinah Park"
         ],
@@ -675,9 +893,12 @@
         "title": "Distributed P2P-based Global Illumination for Multi-Users of Real-Time Rendering",
         "subtitle": "International Conference on Future Web (ICFW 2014)",
         "vol": "",
-        "num": "",
-        "pp": "65-72",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "65-72",
+        "labelPP": "",
+		"author": [
             "Deok-Jae Song",
             "Jinah Park"
         ],
@@ -690,9 +911,12 @@
         "title": "A SPH-based Dissolution Behavior Model for Real-time Fluid-Solid Interaction",
         "subtitle": "SIGGRAPH Asia 2014 (Poster)",
         "vol": "",
-        "num": "14",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "14",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Seokyeol Kim",
             "Jinah Park"
         ],
@@ -705,9 +929,12 @@
         "title": "Novel Surface Modelling of the Brain’s Third Ventricle Reveals Local Morphological Differences in an Ageing Sample",
         "subtitle": "20th Annual Scientific Meeting of the British Chapter of the ISMRM",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Maria C. Valdés Hernández",
             "Jaeil Kim",
             "Natalie A. Royle",
@@ -728,9 +955,12 @@
         "title": "Anatomical Landmark and Region Mapping based on a Template Surface Deformation for Foot Bone Morphology",
         "subtitle": "Annual meeting of American Orthopaedic Foot and Ankle Society (AOFAS)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Jaeil Kim",
             "Sang Gyo Seo",
             "Dong Yeon Lee",
@@ -745,9 +975,12 @@
         "title": "Brain Ventricular Morphology Analysis Using a Set of Ventricular-Specific Feature Descriptors",
         "subtitle": "International Symposium on Biomedical Simulation (ISBMS 2014)",
         "vol": "8789",
-        "num": "",
-        "pp": "141-149",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "141-149",
+        "labelPP": "",
+		"author": [
             "Jaeil Kim",
             "Hojin Ryoo",
             "Maria del C. Valdés Hernández",
@@ -763,9 +996,12 @@
         "title": "Automatic Hippocampal Multimodal Assessment for Studies of Stroke and Small Vessel Disease",
         "subtitle": "Medical Image Understanding and Analysis 2014",
         "vol": "",
-        "num": "",
-        "pp": "33-38",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "33-38",
+        "labelPP": "",
+		"author": [
             "Maria del C. Valdés Hernández",
             "Jaeil Kim",
             "Ian Whitteford",
@@ -782,9 +1018,12 @@
         "title": "Cache Enhancement Methods for Out-Of-Core Pathline Computation",
         "subtitle": "IEEE VIS 2013 (Poster)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Joong-Youn Lee",
             "Jinah Park"
         ],
@@ -797,9 +1036,12 @@
         "title": "Haptic Xylophone",
         "subtitle": "IEEE World Haptics Conference 2013 (Demo)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Joong-Youn Lee",
             "Sang Eon Lee",
             "Jinah Park"
@@ -813,9 +1055,12 @@
         "title": "Haptic Snapping Guided Hangul Learning System",
         "subtitle": "IEEE World Haptics Conference 2013 (Demo)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "UiTae Kim",
             "Seokyeol Kim",
             "Jinah Park"
@@ -829,9 +1074,12 @@
         "title": "A Simulation Environment for Teleoperated Robotic Tasks with Haptic Guidance",
         "subtitle": "IEEE World Haptics Conference 2013 (Demo)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Seokyeol Kim",
             "Jinah Park"
         ],
@@ -844,9 +1092,12 @@
         "title": "An Intuitive Interaction Method for Handling Intra-articular Bone Structures in 3D Space for Fracture Surgery Planning",
         "subtitle": "International Forum on Medical Imaging in Asia (IFMIA) 2012",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Taeho Kim",
             "Jinah Park"
         ],
@@ -859,9 +1110,12 @@
         "title": "An Interactive Region-Annotation Method for Specifying and Assessing Anatomical Regions on 3D Human Organ Models",
         "subtitle": "International Forum on Medical Imaging in Asia (IFMIA) 2012",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Hojin Ryoo",
             "Jaeil Kim",
             "Jinah Park"
@@ -875,9 +1129,12 @@
         "title": "A Haptic Enhancement Surgery Simulator with a Dual Model",
         "subtitle": "The 4th SPENALO International Symposium on Marine and Medical Robotics (SIS2012)",
         "vol": "7283",
-        "num": "",
-        "pp": "195-198",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "195-198",
+        "labelPP": "",
+		"author": [
             "Yul Hee Kim",
             "Young Mock Lee",
             "Jinah Park",
@@ -892,9 +1149,12 @@
         "title": "A Dental Simulator for Training of Prevalent Interventions: Tooth Restoration and Ultrasonic Scaling",
         "subtitle": "EuroHaptics 2012",
         "vol": "7283",
-        "num": "",
-        "pp": "195-198",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "195-198",
+        "labelPP": "",
+		"author": [
             "Kimin Kim",
             "Jaehyun Cho",
             "Jaihyun Kim",
@@ -909,9 +1169,12 @@
         "title": "Orthopedic Surgery Planning Simulator for Intra-articular Fracture",
         "subtitle": "International Conference of ISSiS (International Society for Simulation Surgery)",
         "vol": "",
-        "num": "",
-        "pp": "90",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "90",
+        "labelPP": "",
+		"author": [
             "Taeho Kim",
             "Jaeil Kim",
             "Jinah Park"
@@ -925,9 +1188,12 @@
         "title": "Select Ahead: Efficient Object Selection Technique Using the Tendency of Recent Cursor Movements",
         "subtitle": "Asia Pacific Conference on Computer Human Interaction 2012",
         "vol": "",
-        "num": "",
-        "pp": "51-58",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "51-58",
+        "labelPP": "",
+		"author": [
             "Soonchan Park",
             "Seokyeol Kim",
             "Jinah Park"
@@ -941,9 +1207,12 @@
         "title": "Select Ahead: Efficient Object Selection Technique Using the Tendency of Recent Cursor Movements",
         "subtitle": "Asia Pacific Conference on Computer Human Interaction 2012",
         "vol": "",
-        "num": "",
-        "pp": "51-58",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "51-58",
+        "labelPP": "",
+		"author": [
             "Soonchan Park",
             "Seokyeol Kim",
             "Jinah Park"
@@ -957,9 +1226,12 @@
         "title": "A Mode Selection Method for Adaptive Deformation with Reduced Deformable Models",
         "subtitle": "International Conference on Computer Animation and Social Agents (CASA 2012, Short Paper)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Jaehyun Cho",
             "Jinah Park"
         ],
@@ -972,9 +1244,12 @@
         "title": "Web-GIS based Saemangeum Coastal Information System",
         "subtitle": "International Symposium on GIS and Computer Mapping for Coastal Zone Management 2011",
         "vol": "4",
-        "num": "",
-        "pp": "138-145",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "138-145",
+        "labelPP": "",
+		"author": [
             "Jinah Kim",
             "Chang S. Kim",
             "Jinah Park"
@@ -988,9 +1263,12 @@
         "title": "Implementation of Korea Operational Oceanographic Information System using Web-GIS",
         "subtitle": "International Symposium on GIS and Computer Mapping for Coastal Zone Management 2011",
         "vol": "3",
-        "num": "",
-        "pp": "102-109",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "102-109",
+        "labelPP": "",
+		"author": [
             "Jinah Kim",
             "Jaeil Kwon",
             "K.S. Park",
@@ -1005,9 +1283,12 @@
         "title": "Weight-Bearing 3D Foot Model Reconstruction From Standing Radiographs Using Deformable Surface Fitting Method",
         "subtitle": "AOFAS Annual Meeting 2016",
         "vol": "",
-        "num": "",
-        "pp": "2473011416S00323",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "2473011416S00323",
+        "labelPP": "",
+		"author": [
             "Sang Gyo Seo",
             "Jaeil Kim",
             "Chang Hyun Ryu",
@@ -1025,9 +1306,12 @@
         "title": "Analysis on Virtual Intereaction-induced Fatigue and Difficulty in Manipulation for Interactive 3D Gaming Console",
         "subtitle": "IEEE International Conference on Consumer Electronics (ICCE)",
         "vol": "1",
-        "num": "1",
-        "pp": "269-270",
-        "author": [
+        "labelVol": "",
+		"num": "1",
+        "labelNum": "",
+		"pp": "269-270",
+        "labelPP": "",
+		"author": [
             "Yongwan Kim",
             "Gun Lee",
             "Dongsik Jo",
@@ -1044,9 +1328,12 @@
         "title": "Progressive Mesh Cutting for Real-time Haptic Incision Simulator",
         "subtitle": "ACM SIGGRAPH Asia 2010 (Poster)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Seokyeol Kim",
             "Jihwan Park",
             "Jinah Park"
@@ -1060,9 +1347,12 @@
         "title": "Feeling the Vein for Intravenous Injection Preparation",
         "subtitle": "Eurographics Workshop on Visual Computing for Biology and Medicine, VCBM 2010 (Poster)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Seok Kim",
             "Jinah Park"
         ],
@@ -1075,9 +1365,12 @@
         "title": "A Quantitative Measurement Method Using Shape and Texture Features for Possible Rib Fractures in Chest Radiographs",
         "subtitle": "Radiological Society of North America (RSNA) 2012 Scientific Assembly and Annual Meeting",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Sungjun Kim",
             "Kwanggi Kim",
             "Jinah Park",
@@ -1095,9 +1388,12 @@
         "title": "Efficient Multi-Pass Welding Training with Haptic Guide",
         "subtitle": "ACM SIGGRAPH Asia 2009 (Posters)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Yongwan Kim",
             "Ungyeon Yang",
             "Dongsik Jo",
@@ -1114,9 +1410,12 @@
         "title": "Behavior Modeling of Haptic Brush for Virtual Painting",
         "subtitle": "International Conference on Mechatronics and Information Technology (ICMIT 2009)",
         "vol": "",
-        "num": "",
-        "pp": "3-4",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "3-4",
+        "labelPP": "",
+		"author": [
             "Seok Kim",
             "Jinah Park"
         ],
@@ -1129,9 +1428,12 @@
         "title": "Physically Based Grasping and Manipulation Method Using Pre-Contact Grasping Quality Measure",
         "subtitle": "ACM Symposium on Virtual Reality Software and Technology (VRST'09)",
         "vol": "",
-        "num": "",
-        "pp": "253-254",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "253-254",
+        "labelPP": "",
+		"author": [
             "Yongwan Kim",
             "Jinseong Choi",
             "Jinah Park"
@@ -1145,9 +1447,12 @@
         "title": "Visualization of Virtual Weld Beads",
         "subtitle": "ACM Symposium on Virtual Reality Software and Technology (VRST'09)",
         "vol": "",
-        "num": "",
-        "pp": "269-270",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "269-270",
+        "labelPP": "",
+		"author": [
             "Dongsik Jo",
             "Yongwan Kim",
             "Ungyeon Yang",
@@ -1163,9 +1468,12 @@
         "title": "Virtual Bone Drilling for Dental Implant Surgery Training",
         "subtitle": "ACM Symposium on Virtual Reality Software and Technology (VRST'09)",
         "vol": "",
-        "num": "",
-        "pp": "91-94",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "91-94",
+        "labelPP": "",
+		"author": [
             "Kimin Kim",
             "Jinah Park"
         ],
@@ -1178,9 +1486,12 @@
         "title": "Hybrid Elastic Model for Volumetric Deformation in Multi-modal Virtual Reality Simulation",
         "subtitle": "World Congress on Medical Physics and Biomedical Engineering",
         "vol": "25",
-        "num": "4",
-        "pp": "1528-1531",
-        "author": [
+        "labelVol": "",
+		"num": "4",
+        "labelNum": "",
+		"pp": "1528-1531",
+        "labelPP": "",
+		"author": [
             "Jaehwan Cho",
             "Jinah Park"
         ],
@@ -1193,9 +1504,12 @@
         "title": "Dynamic Visualization of Relational Data",
         "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN09)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Yunkyu Choi",
             "Jinah Park"
         ],
@@ -1208,9 +1522,12 @@
         "title": "Automated 3D Heart Segmentation by Search Rays for Building Individual Conductor Models",
         "subtitle": "Medical Imaging 2009: Visualization, Image-Guided Procedures, and Modeling (Poster)",
         "vol": "7261",
-        "num": "",
-        "pp": "72611W",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "72611W",
+        "labelPP": "",
+		"author": [
             "Jaeil Kim",
             "Seokyeol Kim",
             "Kiwoong Kim",
@@ -1225,9 +1542,12 @@
         "title": "Automated 3-D Cardiac Segmentation using Search Rays",
         "subtitle": "IFMIA 2009, IEICE Technical Report",
         "vol": "108",
-        "num": "385",
-        "pp": "311-314",
-        "author": [
+        "labelVol": "",
+		"num": "385",
+        "labelNum": "",
+		"pp": "311-314",
+        "labelPP": "",
+		"author": [
             "Seokyeol Kim",
             "Jaeil Kim",
             "Jinah Park"
@@ -1241,9 +1561,12 @@
         "title": "Virtual Bone Drilling for Dental Implant Training",
         "subtitle": "ASIAGRAPH 2008",
         "vol": "2",
-        "num": "2",
-        "pp": "252-256",
-        "author": [
+        "labelVol": "",
+		"num": "2",
+        "labelNum": "",
+		"pp": "252-256",
+        "labelPP": "",
+		"author": [
             "Kimin Kim",
             "Jinah Park"
         ],
@@ -1256,9 +1579,12 @@
         "title": "Two-Stage Articulated Hand Interaction for Virtual Assembly Simulation",
         "subtitle": "International Conference on Control, Automation and Systems",
         "vol": "",
-        "num": "",
-        "pp": "255-259",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "255-259",
+        "labelPP": "",
+		"author": [
             "Kimin Kim",
             "Ye-Seul Park",
             "Jinah Park"
@@ -1272,9 +1598,12 @@
         "title": "Volume-based Haptic Model for Bone-drilling",
         "subtitle": "International Conference on Control, Automation and Systems",
         "vol": "",
-        "num": "",
-        "pp": "255-259",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "255-259",
+        "labelPP": "",
+		"author": [
             "Kimin Kim",
             "Ye-Seul Park",
             "Jinah Park"
@@ -1288,9 +1617,12 @@
         "title": "6DOF Whole-Hand Haptic Interaction System based on Hybrid Grasping Approach",
         "subtitle": "EuroHaptics",
         "vol": "5024",
-        "num": "",
-        "pp": "549-555",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "549-555",
+        "labelPP": "",
+		"author": [
             "Yongwan Kim",
             "Yongseok Jang",
             "Wookho Son",
@@ -1305,9 +1637,12 @@
         "title": "Visualizing the Temporal Distribution of Terminologies for Biological Ontology Development",
         "subtitle": "Visualization and Data Analysis 2008",
         "vol": "6809",
-        "num": "",
-        "pp": "68090G",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "68090G",
+        "labelPP": "",
+		"author": [
             "Tak-eun Kim",
             "Hodong Lee",
             "Jinah Park",
@@ -1322,9 +1657,12 @@
         "title": "A Hybrid Approach for Real-time Haptic and Graphic Simulator in Virtual Environment",
         "subtitle": "IEEE International Symposium on Robot and Human Interactive Communication",
         "vol": "",
-        "num": "",
-        "pp": "316-319",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "316-319",
+        "labelPP": "",
+		"author": [
             "Sang-Youn Kim",
             "Segil Park",
             "Dong-Soo Kwon",
@@ -1339,9 +1677,12 @@
         "title": "Visualizing Spray Paint Deposition in VR Training",
         "subtitle": "IEEE Virtual Reality Conference",
         "vol": "",
-        "num": "",
-        "pp": "307-308",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "307-308",
+        "labelPP": "",
+		"author": [
             "Daeseok Kim",
             "Youngwoo Yoon",
             "Sunyu Hwang",
@@ -1357,9 +1698,12 @@
         "title": "Enhanced 3D Interaction with Augmented Visual Information",
         "subtitle": "International Conference on Artificial Reality and Telexistence (ICAT 2006)",
         "vol": "4282",
-        "num": "",
-        "pp": "1293-1304",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "1293-1304",
+        "labelPP": "",
+		"author": [
             "Dongwook Lee",
             "Jinah Park"
         ],
@@ -1372,9 +1716,12 @@
         "title": "Real-Time Area-Based Haptic Rendering for a Palpation Simulator",
         "subtitle": "International Symposium on Biomedical Simulation (ISBMS)",
         "vol": "4072",
-        "num": "",
-        "pp": "132-141",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "132-141",
+        "labelPP": "",
+		"author": [
             "Ki-Uk Kyung",
             "Jinah Park",
             "Dong-Soo Kwon",
@@ -1389,9 +1736,12 @@
         "title": "Shape Retaining Chain Linked Model for Real-time Volume Haptic Rendering",
         "subtitle": "IEEE Symposium on Volume Visualization and Graphics (VV 2002)",
         "vol": "",
-        "num": "",
-        "pp": "65-72",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "65-72",
+        "labelPP": "",
+		"author": [
             "Jinah Park",
             "Sang-Youn Kim",
             "Seung-Woo Son",
@@ -1406,9 +1756,12 @@
         "title": "Interactive Visualization of Fuzzy Set Operations",
         "subtitle": "Visualization and Data Analysis 2010",
         "vol": "7530",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Yeseul Park",
             "Jinah Park"
         ],
@@ -1421,9 +1774,12 @@
         "title": "Adjusting Viewing Parameters for Efficient and Accurate 3D Interaction",
         "subtitle": "International Conference on Artificial Reality and Telexistence (ICAT), Poster",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Dongwook Lee",
             "Jinah Park"
         ],
@@ -1436,9 +1792,12 @@
         "title": "Evaluation of Areal Touch Feedback for Palpation Simulation",
         "subtitle": "IEEE Visualization 2005 (VIS 2005)",
         "vol": "",
-        "num": "",
-        "pp": "100",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "100",
+        "labelPP": "",
+		"author": [
             "Jinah Park",
             "Sang Youn Kim",
             "Ki Uk Kyung",
@@ -1453,9 +1812,12 @@
         "title": "Scientific Visualization of Time-Varying Oceanographic and Meteorological Data using VR",
         "subtitle": "IEEE Visualization 2005 (VIS 2005)",
         "vol": "",
-        "num": "",
-        "pp": "97",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "97",
+        "labelPP": "",
+		"author": [
             "Chang S. Kim",
             "Jinah Kim",
             "Hak Soo Lim",
@@ -1471,9 +1833,12 @@
         "title": "Real Word in Virtual Space: Utilizing 3D Graphics for Geometry-Aware Services in Ubiquitous Computing Environment",
         "subtitle": "Int'l Conference of Women Engineers and Scientists (ICWES13)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Jinah Park",
             "Sekil Park",
             "Hyung-Jin Kim",
@@ -1488,9 +1853,12 @@
         "title": "2D/3D Non-rigid Registration of Volumetric CT Lung Data using Thin-plate Spline",
         "subtitle": "Int'l Workshop on Enterprise networking and Computing in Healthcare Industry (HEALTHCOM)",
         "vol": "",
-        "num": "",
-        "pp": "197-201",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "197-201",
+        "labelPP": "",
+		"author": [
             "Jinah Kim",
             "Jinah Park"
         ],
@@ -1503,9 +1871,12 @@
         "title": "Mechanical Representation of Shape-retaining Chain Linked Model for Real-time Haptic Rendering",
         "subtitle": "Int'l Symposium on Medical Simulation",
         "vol": "3078",
-        "num": "",
-        "pp": "144-152",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "144-152",
+        "labelPP": "",
+		"author": [
             "Jinah Park",
             "Sang-Youn Kim",
             "Dongsoo Kwon"
@@ -1519,9 +1890,12 @@
         "title": "Multiple-Contact Representation for the Real-Time Volume Haptic Rendering of a Non-Rigid Object",
         "subtitle": "Int'l Conference on Haptic Interfaces for Virtual Environment and Teleoperator Systems (HAPTICS'04)",
         "vol": "",
-        "num": "",
-        "pp": "242-249",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "242-249",
+        "labelPP": "",
+		"author": [
             "Sang-Youn Kim",
             "Jinah Park",
             "Dongsoo Kwon"
@@ -1535,9 +1909,12 @@
         "title": "Palpation Simulator for Laparoscopic Surgery with Haptic Feedback",
         "subtitle": "Int'l Conference on Biomedical Engineering (BioMed 2004)",
         "vol": "",
-        "num": "",
-        "pp": "478-482",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "478-482",
+        "labelPP": "",
+		"author": [
             "Sang-Youn Kim",
             "Jinah Park",
             "Dongsoo Kwon"
@@ -1551,9 +1928,12 @@
         "title": "Case Study: Visualization and Analysis of Mitogen-Activated Protein Kinase Pathways in the Literature",
         "subtitle": "Int'l Conference on Visualization and Data Analysis",
         "vol": "5295",
-        "num": "",
-        "pp": "275-285",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "275-285",
+        "labelPP": "",
+		"author": [
             "Changsu Lee",
             "Jinah Park",
             "Jong C. Park"
@@ -1567,9 +1947,12 @@
         "title": "Information Visualization in 3-Dimensional Space for Text Data Mining",
         "subtitle": "Int'l Women's Conference on BIEN(Bio, Information, Environment, Energy, Space and Nano)-Technology (BIEN03)",
         "vol": "",
-        "num": "",
-        "pp": "",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "",
+        "labelPP": "",
+		"author": [
             "Jinah Park",
             "Changsu Lee",
             "Jong C. Park"
@@ -1583,9 +1966,12 @@
         "title": "Mediatory Visualization for Structured Data and Textual Information",
         "subtitle": "Int'l Conference on Visualization, Imaging and Image Processing (VIIP)",
         "vol": "",
-        "num": "",
-        "pp": "926-932",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "926-932",
+        "labelPP": "",
+		"author": [
             "Changsu Lee",
             "Jinah Park",
             "Jong C. Park"
@@ -1599,9 +1985,12 @@
         "title": "Area-Contact Haptic Simulation",
         "subtitle": "Int'l Symposium on Surgery Simulation and Soft Tissue Modeling (IS4TM)",
         "vol": "2673",
-        "num": "",
-        "pp": "108-120",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "108-120",
+        "labelPP": "",
+		"author": [
             "Sang-Youn Kim",
             "Jinah Park",
             "Dong-Soo Kwon"
@@ -1615,9 +2004,12 @@
         "title": "Deformation Modeling: A New Methodology for the Analysis of Handaxe Morphology and Variability",
         "subtitle": "Multiple Approaches to the Study of Bifacial Technologies",
         "vol": "",
-        "num": "",
-        "pp": "193-208",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "193-208",
+        "labelPP": "",
+		"author": [
             "April Nowell",
             "Kyoungju Park",
             "Dimitri Metaxas",
@@ -1632,9 +2024,12 @@
         "title": "BiopathwayBuilder: Nested 3D Visualization System for Complex Molecular Interactions",
         "subtitle": "Int'l Conference on Genome Informatics (GIW13)",
         "vol": "13",
-        "num": "",
-        "pp": "447-448",
-        "author": [
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "447-448",
+        "labelPP": "",
+		"author": [
             "Changsu Lee",
             "Jinah Park",
             "Jong C. Park"

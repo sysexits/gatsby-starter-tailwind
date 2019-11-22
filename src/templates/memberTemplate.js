@@ -11,7 +11,14 @@ export const query = graphql`
         edges {
             node {
                 id
-                img 
+                path {
+                    childImageSharp {
+                        fixed (height:300, width:300, quality:100)
+                        {
+                            ...GatsbyImageSharpFixed
+                        }
+                    }
+                }
                 interest
                 bio
                 name
@@ -41,7 +48,7 @@ const Member=(props)=>{
                             <div className="w-full lg:w-full rounded-lg lg:rounded-l-lg lg:rounded-r-none bg-white mx-6 lg:mx-0">
                                 <div className="text-center lg:text-left">
                                     <div className="flex items-center justify-center lg:justify-start">
-                                        <img src={node.img} alt="profilePicture" className="w-48 h-48 rounded-full object-cover" />
+                                    <Img fixed={node.path.childImageSharp.fixed} className="mx-auto md:mx-0 w-16 h-16 md:w-32 md:h-32 rounded-full object-cover"></Img>
                                     </div>
                                     <h1 className="text-3xl font-bold pt-8 lg:pt-0">{node.name}</h1>
                                     <div className="mx-auto lg:mx-0 w-full pt-3 border-b-2 border-blue-800"></div>
@@ -65,16 +72,16 @@ const Member=(props)=>{
                                     }
                                     {node.bio !== "" &&
                                         <div className="mt-4 w-full text-left">
-                                            <h3 className="bg-blue-800 w-full text-white text-lg font-bold inline-block p-3">Profile</h3>
-                                            <p className="pt-2 pb-2 text-bold text-lg">{node.bio}</p>
+                                            <h3 className="bg-blue-800 w-full text-white text-lg font-semibold inline-block p-3">Profile</h3>
+                                            <p className="pt-2 pb-2 text-sm">{node.bio}</p>
                                         </div>
                                     }
                                     
                                     <div className="mt-4 w-full text-left">
-                                        <h3 className="bg-blue-800 w-full text-white text-lg font-bold inline-block p-3 mb-4">Research Interests</h3>
+                                        <h3 className="bg-blue-800 w-full text-white text-lg font-semibold inline-block p-3 mb-4">Research Interests</h3>
                                         {node.interest.map((tag,index) => {
                                             return (
-                                                <span className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mb-2 mr-2">{tag}</span>
+                                                <span className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-medium text-gray-800 mb-2 mr-2">{tag}</span>
                                             )}
                                         )}
                                     </div>

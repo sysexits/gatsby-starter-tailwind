@@ -3,12 +3,14 @@
         "name": "Jinah Park",
         "sitePrefix": "professor",
         "status": "professor",
+        "enterdate": "Spring 2002",
+        "graduatedate": "",
         "affiliation": "KAIST",
         "email": "jinahpark (at) kaist.ac.kr",
         "office": "CS Building (E3-1) #2404",
         "tel": "+82-(0)42-350-3555",
         "graduate": false,
-        "img": "../images/members/professor.jpg",
+        "path": "../images/members/professor.jpg",
         "interest": [
             "Modeling Deformable Objects",
             "Interface for 3D Manipulation",
@@ -23,12 +25,14 @@
         "name": "Joong-Youn Lee",
         "sitePrefix": "joongyounlee",
         "status": "phd",
+        "enterdate": "Fall 2011",
+        "graduatedate": "",
         "affiliation": "KISTI",
         "email": "osung (at) kaist.ac.kr",
         "office": "",
         "tel": "",
         "graduate": false,
-        "img": "../images/members/joongyounlee.jpg",
+        "path": "../images/members/joongyounlee.jpg",
         "interest": [
             "Scientific Visualization",
             "Volume Rendering",
@@ -40,12 +44,14 @@
         "name": "Taeho Kim",
         "sitePrefix": "taehokim",
         "status": "phd",
+        "enterdate": "Spring 2011",
+        "graduatedate": "",
         "affiliation": "KAIST",
         "email": "kdhtheo (at) kaist.ac.kr",
         "office": "CS Building (E3-1) #2413",
         "tel": "+82-(0)42-350-7755",
         "graduate": false,
-        "img": "../images/members/taehokim.jpg",
+        "path": "../images/members/taehokim.jpg",
         "interest": [
             "Biomedical Image Analysis",
             "Virtual Reality"
@@ -56,12 +62,14 @@
        "name": "Jaehyun Jang",
        "sitePrefix": "jaehyunjang",
        "status": "phd",
+       "enterdate": "Spring 2015",
+       "graduatedate": "",
        "affiliation": "KAIST",
        "email": "jaehyunjang (at) kaist.ac.kr",
        "office": "CS Building (E3-1) #2409",
        "tel": "+82-(0)42-350-7755",
        "graduate": false,
-       "img": "../images/members/jaehyunjang.jpg",
+       "path": "../images/members/jaehyunjang.jpg",
        "interest": [
            "Image Processing",
            "Mid-air Haptics",
@@ -75,12 +83,14 @@
         "name": "Jihoon Cho",
         "sitePrefix": "jihooncho",
         "status": "phd",
+        "enterdate": "Spring 2017",
+        "graduatedate": "",
         "affiliation": "KAIST",
         "email": "zinic (at) kaist.ac.kr",
         "office": "CS Building (E3-1) #2413",
         "tel": "+82-(0)42-350-7755",
         "graduate": false,
-        "img": "../images/members/jihooncho.jpg",
+        "path": "../images/members/jihooncho.jpg",
         "interest": [
             "Biomedical Image Analysis"
         ],
@@ -90,12 +100,14 @@
         "name": "Soonchan Park",
         "sitePrefix": "soonchanpark",
         "status": "phd",
+        "enterdate": "August 2012",
+        "graduatedate": "",
         "affiliation": "ETRI",
         "email": "parksc (at) etri.re.kr",
         "office": "",
         "tel": "",
         "graduate": false,
-        "img": "../images/members/soonchanpark.jpg",
+        "path": "../images/members/soonchanpark.jpg",
         "interest": [
             "Machine Learning"
         ],
@@ -105,12 +117,14 @@
         "name": "Hyunyul Cho",
         "sitePrefix": "hyunyulcho",
         "status": "ms",
+        "enterdate": "Spring 2018",
+        "graduatedate": "",
         "affiliation": "KAIST",
         "email": "hyunyulcho (at) kaist.ac.kr",
         "office": "CS Building (E3-1) #2413",
         "tel": "+82-(0)42-350-7755",
         "graduate": false,
-        "img": "../images/members/hyunyulcho.jpg",
+        "path": "../images/members/hyunyulcho.jpg",
         "interest": [
             "Computer Graphics",
             "Computer Haptics"
@@ -121,12 +135,14 @@
         "name": "Joowon Lim",
         "sitePrefix": "joowonlim",
         "status": "ms",
+        "enterdate": "Spring 2019",
+        "graduatedate": "",
         "affiliation": "KAIST",
         "email": "marbleone (at) kaist.ac.kr",
         "office": "CS Building (E3-1) #2413",
         "tel": "+82-(0)42-350-7755",
         "graduate": false,
-        "img": "../images/members/joowonlim.jpg",
+        "path": "../images/members/joowonlim.jpg",
         "interest": [
             "Computer Graphics",
             "Bio/Medical Applications"
@@ -137,12 +153,14 @@
         "name": "Hyunsoo Kim",
         "sitePrefix": "hyunsookim",
         "status": "ms",
+        "enterdate": "Spring 2019",
+        "graduatedate": "",
         "affiliation": "KAIST",
         "email": "ppnchb (at) kaist.ac.kr",
         "office": "CS Building (E3-1) #2413",
         "tel": "+82-(0)42-350-7755",
         "graduate": false,
-        "img": "../images/members/hyunsookim.jpg",
+        "path": "../images/members/hyunsookim.jpg",
         "interest": [
             "Virtual Reality",
             "Physical Simulation"
@@ -151,19 +169,562 @@
     },
     {
         "name": "Seokyeol Kim",
-        "sitePrefix": "seokyeolkim",
+        "sitePrefix": "",
         "status": "phd",
+        "enterdate": "Spring 2008",
+        "graduatedate": "February 2018",
         "affiliation": "Samsung Research",
-        "email": "",
+        "email": "sy.kim at kaist.ac.kr",
         "office": "",
         "tel": "",
         "graduate": true,
-        "img": "../images/members/seokyeolkim.jpg",
+        "path": "../images/members/seokyeolkim.jpg",
         "interest": [
             "Computer Haptics",
             "Virtual Reality",
             "Data Visualization"
         ],
         "bio": ""
+    },
+    {
+        "name": "Sekil Park",
+        "sitePrefix": "",
+        "status": "phd",
+        "enterdate": "Spring 2004 (Fall 2010 as a Ph.D. student)",
+        "graduatedate": "February 2018",
+        "affiliation": "Korea Institute of Ocean Science and Technology (KIOST)",
+        "email": "neoskpark at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/sekilpark.jpg",
+        "interest": [
+            "Virtual Reality",
+            "Simulator"
+        ],
+        "bio": "M.S.E. (ICU, June 2006)"
+    },
+    {
+        "name": "Kimin Kim",
+        "sitePrefix": "",
+        "status": "phd",
+        "enterdate": "Spring 2007",
+        "graduatedate": "August 2016",
+        "affiliation": "Samsung Research",
+        "email": "kiminkim at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/kiminkim.jpg",
+        "interest": [
+            "Collision Detection",
+            "Haptic Rendering"
+        ],
+        "bio": "M.S. (KAIST, August 2009)"
+    },
+    {
+        "name": "Jaeil Kim",
+        "sitePrefix": "",
+        "status": "phd",
+        "enterdate": "Spring 2007",
+        "graduatedate": "February 2015",
+        "affiliation": "Kyungpook National University",
+        "email": "threeyears at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/jaeilkim.jpg",
+        "interest": [
+            "Computer Graphics",
+            "Simulation",
+            "Medical Imaging"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Yongwan Kim",
+        "sitePrefix": "",
+        "status": "phd",
+        "enterdate": "Spring 2007",
+        "graduatedate": "August 2014",
+        "affiliation": "Electronics and Telecommunications Research Institute (ETRI)",
+        "email": "messipher at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/yongwankim.jpg",
+        "interest": [
+            "Haptic Interaction",
+            "Computer Animation"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Jinah Kim",
+        "sitePrefix": "",
+        "status": "phd",
+        "enterdate": "Spring 2003",
+        "graduatedate": "February 2014",
+        "affiliation": "Korea Institute of Ocean Science and Technology (KIOST)",
+        "email": "kimjinah at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/jinahkim.jpg",
+        "interest": [
+            "Fluid Simulation",
+            "Virtual Reality",
+            "Biomedical Applications",
+            "Scientific Visualization"
+        ],
+        "bio": "M.S.E. (ICU, February 2005)"
+    },
+    {
+        "name": "Sang-Youn Kim",
+        "sitePrefix": "http://ilab.koreatech.ac.kr",
+        "status": "phd",
+        "enterdate": "",
+        "graduatedate": "2004",
+        "affiliation": "Korea University of Technology and Education (KOREATECH)",
+        "email": "sykim at koreatech.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/sangyounkim.jpg",
+        "interest": [
+            "Haptic Rendering"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Youngjin An",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2017",
+        "graduatedate": "February 2019",
+        "affiliation": "TmaxSoft",
+        "email": "qwer6019 at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/youngjinan.jpg",
+        "interest": [
+            "Virtual Reality",
+            "Character Animation",
+            "Human-Computer Interaction"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Inwoo Hwang",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2016",
+        "graduatedate": "February 2018",
+        "affiliation": "Seoul National University",
+        "email": "inwoo9204 at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/inwoohwang.jpg",
+        "interest": [
+            "Biomedical Image Analysis"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Stuart Burmeister",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2015",
+        "graduatedate": "February 2017",
+        "affiliation": "bHaptics",
+        "email": "Montross7 at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/stuartburmeister.jpg",
+        "interest": [
+            "Computer Haptics",
+            "Virtual Reality"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Eunbi Park",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2014",
+        "graduatedate": "August 2016",
+        "affiliation": "Mobinity",
+        "email": "bakeunbi at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/eunbipark.jpg",
+        "interest": [
+            "Computer Graphics",
+            "Medical Image Analysis"
+        ],
+        "bio": "M.S. (TU Berlin, August 2016)"
+    },
+    {
+        "name": "Youngju Oh",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2014",
+        "graduatedate": "February 2016",
+        "affiliation": "Kakao",
+        "email": "pizzing at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/youngjuoh.jpg",
+        "interest": [
+            "Information Visualization",
+            "Computer Haptics"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Uitae Kim",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2013",
+        "graduatedate": "February 2016",
+        "affiliation": "Nexon",
+        "email": "mutal09 at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/uitaekim.jpg",
+        "interest": [
+            "Image Processing",
+            "Medical Image Visualization",
+            "Deformable Mesh"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Deok-Jae Song",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Fall 2013",
+        "graduatedate": "August 2015",
+        "affiliation": "ActionSquare",
+        "email": "djsong at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/deokjaesong.jpg",
+        "interest": [
+            "Computer Graphics",
+            "Computer Haptics",
+            "Simulation"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Hojin Ryoo",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2012",
+        "graduatedate": "February 2015",
+        "affiliation": "Samsung Medison",
+        "email": "ryoo.hojin at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/hojinryoo.jpg",
+        "interest": [
+            "Medical Image Processing",
+            "Medical Image Visualization"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Chris Seonggyu Kim",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2012",
+        "graduatedate": "February 2014",
+        "affiliation": "Vieworks",
+        "email": "thankq at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/seonggyukim.jpg",
+        "interest": [
+            "Computer Haptics",
+            "User Interface",
+            "Virtual Reality",
+            "Visualization"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Mi-Hee Jo",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2010",
+        "graduatedate": "February 2012",
+        "affiliation": "Korean Air",
+        "email": "algldl at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/miheejo.jpg",
+        "interest": [
+            "Computer Graphics",
+            "User Interaction"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Jaehyun Cho",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2010",
+        "graduatedate": "February 2012",
+        "affiliation": "Samsung Electronics",
+        "email": "cndjrthx at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/jaehyuncho.jpg",
+        "interest": [
+            "Computer Graphics",
+            "Simulation"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Seok Kim",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2008",
+        "graduatedate": "February 2011",
+        "affiliation": "POSCO",
+        "email": "gstone0103 at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/seokkim.jpg",
+        "interest": [
+            "Haptic Rendering",
+            "Information Visualization"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Ye-Seul Park",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Fall 2007",
+        "graduatedate": "February 2010",
+        "affiliation": "Naver",
+        "email": "ystopia at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/yeseulpark.jpg",
+        "interest": [
+            "Information Visualization",
+            "Haptic Rendering",
+            "Non-Photorealistic Rendering"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Jaehwan Cho",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Fall 2006",
+        "graduatedate": "August 2009",
+        "affiliation": "Telecommunications Technology Association (TTA)",
+        "email": "zerodin85 at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/jaehwancho.jpg",
+        "interest": [
+            "Computer Graphics",
+            "Deformable Model"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Yun-Kyu Choi",
+        "sitePrefix": "http://mwntech.azurewebsites.net/",
+        "status": "msc",
+        "enterdate": "Summer 2007",
+        "graduatedate": "August 2009",
+        "affiliation": "MWN Tech",
+        "email": "ckyun777 at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/yunkyuchoi.jpg",
+        "interest": [
+            "Computer Graphics",
+            "Information Visualization"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Daeseok Kim",
+        "sitePrefix": "https://www.satreci.com/",
+        "status": "msc",
+        "enterdate": "Fall 2005",
+        "graduatedate": "",
+        "affiliation": "SIA",
+        "email": "",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/daeseokkim.jpg",
+        "interest": [
+            "Information Visualization",
+            "Game Programming",
+            "Algorithm"
+        ],
+        "bio": "M.S.E. (ICU, August 2007)"
+    },
+    {
+        "name": "Seongyoon Cho",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2005",
+        "graduatedate": "",
+        "affiliation": "Daewoo Electronics",
+        "email": "ckyun777 at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/seongyooncho.jpg",
+        "interest": [
+            "Information Visualization"
+        ],
+        "bio": "M.S.E. (ICU, August 2006)"
+    },
+    {
+        "name": "Dongwook Lee",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2005",
+        "graduatedate": "",
+        "affiliation": "",
+        "email": "ckyun777 at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/dongwooklee.jpg",
+        "interest": [
+            "Deformable Models",
+            "Computer Animation",
+            "Augmented Reality"
+        ],
+        "bio": "M.S.E. (ICU, August 2006)"
+    },
+    {
+        "name": "Jihwan Park",
+        "sitePrefix": "",
+        "status": "msc",
+        "enterdate": "Spring 2005",
+        "graduatedate": "",
+        "affiliation": "Computational Science Initiative, Brookhaven National Laboratory",
+        "email": "parkj at bnl.gov",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/jihwanpark.jpg",
+        "interest": [
+            "Computer Animation",
+            "Deformable Models",
+            "Human Movement"
+        ],
+        "bio": "Ph.D. (State University of New York at Stony Brook), M.S.E. (ICU, February 2006)"
+    },
+    {
+        "name": "Yungi Jang",
+        "sitePrefix": "",
+        "status": "undergrad",
+        "enterdate": "Fall 2016",
+        "graduatedate": "February 2017",
+        "affiliation": "Fire Shrike Games",
+        "email": "crystani at kaist.ac.kr",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/yungijang.jpg",
+        "interest": [
+            "Virtual Reality",
+            "Computer Haptics"
+        ],
+        "bio": ""
+    },
+    {
+        "name": "Andrew Lee",
+        "sitePrefix": "",
+        "status": "interns",
+        "enterdate": "April 2017",
+        "graduatedate": "December 2017",
+        "affiliation": "KAIST",
+        "email": "",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/andrewlee.jpg",
+        "interest": [
+        ],
+        "bio": "Undergraduate Research Intern"
+    },
+    {
+        "name": "Geonhwa Jeong",
+        "sitePrefix": "",
+        "status": "interns",
+        "enterdate": "June 2012",
+        "graduatedate": "December 2012",
+        "affiliation": "Korea Science Academy of KAIST",
+        "email": "",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/geonhwajeong.jpg",
+        "interest": [
+        ],
+        "bio": "High School Research Student"
+    },
+    {
+        "name": "Deepak Gupta",
+        "sitePrefix": "",
+        "status": "interns",
+        "enterdate": "December 2009",
+        "graduatedate": "January 2010",
+        "affiliation": "Banaras Hindu University, India",
+        "email": "",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/deepakgupta.jpg",
+        "interest": [
+        ],
+        "bio": "Visiting Undergraduate Research Intern"
+    },
+    {
+        "name": "Markus Haense",
+        "sitePrefix": "",
+        "status": "interns",
+        "enterdate": "February 2008",
+        "graduatedate": "June 2008",
+        "affiliation": "Hochschule Furtwangen University, Germany",
+        "email": "",
+        "office": "",
+        "tel": "",
+        "graduate": true,
+        "path": "../images/members/markushaense.jpg",
+        "interest": [
+        ],
+        "bio": "Undergraduate Exchange Student"
     }
 ]

@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, target-densitydpi=200">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="KAIST Special Interest Group on Future Emerging Technology of Medical Imaging">
+    <meta name="author" content="S. Kim">
+
+    <title>KAIST Special Interest Group on Future Emerging Technology of Medical Imaging</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom style CSS -->
+    <?php
+    require_once './Mobile_Detect.php';
+    $detect = new Mobile_Detect;
+    if ($detect->isMobile()) {
+      echo "<link rel=\"stylesheet\" href=\"css/style.mobile.css\">";
+    }
+    else {
+      echo "<link rel=\"stylesheet\" href=\"css/style.css\">";
+    }
+    ?>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-45570145-2', 'auto');
+              ga('send', 'pageview');
+        </script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <a class="navbar-brand" href="."><span class="glyphicon glyphicon-home"></span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#members">Members</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#link">Link</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="full-width-image-1"></div>
+
+    <div id="about" class="container">
+        <div class="row">
+            <div class="col-lg-12 section">
+                <h1 class="section-heading">카이스트 의료영상분야 미래융합기술 연구회</h1>
+                <h2 class="section-subheading">KAIST Special Interest Group on Future Emerging Technology of Medical Imaging</h2>
+                <p class="section-paragraph">&nbsp;&nbsp;의료영상은 획득장치와 다양한 신호처리 기법, 모델링 및 측정기법의 발전으로 의료현장에서 진단과 치료 및 수술기법 등 다방면에서 매우 중요한 역할을 하고 있다. 최근에는 질병에 대한 자동 검출과 초기 진단 그리고 다양한 요인들과의 역학관계, 더 나아가서는 환자 개별 맞춤의 치료 경과에 대한 관심이 높아지고 있으며, 특히 CT, MRI, Ultrasound 뿐만 아니라 PET, fMRI, DTI 등
+                    여러 영상 모달리티로부터 습득된 의료영상 데이터들에 대응할 수 있는 새로운 융합기술이 요구되고 있다.</p>
+                <p class="section-paragraph">&nbsp;&nbsp;본 KAIST 연구회는 의료영상의 기기와 획득에서 신호처리, 모델링, 측정 및 분석 그리고 응용까지의 전반적인 시스템(과정)을 심도 있게 이해하고 미래에 요구되는 의료영상 기반 융합기술에 대한 정의와 연구를 목표로 한다. 의료영상과 관련된 다양한 수학적 그리고 공학적 기법들에 대해 기존까지 개별적으로 진행되었던 연구들을 통섭하여 미래의 의료현장과 연구에 대응할 수 있는 Medical Image Computing
+                    기술들을 조명해보고자 한다. 이를 위하여 KAIST내 여러 학과에서 의료영상과 관련하여 획득 및 치료장치, 신호 처리, 모델링 및 정량적 측정기법 그리고 의학적인 분석 및 해석, 그리고 이들의 사용자 인터페이스까지 연구하는 연구실들로 구성되었으며, 서로의 연구분야를 이해하고 상호적 공동작업을 통하여 의료영상 분야에서의 미래융합기술의 방향을 논의하고 새로운 연구를 도출해 볼 수 있는 기회를 마련하고자 한다.</p>
+                <p class="section-paragraph">&nbsp;&nbsp;이에 본 연구회는 참여 교수들의 지도 하에 각 연구실의 대학원생들이 주도적으로 연구회에 참여하고 진행하고자 하며, 기존의 <a href="http://cgv.kaist.ac.kr/miaforum">마지막-수요일-포럼</a>을 활성화 하여, 연구 교류 및 교육을 중심으로 융합연구의 기반을 다지고자 하며 공동 및 협업 활동을 도모한다. 매월 담당 교수의 '미래지향적인 내용'의 발표와 학생연구 발표가
+                    있을 예정이다.</p>
+                <p class="section-paragraph">&nbsp;&nbsp;<b><u>막수포럼 Program Chairs</u></b></br>2013: 박진아, 예종철</br>2014: 박진아</br>2015: 조승룡, 조규성</br>2016: 예종철, 박성홍</br>2017: 김준모</br>2018: 박성홍 </br>2019: 박진아</p>
+                <!--	    <p class="section-paragraph">※Supported by KI for Health Science & Technology (KI-HST) </p>-->
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width-image-2"></div>
+
+    <div id="members" class="container">
+        <div class="row">
+            <div class="col-lg-12 section">
+                <h1 class="section-heading">Members</h1>
+                <ul class="section-list">
+                    <li>박진아 (전산학부) - Computer Graphics & Visualization Lab.</li>
+                    <li>박성홍 (바이오및뇌공학과) - MRI Laboratory</li>
+                    <li>예종철 (바이오및뇌공학과) - Bio Imaging Signal Processing Lab.</li>
+                    <li>정용 (바이오및뇌공학과) - Laboratory for Cognitive Neuroscience and NeuroImaging</li>
+                    <li>이창옥 (수리과학과) - Computational Mathematics and Imaging Lab.</li>
+                    <li>나종범 (전기및전자공학부) - Image Systems Laboratory</li>
+                    <li>박현욱 (전기및전자공학부) - Image Computing System Lab </li>
+                    <li>노용만 (전기및전자공학부) - Image and Video System Lab </li>
+                    <li>김준모 (전기및전자공학부) - Statistical Inference and Information Theory Laboratory</li>
+                    <li>조규성 (원자력및양자공학과) - Radiation Detection and Medical Image Sensor Laboratory</li>
+                    <li>조승룡 (원자력및양자공학과) - Medical Imaging & Radiotherapeutics Lab.</li>
+                    <li>정범석 (의과학대학원) - Clinical Neuroscience & Development Lab.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width-image-3"></div>
+
+    <div id="schedule" class="container">
+        <div class="row">
+            <div class="col-lg-12 section">
+                <h1 class="section-heading">Schedule (2019)</h1>
+                <p class="lead section-lead">
+                    매월 마지막 주 수요일 12:00 ~ 13:00<br/>
+                    <small class="text-warning">*외부 연사가 있을 경우에는 발표순서가 조정될 수 있습니다.</small>
+                </p>
+                <table class="table table-striped section-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>특별발표</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>3월 27일</td>
+                            <td>
+                                2019 막수포럼 계획 <a href="./data/LWF2019_intro.pdf">
+		<span class="glyphicon glyphicon-save"></span></a>
+                                <br /> (박진아 교수님)
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4월 24일</td>
+                            <td>
+                                How does artificial inteligence transform medicine?
+                                <!--	<a href="./data/CVPR2017.pdf">
+		       <span class="glyphicon glyphicon-save"></span></a>-->
+                                <br /> (김기환 박사 [Lunit Inc.])
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5월 29일</td>
+                            <td>
+                                Machine Learning Techniques for Medical Image Analysis
+                                <!--	<a href="./data/CVPR2017.pdf">
+     <span class="glyphicon glyphicon-save"></span></a>-->
+                                <br /> (김재일 교수, 경북대학교)
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                              Inside Ultrasound
+                              <!--	<a href="./data/CVPR2017.pdf">
+   <span class="glyphicon glyphicon-save"></span></a>-->
+                              <br /> (류호진 선임연구원, 삼성메디슨)
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>6월 26일</td>
+                            <td>
+                                Coronary Artery Image Reconstruction
+                                <!--	<a href="./data/CVPR2017.pdf">
+     <span class="glyphicon glyphicon-save"></span></a>-->
+                                <br /> (전기완 박사, 국가수리과학연구소)
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9월 25일</td>
+                            <td>
+                                중입자 치료 연구의 쟁점
+                                <!--	<a href="./data/CVPR2017.pdf">
+     <span class="glyphicon glyphicon-save"></span></a>-->
+                                <br /> (김진성 교수, 연세대학교 방사선종양학과)
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                              의학물리학자 – 자격, 역할, 비전에 대하여
+                              <!--	<a href="./data/CVPR2017.pdf">
+   <span class="glyphicon glyphicon-save"></span></a>-->
+                              <br /> (김창환 박사, 아산병원)
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10월 23일</td>
+                            <td>
+                                A Recent Development of Style Transfer and Its Importance in Medical Domain
+                                <!--	<a href="./data/CVPR2017.pdf">
+     <span class="glyphicon glyphicon-save"></span></a>-->
+                                <br /> (유재준 박사, Naver)
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11월 05일</td>
+                            <td> Diffusion MRI: Improving angular resolution with ODF Fingerprinting and detecting group-level differences with the Low Rank plus Sparse decomposition of ODFs
+                                <!--	<a href="./data/CVPR2017.pdf">
+     <span class="glyphicon glyphicon-save"></span></a>-->
+                                <br /> (Steven Baete, Ph.D., New York University School of Medicine)
+                                <br /> * 정문술빌딩 219호
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11월 27일</td>
+                            <td>
+                              한의 의료기기 및 정량적 진단기술 개발 현황
+                                <!--	<a href="./data/CVPR2017.pdf">
+     <span class="glyphicon glyphicon-save"></span></a>-->
+                                <br /> (김근호 박사, 한국한의학연구원)
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12월</td>
+                            <td>
+                                Workshop
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="section-paragraph">*<a href="http://cgv.kaist.ac.kr/sigmi/2014">2014년 일정 및 자료</a></p>
+                <p class="section-paragraph">*<a href="http://cgv.kaist.ac.kr/sigmi/2015">2015년 일정 및 자료</a></p>
+                <p class="section-paragraph">*<a href="http://cgv.kaist.ac.kr/sigmi/2016">2016년 일정 및 자료</a></p>
+                <p class="section-paragraph">*<a href="http://cgv.kaist.ac.kr/sigmi/2017">2017년 일정 및 자료</a></p>
+                <p class="section-paragraph">*<a href="http://cgv.kaist.ac.kr/sigmi/2018">2018년 일정 및 자료</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width-image-4"></div>
+
+    <div id="link" class="container">
+        <div class="row">
+            <div class="col-lg-12 section">
+                <h1 class="section-heading">Link</h1>
+                <ul class="section-list">
+                    <li><a href="http://cgv.kaist.ac.kr/miaforum">막수 포럼: 의료영상 및 이의 응용</a></li>
+                    <li><a href="http://cgv.kaist.ac.kr/mi2013">KAIST-NIMS Workshop on Medical Imaging</a></li>
+                    <li><a href="http://cgv.kaist.ac.kr/ma2012">KAIST Interdisciplinary Workshop on Medical Applications</a></li>
+                    <li><a href="http://cgv.kaist.ac.kr/mi2015">2015 KAIST Medical Imaging Group Workshop</a></li>
+                    <li><a href="http://cgv.kaist.ac.kr/mi2016">KAIST Bio-IT Healthcare Initiative International Workshop Series</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container">
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; KAIST Special Interest Group on Future Emerging Technology of Medical Imaging, All rights reserved.
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    </div>
+    <!-- /container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,6 +1,7 @@
 import React from 'react'
 import {graphql, Link} from 'gatsby'
 import Layout from "../components/layout";
+
 import Img from 'gatsby-image'
 import ReactModal from 'react-modal'
 import { NoUndefinedVariables } from 'graphql/validation/rules/NoUndefinedVariables';
@@ -59,40 +60,38 @@ const Publication=(props)=>{
     
     return(
         <Layout>
-            <h3 className="bg-blue-800 text-white text-lg font-bold inline-block mb-4 p-3">Publications</h3>
+            <h3 className="bg-blue-800 text-white text-xl font-bold inline-block mb-4 p-3">Publications</h3>
             
             <div className="w-full">
                 {entities.map(({node}) => {
                     return (
                         <div className="w-full">
-                            <div className="border-2 border-grey-400 hover:border-blue-500 my-1">
+                            <div className="border-2 border-grey-400 hover:border-blue-500">
                                 <div className="m-2">
-                                    {node.type === "International Journal" && <h3 className="bg-red-100 text-lg font-bold inline-block py-3">{node.type}</h3>}
-                                    {node.type === "International Conference" && <h3 className="bg-blue-100 text-lg font-bold inline-block py-3">{node.type}</h3>}
-                                    {node.type === "Domestic Journal" && <h3 className="bg-green-100 text-lg font-bold inline-block py-3">{node.type}</h3>}
-                                    {node.type === "Domestic Conference" && <h3 className="bg-purple-100 text-lg font-bold inline-block py-3">{node.type}</h3>}
-                                    <div className="text-gray-900 font-bold text-xl mb-2">{node.title}</div>
-                                    {node.subtitle !== "" && <div className="text-gray-700 font-semibold text-lg mb-2">{node.subtitle}</div>}
+                                    {node.type === "International Journal" && <h3 className="bg-red-100 text-black text-lg font-semibold inline-block -mx-4 p-2">{node.type}</h3>}
+                                    {node.type === "International Conference" && <h3 className="bg-blue-100 text-black text-lg font-semibold inline-block -mx-4 p-2">{node.type}</h3>}
+                                    {node.type === "Domestic Journal" && <h3 className="bg-green-100 text-black text-lg font-semibold inline-block -mx-4 p-2">{node.type}</h3>}
+                                    {node.type === "Domestic Conference" && <h3 className="bg-purple-100 text-black text-lg font-semibold inline-block -mx-4 p-2">{node.type}</h3>}
+                                    <div className="text-gray-900 font-semibold text-lg mb-1">{node.title}</div>
+                                    {node.subtitle !== "" && <div className="text-gray-700 font-semibold text-sm mb-1">{node.subtitle}</div>}
                                     {node.pp !== "" && 
-                                    <div className="text-gray-600 font-semibold text-sm, mb-2">
+                                    <div className="text-gray-600 font-medium text-sm, mb-1">
                                         {node.vol !== "" && <span className="mr-2">Vol. {node.vol},</span> }
                                         {node.num !== "" && <span className="mr-2">No. {node.num},</span> }
                                         <span className="mr-2">pp. {node.pp}</span>                                        
                                     </div>
                                     }
-                                    <p className="text-gray-700 text-base">{node.date}</p>
+                                    <p className="text-gray-700 font-medium text-sm">{node.date}</p>
                                     <div className="w-full sm:w-auto py-2">
                                         {node.author.map((tag,index) => {
                                             return (
-                                                <span className="inline-block bg-blue-200 rounded-full my-1 px-3 py-1 text-sm font-semibold text-gray-800 mr-2">{tag}</span>
+                                                <span className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-medium text-gray-800 mr-2">{tag}</span>
                                             )}
                                         )}
                                     </div>
                                     
                                     {node.doi !== "" && <div className="inline-flex">
-                                        <button class="bg-white-800 hover:bg-gray-400 text-gray-800 font-semibold px-3 py-1">
-                                            <a href={node.doi} class="no-underline hover:underline">Paper Link</a>
-                                        </button>
+                                        <a href={node.doi} class="no-underline hover:underline"><span className="inline-block rounded-full bg-yellow-400 px-3 py-1 text-sm font-medium text-gray-800 mr-2">Available here</span></a>
                                     </div>}
                                     
                                     
