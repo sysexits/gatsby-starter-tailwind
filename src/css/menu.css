@@ -1,4 +1,4 @@
-  /* #Mega Menu Styles
+/* #Mega Menu Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .mega-menu {
     display: none;
@@ -73,3 +73,23 @@
     position: relative;
     top: -1px;
   }
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: white;
+}
+
+.svg-icon circle {
+  stroke: white;
+  stroke-width: 1;
+}

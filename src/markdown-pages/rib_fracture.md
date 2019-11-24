@@ -11,11 +11,9 @@ date: "2013-09-01"
 
 The detection of rib fractures is utmost important to detect associated injury, to prevent complication, to obviate medicolegal issues, to detect pathologic fractures, and to help manage patient’s pain. The plain radiography is the most commonly used imaging tool to detect rib fractures, because of its economic and clinical benefits. However, the accuracy for detecting rib fractures in chest radiographs depends on the observer’s training level, the quality of displayed images and the clinical scenario for which chest radiographs were obtained. To improve the accuracy of rib fracture detection and to reduce the diagnostic time, we propose a computer-assisted rib fracture detection method. Our method consists of three functional steps; (a) the contrast enhancement for ribs on chest radiographs, (b) “fractureness” measurement using spline-based rib representation, and (c) rib fracture classification using learning methods. Through these steps, the suspicious regions on plain radiographs, where rib fractures can be found with the higher possibility, are suggested to medical doctors.
 
-> ![Measurement area assignment using a spline and a thickness value](../images/research/rib_fracture/img1.jpg)
-> Measurement area assignment using a spline and a thickness value
+> ![Figure 1. Measurement area assignment using a spline and a thickness value](../images/research/rib_fracture/img1.jpg)
 
-> ![Examples of rib fracture detection results](../images/research/rib_fracture/img2.jpg)
-> Examples of rib fracture detection results
+> ![Figure 2. Examples of rib fracture detection results](../images/research/rib_fracture/img2.jpg)
 
 ## Contact
 

@@ -13,17 +13,13 @@ Incision is one of the most critical actions in the medical treatment, and the c
 
 Through this research, we suggest a method for real-time mesh cutting while minimizing the unnecessary subdivisions. For faithful reflection of user's motion with a limited number of triangles, a turning point determination algorithm based on local curvature is applied to our system. In addition, we provide a quantitative incision skill assessment method based on the Fréchet distance.
 
-> ![Procedures of triangle subdivision on a case-by-case basis](../images/research/progressive_mesh_subdivision/img1.png)
-> Procedures of triangle subdivision on a case-by-case basis
+> ![Figure 1.Procedures of triangle subdivision on a case-by-case basis](../images/research/progressive_mesh_subdivision/img1.png)
 
-> ![Definition of curvature in proposed system](../images/research/progressive_mesh_subdivision/img2.png)
-> Definition of curvature in proposed system
+> ![Figure 2. Definition of curvature in proposed system](../images/research/progressive_mesh_subdivision/img2.png)
 
-> ![Subdivided triangles and groove generated along incision path](../images/research/progressive_mesh_subdivision/img3.png)
-> Subdivided triangles and groove generated along incision path
+> ![Figure 3. Subdivided triangles and groove generated along incision path](../images/research/progressive_mesh_subdivision/img3.png)
 
-> ![Comparison with other turning point determination methods](../images/research/progressive_mesh_subdivision/img4.png)
-> Comparison with other turning point determination methods
+> ![Figure 4. Comparison with other turning point determination methods](../images/research/progressive_mesh_subdivision/img4.png)
 
 ## Contact
 

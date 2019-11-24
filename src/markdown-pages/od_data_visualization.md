@@ -11,19 +11,15 @@ date: "2017-02-01"
 
 OD (origin-destination) data represent the movement of people or goods between geographical points, and play important roles in establishing policies for migration and transportation. However, since most of raw OD data are very massive and written in unintuitive form, it is difficult to grasp meaningful information from the data themselves especially without visual aids. We propose an effective visualization method for the OD data by combining the key features of Radial Table and Parallel Sets. Radial Table is an intuitive and aesthetically attractive data visualization technique based on a circular layout, but it is unfit to visualize the OD data due to its single-layered structure. To overcome its limitation, we refer to the visual structure of Parallel Sets and divide the original Radial Table into multiple concentric layers which contain origins and destinations separately. Each pair of the origin and destination is connected by a B-spline curve, and it indicates a direction and a scale of the flow. Also we validate the proposed method by implementing and applying to real-world datasets. In this way, our method will help an analyst understand the pattern and volume of traffic at a glance, and support a decision making process.
 
-> ![Path drawing based on a B-spline curve](../images/research/od_data_visualization/img1.jpg)
-> Path drawing based on a B-spline curve
+> ![Figure 1. Path drawing based on a B-spline curve](../images/research/od_data_visualization/img1.jpg)
 
-> ![Visualization result for OD flows](../images/research/od_data_visualization/img2.jpg)
-> Visualization result for OD flows
+> ![Figure 2. Visualization result for OD flows](../images/research/od_data_visualization/img2.jpg)
 > (source: internal migration in South Korea (2014))
 
-> ![Emphasizing specific flows](../images/research/od_data_visualization/img3.jpg)
-> Emphasizing specific flows
+> ![Figure 3. Emphasizing specific flows](../images/research/od_data_visualization/img3.jpg)
 > (source: monthly ridership of KTX (December 2013))
 
-> ![Comparision](../images/research/od_data_visualization/img3.jpg)
-> Comparision between sparse and dense data
+> ![Figure 4. Comparision between sparse and dense data](../images/research/od_data_visualization/img3.jpg)
 > (source: daily ridership of public bicycles in Daejeon (December 2014))
 
 ## Contact

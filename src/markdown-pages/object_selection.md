@@ -11,17 +11,13 @@ date: "2012-08-01"
 
 Among the applications of virtual hand, simple virtual hand metaphor has one-to-one mapping between the 3D cursor and the physical input. Although its one-to-one mapping nature provides the very intuitive manipulation interface, it requires lengthy movement of the cursor for object selection task. This long trace of cursor directly reflects the level of fatigue of the user in performing object selection. In this research, we propose Select Ahead as a new object selection technique that overcomes the limitation while maintaining the intuitiveness of simple virtual hand. Select Ahead guides the user to select the distant object along the estimated tendency based on the previous cursor movements. We evaluate the relative performance of Select Ahead through the experiments in 3D virtual environments with various object densities. The results show that Select Ahead reduces the length of the cursor trace remarkably compared to those of the 3D point cursor and the 3D bubble cursor regardless of the object density. For the selection time, Select Ahead outperforms the 3D point cursor and has no significant difference compared to that of the 3D bubble cursor.
 
-> ![3D point cursor](../images/research/object_selection/img1.jpg)
-> While the 3D point cursor requires the contact between the target object and the cursor, Select Ahead can select the distant target object located along estimated ToCM from the cursor.
+> ![Figure 1. While the 3D point cursor requires the contact between the target object and the cursor, Select Ahead can select the distant target object located along estimated ToCM from the cursor.](../images/research/object_selection/img1.jpg)
 
-> ![Flow chart](../images/research/object_selection/img2.jpg)
-> Flow chart of update algorithm for ToCM by the velocity of the cursor movements
+> ![Figure 2. Flow chart of update algorithm for ToCM by the velocity of the cursor movements](../images/research/object_selection/img2.jpg)
 
-> ![object](../images/research/object_selection/img3.jpg)
-> The object #1 is selectable because the object #1 located in selection volume (left). When the multiple objects are included in selection volume, the object #1 is selectable because the object #1 is minimum angular difference (θ1<θ2) among the objects located in selection volume (right).
+> ![Figure 3. The object #1 is selectable because the object #1 located in selection volume (left). When the multiple objects are included in selection volume, the object #1 is selectable because the object #1 is minimum angular difference (θ1<θ2) among the objects located in selection volume (right).](../images/research/object_selection/img3.jpg)
 
-> ![3D point cursor](../images/research/object_selection/img4.jpg)
-> Visualization of 3D point cursor (left), 3D bubble cursor (middle), and Select Ahead (right)
+> ![Figure 4. Visualization of 3D point cursor (left), 3D bubble cursor (middle), and Select Ahead (right)](../images/research/object_selection/img4.jpg)
 
 ## Contact
 

@@ -13,30 +13,25 @@ Mechanical removal of bone material is the most critical procedure during dental
 
 We propose a new simulation method that can handle any arbitrarily shaped tools with multiple contacts between the tool and the bone. The tool is represented by a signed-distance field, and the bone is represented as voxels surrounded by a point shell. Upon chipping away bone elements, the point shell is updated reflecting the deformation of bone in real-time, while the collision detection and the reflected force is efficiently and accurately computed from the distance field encoded in the tool.
 
-> ![Implant surgery simulator](../images/research/dental_simulation/img1.jpg)
-> Implant surgery simulator
+> ![Figure 1. Implant surgery simulator](../images/research/dental_simulation/img1.jpg)
 
 The figures below show results of bone drilling. The high-quality mesh is generated from the distance fields using surface reconstruction techniques such as marching cubes. To represent shape deformation of the bone, we apply CSG difference operation locally to bone and tool distance fields.
 
-> ![Alveolar bone before drilling. (Right) Alveolar bone after drilling.](../images/research/dental_simulation/img2.jpg)
-> Alveolar bone before drilling. (Right) Alveolar bone after drilling.
+> ![Figure 2. Alveolar bone before drilling. (Right) Alveolar bone after drilling.](../images/research/dental_simulation/img2.jpg)
 
 Also we developed a dental simulator for training of two prevalent interventions: tooth restoration, and ultrasonic scaling. Users can choose one of six different kinds of instruments: a mouth mirror, an explorer, a bur, a spoon excavator, an ultrasonic scaler, and forceps during training. As shown in the figure below, the training of tooth restoration includes a sequence of steps: tooth palpation, preparation, caries removal, caries detection, bonding, gold inlay, and dental polishing.
 
-> ![Procedures of tooth restoration](../images/research/dental_simulation/img3.jpg)
-> Procedures of tooth restoration
+> ![Figure 3. Procedures of tooth restoration](../images/research/dental_simulation/img3.jpg)
 
 All steps provide 3D animations with a description of its intervention, which helps trainee to develop and acquire technical skill and surgical judgment. Haptic training is provided for six steps (except two steps: caries detection and bonding) hand skills are essential. Since the residents and dentists are required to practice and master to control the vibration and motion of the hand piece to generate a cavity in the tooth, the tooth preparation is one of the most essential procedures that should be offered from a dental simulator.
 
 Our training program provides the removal ratio of tooth volume, caries, and cavity, and also the excessive removal ratio of a tooth. This information can be used to assess the dexterity of the user. The training of ultrasonic scaling consists of exploring, probing, ultrasonic scaling, and cleaning. Except probing step, all the other steps include both 3D animations and haptic simulations. A snap shot of scaling simulation is shown in the figure below.
 
-> ![Ultrasonic scaling](../images/research/dental_simulation/img4.jpg)
-> Ultrasonic scaling
+> ![Figure 4. Ultrasonic scaling](../images/research/dental_simulation/img4.jpg)
 
 A Phantom Desktop was used to display haptic feedback. Moreover, immersive workbench, SenseGraphics Display 300, was used to align hand-eye coordination as shown in the figure below.
 
-> ![Dental surgery and care training simulator](../images/research/dental_simulation/img5.jpg)
-> Dental surgery and care training simulator
+> ![Figure 5. Dental surgery and care training simulator](../images/research/dental_simulation/img5.jpg)
 
 ## Contact
 

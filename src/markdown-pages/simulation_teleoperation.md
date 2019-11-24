@@ -11,20 +11,15 @@ date: "2014-05-01"
 
 We developed a virtual environment to simulate the haptic guidance for common robotic tasks, such as approaching to the target and pushing the object, through the teleoperation system. During the operation, virtual fixtures act as rails to guide the slave robot. Also haptic feedbacks from the virtual fixtures and the physical obstacles help to prevent the human errors and enhance the task efficiency. These fixtures are well-modularized and can be easily rearranged in responding to the various task scenarios. Using this simulation environment, we can design and examine the prototypes of the virtual fixtures before the real world application.
 
-> ![System structure and simulation loop](../images/research/simulation_teleoperation/img1.jpg)
-> System structure and simulation loop
+> ![Figure 1. System structure and simulation loop](../images/research/simulation_teleoperation/img1.jpg)
 
-> ![Simulation of laser vision sensor (LVS) for obstacle recognition](../images/research/simulation_teleoperation/img2.jpg)
-> Simulation of laser vision sensor (LVS) for obstacle recognition
+> ![Figure 2. Simulation of laser vision sensor (LVS) for obstacle recognition](../images/research/simulation_teleoperation/img2.jpg)
 
-> ![Haptic feedback from the contact with the physical obstacles (left) and the virtual fixtures (right)](../images/research/simulation_teleoperation/img3.jpg)
-> Haptic feedback from the contact with the physical obstacles (left) and the virtual fixtures (right)
+> ![Figure 3. Haptic feedback from the contact with the physical obstacles (left) and the virtual fixtures (right)](../images/research/simulation_teleoperation/img3.jpg)
 
-> ![Snapshots of the simulation environments for the industrial robots (left and middle) and the underwater robots (right)](../images/research/simulation_teleoperation/img4.jpg)
-> Snapshots of the simulation environments for the industrial robots (left and middle) and the underwater robots (right)
+> ![Figure 4. Snapshots of the simulation environments for the industrial robots (left and middle) and the underwater robots (right)](../images/research/simulation_teleoperation/img4.jpg)
 
-> ![Simulation environment for remotely operated underwater vehicle (ROV) with particle-based fluid model](../images/research/simulation_teleoperation/img5.jpg)
-> Simulation environment for remotely operated underwater vehicle (ROV) with particle-based fluid model
+> ![Figure 5. Simulation environment for remotely operated underwater vehicle (ROV) with particle-based fluid model](../images/research/simulation_teleoperation/img5.jpg)
 
 ## Contact
 

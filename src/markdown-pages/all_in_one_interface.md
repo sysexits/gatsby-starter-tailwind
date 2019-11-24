@@ -13,11 +13,9 @@ Glove interface is a continuous-input device detecting the motions of fingers an
 
 In this research, we introduce a interaction technique based on "All-actions-in-one-hand" (AAIOH) interface for performing every tasks of 3D systems in one hand wearing glove interface. AAIOH interface has three function parts; conceptual metaphor indicating the ways that user interacts with virtual environment, hierarchical menu system using finger bend and multimodal feedback for complementing indirect user interaction based on AAIOH interface. We also evaluate AAIOH interface with a medical image manipulation system using volume rendering. AAIOH interface makes users easily learn and perform various tasks of 3D systems with consistent and simple hand gestures of high accuracy in detecting.
 
-> ![Interaction with medical image dataset using glove interface](../images/research/all_in_one_interface/img1.jpg)
-> Interaction with medical image dataset using glove interface
+> ![Figure 1. Interaction with medical image dataset using glove interface](../images/research/all_in_one_interface/img1.jpg)
 
-> ![2D image viewer.](../images/research/all_in_one_interface/img2.jpg)
-> (Left) Measurement tool. (Right) 2D image viewer.
+> ![Figure 2. (Left) Measurement tool. (Right) 2D image viewer.](../images/research/all_in_one_interface/img2.jpg)
 
 ## Contact
 

@@ -15,25 +15,17 @@ The objective of this research is to develop computational models to address the
 
 Currently, we validated the accuracy, robustness and clinical consistency of the proposed methods on the human data of hippocampus and brain ventricles, collected from the Lothian Birth Cohort 1936 (LBC 1936) study by collaborating with the Centre for Clinical Brain Sciences (University of Edinburgh).
 
-> ![progressive model deformation](../images/research/brain-shape/img1.jpg)
-> Example of the progressive model deformation. (a) A synthetic binary mask. (b) Initial state of a template model (sphere) with target surface. (c) Deformed model with κ = 1 and 1-ring. (d) Deformed model with κ = 5 and 3-ring. (e) Deformed model with κ = 1 and 1-ring after deformation with κ = 5 and 3-to-1 ring. Texture colors indicate the corresponding vertices between surface models.
+> ![Figure 1. Example of the progressive model deformation. (a) A synthetic binary mask. (b) Initial state of a template model (sphere) with target surface. (c) Deformed model with κ = 1 and 1-ring. (d) Deformed model with κ = 5 and 3-ring. (e) Deformed model with κ = 1 and 1-ring after deformation with κ = 5 and 3-to-1 ring. Texture colors indicate the corresponding vertices between surface models.](../images/research/brain-shape/img1.jpg)
 
-> ![hippocampal shape models](../images/research/brain-shape/img2.jpg)
-> Example of hippocampal shape models of large volume differences to the input masks
-> (Diff.: model volume – volume of input masks (mm^3))
+> ![Figure 2. Example of hippocampal shape models of large volume differences to the input masks (Diff.: model volume – volume of input masks (mm^3))](../images/research/brain-shape/img2.jpg)
 
-> ![Ventricular shape model](../images/research/brain-shape/img3.jpg)
-> Ventricular shape model with its skeleton and landmarks
+> ![Figure 3. Ventricular shape model with its skeleton and landmarks](../images/research/brain-shape/img3.jpg)
 
-> ![Ventricular surface meshes](../images/research/brain-shape/img4.jpg)
-> (Left) Ventricular surface meshes (white) of the largest and smallest size with the average surface mesh (red). (Right) Surface meshes with their skeletons representing the shape variation of the first and second modes between ±3 standard deviations (SD).
+> ![Figure 4. (Left) Ventricular surface meshes (white) of the largest and smallest size with the average surface mesh (red). (Right) Surface meshes with their skeletons representing the shape variation of the first and second modes between ±3 standard deviations (SD).](../images/research/brain-shape/img4.jpg)
 
-> ![Representation of the proposed shape](../images/research/brain-shape/img5.jpg)
-> Representation of the proposed shape modeling and analysis framework for the brain's third ventricle
-> (Abbreviations: MSP: midsagittal plane, MR: magnetic resonance imaging)
+> ![Figure 5. Representation of the proposed shape modeling and analysis framework for the brain's third ventricle. (Abbreviations: MSP: midsagittal plane, MR: magnetic resonance imaging)](../images/research/brain-shape/img5.jpg)
 
-> ![third ventricle models of individuals](../images/research/brain-shape/img6.jpg)
-> Individualized third ventricle models of individuals with the smallest, medium and largest third ventricle. Orange solid lines indicate the midsagittal plane and blue surfaces and contours indicate the third ventricle mesh. Green arrows indicate the contact of the lateral surfaces of the third ventricle mesh at the inter-thalamic adhesion.
+> ![Figure 6. Individualized third ventricle models of individuals with the smallest, medium and largest third ventricle. Orange solid lines indicate the midsagittal plane and blue surfaces and contours indicate the third ventricle mesh. Green arrows indicate the contact of the lateral surfaces of the third ventricle mesh at the inter-thalamic adhesion.](../images/research/brain-shape/img6.jpg)
 
 ## Project Page
 

@@ -11,11 +11,9 @@ date: "2010-08-01"
 
 We present a real-time simulation of spray painting incorporated into a VR environment as an alternative training system for ship-building industries. The system allows the user to try out a painting work on life-size structures with a spray gun. Our goal is to provide a trainee realistic painting experience in real-time as well as to represent the thickness of the deposited paint on the surface for evaluation of his performance. The Gaussian model is used for a painting deposition model, and texture mapping technique is utilized to provide efficient visual feedback. We also present effective collision detection methods for a volume of spray paint particles.
 
-> ![Pattern of painting deposition based on the Gaussian distribution](../images/research/spray_painting/img1.jpg)
-> Pattern of painting deposition based on the Gaussian distribution
+> ![Figure 1. Pattern of painting deposition based on the Gaussian distribution](../images/research/spray_painting/img1.jpg)
 
-> ![Our painting simulation system and thickness visualization](../images/research/spray_painting/img2.jpg)
-> Our painting simulation system and thickness visualization
+> ![Figure 2. Our painting simulation system and thickness visualization](../images/research/spray_painting/img2.jpg)
 
 ## Contact
 

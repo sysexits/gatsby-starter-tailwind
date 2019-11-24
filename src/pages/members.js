@@ -54,23 +54,22 @@ const MemberPage = () =>{
     function createSection(sectionName, id, nodes, status)
     {
         return (
-            <div id={id}>
+            <div key={id} id={id}>
                 {id == "professor" && <h3 className="bg-green-700 w-full text-white text-xl font-bold inline-block p-4 mb-4">{sectionName}</h3>}
                 {id == "phd" && <h3 className="bg-blue-700 w-full text-white text-xl font-bold inline-block p-4 mb-4">{sectionName}</h3>}
                 {id == "msc" && <h3 className="bg-yellow-400 w-full text-black text-xl font-bold inline-block p-4 mb-4">{sectionName}</h3>}
-                <div class="flex flex-wrap -mx-2">
+                <div className="flex flex-wrap -mx-2">
                         {nodes.map((node,index) => {
                             return (
-                                <div class="w-full md:w-1/2 lg:w-1/2 px-2 my-auto">
-                                    <div class="flex items-center justify-center">
-                                        <div class="w-full md:w-1/2 lg:w-1/2 px-2 mb-4 text-center">
-                                        <Img fluid={node.path.childImageSharp.fluid} className="mx-auto w-16 h-16 md:w-32 md:h-32 rounded-full" objectFit="cover" objectPosition="50% 50%"></Img>
+                                <div key={index} className="w-full md:w-1/2 lg:w-1/2 px-2 my-auto">
+                                    <div className="flex items-center justify-center">
+                                        <div className="w-full md:w-1/2 lg:w-1/2 px-2 m-4 text-center">
+                                        <Img fluid={node.path.childImageSharp.fluid} className="mx-auto w-32 h-32 md:w-32 md:h-32 rounded-full" objectFit="cover" objectPosition="50% 50%"></Img>
                                         </div>
-                                        <div class="w-full md:w-1/2 lg:w-1/2 px-2">
-                                            <h1 className="text-xl font-bold pt-0 lg:pt-0">{node.name}</h1>
-                                            <h1 className="text-normal font-semibold pt-0 lg:pt-0">{status}</h1>
-                                            <h1 className="text-sm font-medium pt-0 lg:pt-0">{node.email}</h1>
-                                            <h1 className="text-sm font-normal pt-0 lg:pt-0"><a href={node.sitePrefix} className="font-medium no-underline hover:underline text-black text-normal">Details</a></h1>
+                                        <div className="w-full md:w-1/2 lg:w-1/2 px-2 m-4 ">
+                                            <h1 className="text-xl font-bold mb-2"><a href={'/members/' + node.sitePrefix} className="font-bold underline hover:text-gray-600 text-black text-normal">  {node.name} </a></h1>
+                                            <h1 className="text-normal font-semibold mb-1">{status}</h1>
+                                            <h1 className="text-sm font-medium mb-1">{node.email}</h1>
                                         </div>
                                     </div>
                                 </div>

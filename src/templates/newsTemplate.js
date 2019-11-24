@@ -2,10 +2,6 @@ import React from 'react'
 import {graphql, StaticQuery, Link} from 'gatsby'
 import Layout from "../components/layout";
 
-import Img from 'gatsby-image'
-import ReactModal from 'react-modal'
-import { NoUndefinedVariables } from 'graphql/validation/rules/NoUndefinedVariables';
-
 export const query = graphql`
     query( $year: Int!, $year_next: Int! )
     {
@@ -88,7 +84,7 @@ const News=(props)=>{
                     
                 ))}
                 {isLast && (
-                    <span class="rounded-r rounded-sm border border-brand-light px-3 py-2 hover:bg-brand-light text-brand-dark no-underline cursor-not-allowed">&raquo;</span>
+                    <span className="rounded-r rounded-sm border border-brand-light px-3 py-2 hover:bg-brand-light text-brand-dark no-underline cursor-not-allowed">&raquo;</span>
                 )}
                 {
                     !isLast && (
@@ -101,15 +97,15 @@ const News=(props)=>{
             <div className="w-full">
                 {entities.map(({node})=> {
                     return (
-                        <div className="w-full">
-                            <div class="md:flex border-2 border-grey-400 hover:border-blue-500 px-5 py-2 my-1 rounded-lg">
-                            <div class="mt-4 md:mt-0 md:ml-6">
-                                <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">{node.type}</div>
-                                <div class="block mt-1 text-lg leading-tight font-semibold text-gray-900">
+                        <div key={node.id} className="w-full">
+                            <div className="md:flex border-2 border-grey-400 hover:border-blue-500 px-5 py-2 my-1 rounded-lg">
+                            <div className="mt-4 md:mt-0 md:ml-6">
+                                <div className="uppercase tracking-wide text-sm text-indigo-600 font-bold">{node.type}</div>
+                                <div className="block mt-1 text-lg leading-tight font-semibold text-gray-900">
                                 <span>{node.to !== "Invalid date" && fromToString(node.date, node.to)}</span>
                                 <span>{node.to === "Invalid date" && node.date}</span>
                                 </div>
-                                <p class="mt-2 text-gray-600 font-medium">{node.content}</p>
+                                <p className="mt-2 text-gray-600 font-medium">{node.content}</p>
                             </div>
                             </div>
                         </div>

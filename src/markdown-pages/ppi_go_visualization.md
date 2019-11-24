@@ -11,17 +11,13 @@ date: "2009-04-01"
 
 Evolution of computer technologies makes it possible to access a large amount and various kinds of biological data via internet such as DNA sequences, proteomics data and information discovered about them. It is expected that the combination of various data could help researchers find further knowledge about them. Roles of a visualization system are to invoke human abilities to integrate information and to recognize certain patterns in the data. Thus, when the various kinds of data are examined and analyzed manually, an effective visualization system is an essential part. One instance of these integrated visualizations can be combination of protein-protein interaction (PPI) data and Gene Ontology (GO) which could help enhance the analysis of PPI network. We introduce a simple but comprehensive visualization system that integrates GO and PPI data where GO and PPI graphs are visualized side-by-side and supports quick reference functions between them. Furthermore, the proposed system provides several interactive visualization methods for efficiently analyzing the PPI network and GO directed-acyclic-graph such as context-based browsing and common ancestors finding.
 
-> ![PINGO system interface](../images/research/ppi_go_visualization/img1.gif)
-> PINGO system interface
+> ![Figure 1. PINGO system interface](../images/research/ppi_go_visualization/img1.gif)
 
-> ![Cross-reference scheme between GO and protein](../images/research/ppi_go_visualization/img2.gif)
-> Cross-reference scheme between GO and protein
+> ![Figure 2. Cross-reference scheme between GO and protein](../images/research/ppi_go_visualization/img2.gif)
 
-> ![Example of context-browsing and neighbor-expansion](../images/research/ppi_go_visualization/img3.gif)
-> Example of context-browsing and neighbor-expansion
+> ![Figure 3. Example of context-browsing and neighbor-expansion](../images/research/ppi_go_visualization/img3.gif)
 
-> ![Example of LCA function](../images/research/ppi_go_visualization/img4.gif)
-> Example of LCA function
+> ![Figure 4. Example of LCA function](../images/research/ppi_go_visualization/img4.gif)
 
 ## Contact
 

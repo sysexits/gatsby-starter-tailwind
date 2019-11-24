@@ -1,4 +1,9 @@
 const path = require(`path`)
+require('dotenv').config({
+  path: `.env`
+})
+
+const queries = require('./src/utils/algolia')
 
 module.exports = {
   siteMetadata: {
@@ -60,32 +65,41 @@ module.exports = {
       resolve:`gatsby-transformer-remark`,
       options:{
         plugins:[
-          'gatsby-remark-prismjs',"gatsby-remark-copy-linked-files",
           {
-            resolve:`gatsby-remark-images`,
+            resolve:`gatsby-remark-images`, 
             options:{
-              maxWidth: 750,
-              linkImagesToOriginal: true,
-              showCaptions: true,
+              maxWidth: 700,
+              linkImagesToOriginal: false,
+              showCaptions: true
             }
-          }
+          },
+          {
+            resolve: `gatsby-remark-images-medium-zoom`, // point!
+            options: {
+              //...
+            }
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              inlineCodeMarker: '%',
+            },
+          },
+          "gatsby-remark-copy-linked-files"
         ]
       }
     },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        gatsbyRemarkPlugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1200,
-            },
-          },
-        ],
-      },
-    },
     'gatsby-plugin-sharp',
     `gatsby-transformer-sharp`,
+    {
+      resolve: 'gatsby-plugin-algolia',
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.GATSBY_ALGOLIA_ADMIN_KEY,
+        indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
+        queries,
+        chunkSize: 10000
+      }
+    }
   ]
 };

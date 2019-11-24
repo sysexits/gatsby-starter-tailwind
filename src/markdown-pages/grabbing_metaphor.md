@@ -11,20 +11,15 @@ date: "2014-12-01"
 
 Virtual Handle with a Grabbing Metaphor (VHGM) is an interaction technique that helps users manipulate 3D objects intuitively. We employ a grabbing metaphor to provide the mapping protocol for finding the desired reference frame. We project the user’s hand into the virtual environment; a virtual-handle avatar provides useful feedback. According to the user’s input, VHGM generates a temporary reference frame for the target object so that the user controls the operation. The user can manipulate the object naturally, perceiving the transformation as if he or she had actually grabbed the object. Because VHGM focuses on the user’s hand, not a particular device, it’s suitable for many 3D input devices.
 
-> ![virtual handle](../images/research/grabbing_metaphor/img1.jpg)
-> The virtual handle. (Left) A schematic, in which v_h is the vector of the palm’s direction. (Middle) The 3D input device. (Right) A visualization. The virtual handle matches its direction with that of the palm of the hand holding the device.
+> ![Figure 1. The virtual handle. (Left) A schematic, in which v_h is the vector of the palm’s direction. (Middle) The 3D input device. (Right) A visualization. The virtual handle matches its direction with that of the palm of the hand holding the device.](../images/research/grabbing_metaphor/img1.jpg)
 
-> ![virtual handle](../images/research/grabbing_metaphor/img2.jpg)
-> Finding the virtual handle’s initial position. When the user confirms selection of the object, the system generates a bounding sphere around it. From the sphere’s center, a ray with the direction opposite that of v_h projects to find the intersecting point on the sphere. This point serves as the initial position.
+> ![Figure 2. Finding the virtual handle’s initial position. When the user confirms selection of the object, the system generates a bounding sphere around it. From the sphere’s center, a ray with the direction opposite that of v_h projects to find the intersecting point on the sphere. This point serves as the initial position.](../images/research/grabbing_metaphor/img2.jpg)
 
-> ![Restricting](../images/research/grabbing_metaphor/img3.jpg)
-> Restricting the virtual handle’s movement. A layered bounding sphere guides the virtual handle. q implies the angle based on the motion of the virtual handle positioned at the circumscribed sphere’s center.
+> ![Figure 3. Restricting the virtual handle’s movement. A layered bounding sphere guides the virtual handle. q implies the angle based on the motion of the virtual handle positioned at the circumscribed sphere’s center.](../images/research/grabbing_metaphor/img3.jpg)
 
-> ![virtual environments](../images/research/grabbing_metaphor/img4.jpg)
-> The virtual environments for the docking task (left) and water-pouring task (right). In first task, the user docked a 3D tetrahedron (the light one) onto a target tetrahedron (the dark one). In the second task, the user mimicked pouring water from a teapot into a cup.
+> ![Figure 4. The virtual environments for the docking task (left) and water-pouring task (right). In first task, the user docked a 3D tetrahedron (the light one) onto a target tetrahedron (the dark one). In the second task, the user mimicked pouring water from a teapot into a cup.](../images/research/grabbing_metaphor/img4.jpg)
 
-> ![teapots](../images/research/grabbing_metaphor/img5.jpg)
-> The two types of teapots for the waterpouring task, showing the selected centers for a reference frame using VHGM. (The red dots indicate the virtual handle’s positions for all trials.)
+> ![Figure 5. The two types of teapots for the waterpouring task, showing the selected centers for a reference frame using VHGM. (The red dots indicate the virtual handle’s positions for all trials.)](../images/research/grabbing_metaphor/img5.jpg)
 
 ## Contact
 

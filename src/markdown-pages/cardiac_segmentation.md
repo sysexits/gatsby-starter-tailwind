@@ -11,17 +11,13 @@ date: "2009-02-01"
 
 We present a method to automatically construct a patient-specific three-dimensional (3D) mesh model of a human thorax and a heart consisting of pericardium and four chambers. We represent the standard thorax model by simplex meshes, and deform them to fit into the individual CT data to reconstruct accurate surface representations for the MCG conductor model. The deformable simplex mesh model deforms based on the external forces exerted by the edge and gradient components of the source volume data while its internal force acts to maintain the integrity of the shape. However, image driven deformation is often very sensitive to its initial position. Therefore, we suggest our solution to automatic region-of-interest (ROI) detection using search rays, which are casted to 3D volume images to identify the region of a heart based on both the radiodensity values and their continuity along the path of the rays. Upon automatic ROI detection with search rays, the initial position and orientation of the standard mesh model is determined, and each vertex of the model is respectively moved by the weighted sum of the internal and external forces to conform to the each patient's own thorax and heart shape while minimizing the user's input.
 
-> ![Standard mesh model](../images/research/cardiac_segmentation/img1.jpg)
-> Standard mesh model contains the mesh model of thorax, pericardium and four chambers of heart.
+> ![Figure 1. Standard mesh model contains the mesh model of thorax, pericardium and four chambers of heart.](../images/research/cardiac_segmentation/img1.jpg)
 
-> ![Spherical rays and AABB of the estimated heart](../images/research/cardiac_segmentation/img2.jpg)
-> (Left) Spherical rays and AABB of the estimated heart. (Middle) Initial bounding boxes of the standard heart mesh model and the spherical rays. (Right) Transformed heart mesh model.
+> ![Figure 2. (Left) Spherical rays and AABB of the estimated heart. (Middle) Initial bounding boxes of the standard heart mesh model and the spherical rays. (Right) Transformed heart mesh model.](../images/research/cardiac_segmentation/img2.jpg)
 
-> ![Deformation by the external force](../images/research/cardiac_segmentation/img3.jpg)
-> Deformation by the external force
+> ![Figure 3. Deformation by the external force](../images/research/cardiac_segmentation/img3.jpg)
 
-> ![Results of volume rendering](../images/research/cardiac_segmentation/img4.jpg)
-> (Top) Results of volume rendering and the standard mesh model not deformed. (Bottom) Results of our segmentation framework.
+> ![Figure 4. (Top) Results of volume rendering and the standard mesh model not deformed. (Bottom) Results of our segmentation framework.](../images/research/cardiac_segmentation/img4.jpg)
 
 ## Contact
 

@@ -1,9 +1,6 @@
 import React from 'react'
 import {graphql, Link} from 'gatsby'
 import Layout from "../components/layout";
-import Img from 'gatsby-image'
-import ReactModal from 'react-modal'
-import { NoUndefinedVariables } from 'graphql/validation/rules/NoUndefinedVariables';
 
 export const query = graphql`
     query( $skip: Int!, $limit: Int!, $currentTag: String  )
@@ -29,15 +26,17 @@ export const query = graphql`
             title
             type
             subtitle
+            labelVol
             vol
+            labelNum
             num
+            labelPP
             pp
             }
         }
         }
     }
 `
-
 
 const PublicationByTag=(props)=>{
     const entities = props.data.allPapersJson.edges 
@@ -61,37 +60,84 @@ const PublicationByTag=(props)=>{
     
     return(
         <Layout>
-            {props.pathContext.currentTag === "International Journal" && <h3 className="bg-red-100 text-black text-xl font-bold inline-block mb-4 p-3">{props.pathContext.currentTag}</h3>}
-            {props.pathContext.currentTag === "International Conference" && <h3 className="bg-blue-100 text-black text-xl font-bold inline-block mb-4 p-3">{props.pathContext.currentTag}</h3>}
-            {props.pathContext.currentTag === "Domestic Journal" && <h3 className="bg-green-100 text-black text-xl font-bold inline-block mb-4 p-3">{props.pathContext.currentTag}</h3>}
-            {props.pathContext.currentTag === "Domestic Conference" && <h3 className="bg-purple-100 text-black text-xl font-bold inline-block mb-4 p-3">{props.pathContext.currentTag}</h3>}
+            <h3 className="bg-blue-800 text-white text-xl font-bold inline-block mb-4 p-3">Publications by Category</h3>
             
             <div className="w-full">
+            <div className="inline-block relative w-64 mb-4">
+                <select id="research-category" className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline" onClick={()=>{
+                    var selectBox = document.getElementById("research-category");
+                    
+                    if(selectBox.selectedIndex === 1)
+                    {
+                        window.location.href = "/publication/tags/international_journal"
+                    }
+                    if(selectBox.selectedIndex === 2)
+                    {
+                        window.location.href = "/publication/tags/international_conference"
+                    }
+                    if(selectBox.selectedIndex === 3)
+                    {
+                        window.location.href = "/publication/tags/domestic_journal"
+                    }
+                    if(selectBox.selectedIndex === 4)
+                    {
+                        window.location.href = "/publication/tags/domestic_conference"
+                    }
+                    if(selectBox.selectedIndex === 5)
+                    {
+                        window.location.href = "/publication/tags/patent"
+                    }
+                }}>
+                    <option>Category</option>
+                    <option>International Journal</option>
+                    <option>International Conference</option>
+                    <option>Domestic Journal</option>
+                    <option>Domestic Conference</option>
+                    <option>Patent</option>
+                </select>
+                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                    <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                </div>
+            </div>    
+            <a href="/search">
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mx-8">
+                    Search Publication
+                </button>
+            </a>
+            </div>     
+
+            <div className="w-full">
+
                 {entities.map(({node}) => {
                     return (
-                        <div className="w-full">
+                        <div key={node.id} className="w-full">
                             <div className="border-2 border-grey-400 hover:border-blue-500">
                                 <div className="m-2">
+                                    {node.type === "International Journal" && <h3 className="bg-red-100 text-black text-lg font-semibold inline-block -mx-4 p-2">{node.type}</h3>}
+                                    {node.type === "International Conference" && <h3 className="bg-blue-100 text-black text-lg font-semibold inline-block -mx-4 p-2">{node.type}</h3>}
+                                    {node.type === "Domestic Journal" && <h3 className="bg-green-100 text-black text-lg font-semibold inline-block -mx-4 p-2">{node.type}</h3>}
+                                    {node.type === "Domestic Conference" && <h3 className="bg-purple-100 text-black text-lg font-semibold inline-block -mx-4 p-2">{node.type}</h3>}
+                                    
                                     <div className="text-gray-900 font-semibold text-xl mb-1">{node.title}</div>
                                     {node.subtitle !== "" && <div className="text-gray-700 font-semibold text-sm mb-1">{node.subtitle}</div>}
                                     {node.pp !== "" && 
                                     <div className="text-gray-600 font-medium text-sm, mb-1">
-                                        {node.vol !== "" && <span className="mr-1">Vol. {node.vol},</span> }
-                                        {node.num !== "" && <span className="mr-1">No. {node.num},</span> }
-                                        <span className="mr-1">pp. {node.pp}</span>                                        
+                                        {node.vol !== "" && <span className="mr-2">{node.labelVol === "" ? "Vol." : node.labelVol} {node.vol},</span> }
+                                        {node.num !== "" && <span className="mr-2">{node.labelNum === "" ? "No." : node.labelNum} {node.num},</span> }
+                                        <span className="mr-2">{node.labelPP === "" ? "pp." : node.labelPP} {node.pp}</span>                                        
                                     </div>
                                     }
                                     <p className="text-gray-700 font-medium text-sm">{node.date}</p>
                                     <div className="w-full sm:w-auto py-2">
                                         {node.author.map((tag,index) => {
                                             return (
-                                                <span className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-medium text-gray-800 mr-2">{tag}</span>
+                                                <span key={index} className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-medium text-gray-800 mr-2">{tag}</span>
                                             )}
                                         )}
                                     </div>
                                     
                                     {node.doi !== "" && <div className="inline-flex">
-                                        <a href={node.doi} class="no-underline hover:underline"><span className="inline-block rounded-full bg-yellow-400 px-3 py-1 text-sm font-medium text-gray-800 mr-2">Available here</span></a>
+                                        <a href={node.doi} className="no-underline hover:underline"><span className="inline-block rounded-full bg-yellow-400 px-3 py-1 text-sm font-medium text-gray-800 mr-2">Available here</span></a>
                                     </div>}
                                     
                                     
@@ -120,7 +166,7 @@ const PublicationByTag=(props)=>{
                     
                 ))}
                 {isLast && (
-                    <span class="rounded-r rounded-sm border border-brand-light px-3 py-2 hover:bg-brand-light text-brand-dark no-underline cursor-not-allowed">&raquo;</span>
+                    <span className="rounded-r rounded-sm border border-brand-light px-3 py-2 hover:bg-brand-light text-brand-dark no-underline cursor-not-allowed">&raquo;</span>
                 )}
                 {
                     !isLast && (

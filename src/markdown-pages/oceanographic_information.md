@@ -16,14 +16,11 @@ Instead, we need dimensionally advanced statistical and scientific visual analys
 Thus we’ve developed a visual analytics (VA) tool with an embedded GIS (geographic information system) for location-based oceanographic data. We find that it’s intuitive to employ geographic grids that integrate marine environmental data, geographic information, and multidimensional spatiotemporal distribution.
 
 
-> ![observation](../images/research/oceanographic_information/img1.jpg)
-> These observation stations consist of observatories, buoys, moored equipment, and devices for water and geological sampling.
+> ![Figure 1. These observation stations consist of observatories, buoys, moored equipment, and devices for water and geological sampling.](../images/research/oceanographic_information/img1.jpg)
 
-> ![Water quality](../images/research/oceanographic_information/img2.jpg)
-> Water quality distribution charts depicting chemical oxygen demand (COD), using a dasymetric map, for August 2003 (top), September 2005 (middle), and May 2009 (bottom). We divide water quality into six grades, with grade VI being the worst.
+> ![Figure 2. Water quality distribution charts depicting chemical oxygen demand (COD), using a dasymetric map, for August 2003 (top), September 2005 (middle), and May 2009 (bottom). We divide water quality into six grades, with grade VI being the worst.](../images/research/oceanographic_information/img2.jpg)
 
-> ![Zooplankton distribution](../images/research/oceanographic_information/img3.jpg)
-> Zooplankton distribution charts using a proportional-symbol map with pie charts, for July 2007 (top), July 2008 (middle), and September 2009 (bottom). Zooplankton populations appeared to increase after the dyke’s completion. However, species diversity significantly decreased; only the copepod population increased.
+> ![Figure 3. Zooplankton distribution charts using a proportional-symbol map with pie charts, for July 2007 (top), July 2008 (middle), and September 2009 (bottom). Zooplankton populations appeared to increase after the dyke’s completion. However, species diversity significantly decreased; only the copepod population increased.](../images/research/oceanographic_information/img3.jpg)
 
 ## Contact
 

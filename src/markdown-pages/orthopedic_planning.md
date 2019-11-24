@@ -11,17 +11,13 @@ date: "2012-11-01"
 
 Intra-articular fractures, caused by high impact injuries on joints, can affect movement functionality, if not treated properly. Due to the complexity of bone shape and the 3D nature of the surgical operations, there is a potential danger of the failure in the anatomical reduction caused by misplacement or wrong selection of plates or screws. In this paper, we propose an elaborative 3D surgical planning system to analyze reciprocal action of bones with surgical implants applied before intra-articular fracture surgery. The simulation software provides the environment that can simulate rigid transformation of aligned broken bones with surgical implants according to specified degrees of freedom (DOF) of movement. In addition, our software visualizes possible collision among the bones and fixation components during transforming process. We demonstrate how the collision detection and DOF restriction can be utilized for constructing more adequate orthopedic surgery plan.
 
-> ![Snapshot of surgery planning simulator](../images/research/orthopedic_planning/img1.jpg)
-> Snapshot of surgery planning simulator
+> ![Figure 1. Snapshot of surgery planning simulator](../images/research/orthopedic_planning/img1.jpg)
 
-> ![Adjustment process using virtual handles](../images/research/orthopedic_planning/img2.jpg)
-> Adjustment process using virtual handles
+> ![Figure 2. Adjustment process using virtual handles](../images/research/orthopedic_planning/img2.jpg)
 
-> ![Placement of the plate model along the surface of bone fragment model](../images/research/orthopedic_planning/img3.jpg)
-> Placement of the plate model along the surface of bone fragment model
+> ![Figure 3. Placement of the plate model along the surface of bone fragment model](../images/research/orthopedic_planning/img3.jpg)
 
-> ![Confirmation process](../images/research/orthopedic_planning/img4.jpg)
-> Confirmation process
+> ![Figure 4. Confirmation process](../images/research/orthopedic_planning/img4.jpg)
 
 ## Contact
 

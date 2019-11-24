@@ -13,23 +13,17 @@ The hand penetration problem which is an effect sinking into a virtual object is
 
 Also we have studied about 'VR interaction-induced fatigue symptom.' We argue that the source of the fatigue comes from the restricted sensory information of the VR interfaces, and that users try to accommodate the missing sensory feedback by excessive motion leading to wrong posture or bad timing. By analyzing the behaviors of users' action collected from our experiment, we derive essential factors to be considered in designing VR applications, and propose a conceptual interaction model for orchestrating virtual grasping.
 
-> ![Haptic glove with a finger tracking glove](../images/research/virtual_grasping/img1.jpg)
-> Haptic glove with a finger tracking glove
+> ![Figure 1. Haptic glove with a finger tracking glove](../images/research/virtual_grasping/img1.jpg)
 
-> ![Simulation of virtual hand interaction](../images/research/virtual_grasping/img2.jpg)
-> Simulation of virtual hand interaction
+> ![Figure 2. Simulation of virtual hand interaction](../images/research/virtual_grasping/img2.jpg)
 
-> ![Car interior reviewing with a 6-DOF haptic device](../images/research/virtual_grasping/img3.jpg)
-> Car interior reviewing with a 6-DOF haptic device
+> ![Figure 3. Car interior reviewing with a 6-DOF haptic device](../images/research/virtual_grasping/img3.jpg)
 
-> ![Experimental environment of interactive 3D VR applications](../images/research/virtual_grasping/img4.jpg)
-> Experimental environment of interactive 3D VR applications
+> ![Figure 4. Experimental environment of interactive 3D VR applications](../images/research/virtual_grasping/img4.jpg)
 
-> ![Finger grip patterns of each subject](../images/research/virtual_grasping/img5.jpg)
-> Finger grip patterns of each subject
+> ![Figure 5. Finger grip patterns of each subject](../images/research/virtual_grasping/img5.jpg)
 
-> ![Conceptual interaction model for grasping control](../images/research/virtual_grasping/img6.jpg)
-> Conceptual interaction model for grasping control
+> ![Figure 6. Conceptual interaction model for grasping control](../images/research/virtual_grasping/img6.jpg)
 
 ## Contact
 

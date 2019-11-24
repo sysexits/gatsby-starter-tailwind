@@ -1,6 +1,6 @@
 // Navigation component for mobile
 import { graphql, useStaticQuery, Link } from "gatsby";
-import React, { useState, useRef  } from "react";
+import React, { useState  } from "react";
 import "../css/logo.css"
 import "../css/menu.css"
 import {
@@ -47,29 +47,6 @@ const membersMenu = [
   }
 ]
 
-// For publication menu data
-const publicationMenu = [
-{
-    "name": "International Journal",
-    "url": "/publication/tags/international_journal"
-},
-{
-  "name": "International Conference",
-  "url": "/publication/tags/international_conference"
-},
-{
-  "name": "Domestic Journal",
-  "url": "#"
-},
-{
-  "name": "Domestic Conference",
-  "url": "#"
-},
-{
-    "name": "Patents",
-    "url": "#"
-}
-]
 
 function MobileNav() {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -128,12 +105,6 @@ function MobileNav() {
                   })}
           {AddMenu("Research", "/research")}
           {AddMenu("Publication", "/publication")}
-          {publicationMenu.map((node,index) => {
-                      return (
-                        AddSubMenu(node.name, node.url)
-                      )
-                  })}
-          {AddMenu("Links", "#")}
         </nav>
       </div>
     </MobileView>

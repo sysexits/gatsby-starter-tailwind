@@ -21,17 +21,13 @@ In our intravenous injections simulator, following components are included:
 - Haptic rendering
 
 
-> ![Surface of the arm model](../images/research/injection_simulator/img1.png)
-> Surface of the arm model
+> ![Figure 1. Surface of the arm model](../images/research/injection_simulator/img1.png)
 
-> ![Vein model inside the arm model](../images/research/injection_simulator/img2.png)
-> Vein model inside the arm model
+> ![Figure 2. Vein model inside the arm model](../images/research/injection_simulator/img2.png)
 
-> ![Interaction between the arm model and the hand model](../images/research/injection_simulator/img3.png)
-> Interaction between the arm model and the hand model
+> ![Figure 3. Interaction between the arm model and the hand model](../images/research/injection_simulator/img3.png)
 
-> ![Interaction between the syringe model and the arm model](../images/research/injection_simulator/img4.png)
-> Interaction between the syringe model and the arm model
+> ![Figure 4. Interaction between the syringe model and the arm model](../images/research/injection_simulator/img4.png)
 
 ## Contact
 

@@ -22,17 +22,13 @@ To examine the relationship of fuzzy diseases by fuzzy intersection operation, w
 Figure 4 shows the fuzzy union operation between a 'zoster' disk and 'patient's status' disk, and all symptoms in both the patient's status and zoster are fever, distress, lesion, nausea, and pain. Among the union results, patient's status shows symptoms such as fever (40%), lesion (60%) and nausea (80%) at most, while zoster has symptoms such as distress (50%), pain (80%) and nausea (80%) at most.
 
 
-> ![Visualization](../images/research/fuzzy_data_visualization/img1.jpg)
-> Figure 1. Visualization of similarity between patient’s status and prototype diseases
+> ![Figure 1. Visualization of similarity between patient’s status and prototype diseases](../images/research/fuzzy_data_visualization/img1.jpg)
 
-> ![Intersection membership](../images/research/fuzzy_data_visualization/img2.jpg)
-> Figure 2. Intersection membership degrees below 21% between patient’s status and zoster in scenario 1
+> ![Figure 2. Intersection membership degrees below 21% between patient’s status and zoster in scenario 1](../images/research/fuzzy_data_visualization/img2.jpg)
 
-> ![Intersection membership](../images/research/fuzzy_data_visualization/img3.jpg)
-> Figure 3. Intersection membership degrees over 50% between patient’s status and zoster in scenario 2
+> ![Figure 3. Intersection membership degrees over 50% between patient’s status and zoster in scenario 2](../images/research/fuzzy_data_visualization/img3.jpg)
 
-> ![Union](../images/research/fuzzy_data_visualization/img4.jpg)
-> Figure 4. Union of patient’s status and zoster
+> ![Figure 4. Union of patient’s status and zoster](../images/research/fuzzy_data_visualization/img4.jpg)
 
 ## Contact
 

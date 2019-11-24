@@ -13,20 +13,15 @@ In medical education, much training is advisable before real medical practice si
 
 The physics based accurate deformable model, volume data based modeling and haptic feedback will accomplish realistic simulation. Since they have a big computational complexity, we should accomplish optimized and heuristic algorithms for real-time simulation. As a result, proposed hybrid model will handle the high resolution volumetric objects with haptic feedback and show the realistic deformation in real-time.
 
-> ![Dual deformable model that consists of the mass-spring model and the S-chain model](../images/research/deformable_model/img1.gif)
-> Dual deformable model that consists of the mass-spring model and the S-chain model
+> ![Figure 1. Dual deformable model that consists of the mass-spring model and the S-chain model](../images/research/deformable_model/img1.gif)
 
-> ![Adaptive mass-spring model](../images/research/deformable_model/img2.jpg)
-> Adaptive mass-spring model
+> ![Figure 2. Adaptive mass-spring model](../images/research/deformable_model/img2.jpg)
 
-> ![Overview of the hybrid deformation method](../images/research/deformable_model/img3.jpg)
-> Overview of the hybrid deformation method
+> ![Figure 3. Overview of the hybrid deformation method](../images/research/deformable_model/img3.jpg)
 
-> ![Deformation of the S-chain model (left) and the mass-spring model (middle and right)](../images/research/deformable_model/img4.jpg)
-> Deformation of the S-chain model (left) and the mass-spring model (middle and right)
+> ![Figure 4. Deformation of the S-chain model (left) and the mass-spring model (middle and right)](../images/research/deformable_model/img4.jpg)
 
-> ![Deformation of the liver model consisting of heterogeneous tissues](../images/research/deformable_model/img5.jpg)
-> Deformation of the liver model consisting of heterogeneous tissues
+> ![Figure 5. Deformation of the liver model consisting of heterogeneous tissues](../images/research/deformable_model/img5.jpg)
 
 ## Contact
 

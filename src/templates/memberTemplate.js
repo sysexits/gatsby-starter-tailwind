@@ -2,7 +2,6 @@ import React from 'react'
 import {graphql, Link} from 'gatsby'
 import Layout from "../components/layout";
 import Img from 'gatsby-image'
-import ReactModal from 'react-modal'
 
 export const query = graphql`
     query( $name: String )
@@ -35,7 +34,6 @@ export const query = graphql`
     }
 `
 
-
 const Member=(props)=>{
     const entities = props.data.allMembersJson.edges 
     
@@ -43,7 +41,7 @@ const Member=(props)=>{
         <Layout>
             {entities.map(({node}) => {
                 return(
-                    <div>
+                    <div key={node.id}>
                         <div className="max-w-4xl flex items-center flex-wrap mx-auto lg:my-0">
                             <div className="w-full lg:w-full rounded-lg lg:rounded-l-lg lg:rounded-r-none bg-white mx-6 lg:mx-0">
                                 <div className="text-center lg:text-left">
@@ -73,7 +71,7 @@ const Member=(props)=>{
                                     {node.bio !== "" &&
                                         <div className="mt-4 w-full text-left">
                                             <h3 className="bg-blue-800 w-full text-white text-lg font-semibold inline-block p-3">Profile</h3>
-                                            <p className="pt-2 pb-2 text-sm">{node.bio}</p>
+                                            <p className="mt-4 mb-4 font-medium">{node.bio}</p>
                                         </div>
                                     }
                                     
@@ -81,7 +79,7 @@ const Member=(props)=>{
                                         <h3 className="bg-blue-800 w-full text-white text-lg font-semibold inline-block p-3 mb-4">Research Interests</h3>
                                         {node.interest.map((tag,index) => {
                                             return (
-                                                <span className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-medium text-gray-800 mb-2 mr-2">{tag}</span>
+                                                <span key={index} className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-medium text-gray-800 mb-2 mr-2">{tag}</span>
                                             )}
                                         )}
                                     </div>

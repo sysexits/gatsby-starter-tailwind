@@ -5,7 +5,6 @@ import "../css/menu.css"
 import BrowserNav from "./browserNav";
 import MobileNav from "./mobileNav";
 
-
 function Header() {
   return (
     <header className="bg-black">

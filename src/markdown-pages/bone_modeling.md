@@ -13,26 +13,19 @@ In the bone shape morphology, the morphological difference of the bones across s
 
 To address this problem, we introduce our template-based shape modeling framework to a posture and gait analysis on foot bones and joints to automatically determine region landmarks (e.g. articular surfaces) of bones on their surfaces. We proposed a landmark and region mapping method based on a non-rigid template-to-image registration, an automated method for extracting the joint space by applying graph cut on Markov random field model, and reliable measurement of 3D foot bone angles.
 
-> ![Articular surface and landmarks](../images/research/bone_modeling/img1.jpg)
-> Articular surface and landmarks, which are automatically identified for the calcanei of 3 subjects
+> ![Figure 1. Articular surface and landmarks, which are automatically identified for the calcanei of 3 subjects](../images/research/bone_modeling/img1.jpg)
 
-> ![Template model of talus and navicular](../images/research/bone_modeling/img2.jpg)
-> Template model of talus and navicular with the articular surfaces encoded
+> ![Figure 2. Template model of talus and navicular with the articular surfaces encoded](../images/research/bone_modeling/img2.jpg)
 
-> ![Joint space extraction results](../images/research/bone_modeling/img3.jpg)
-> Joint space extraction results. (a) Specified ROI (blue) and extracted joint space (red) between the bones using the proposed method. (b) Separated bone segments shown in 3D.
+> ![Figure 3. Joint space extraction results. (a) Specified ROI (blue) and extracted joint space (red) between the bones using the proposed method. (b) Separated bone segments shown in 3D.](../images/research/bone_modeling/img3.jpg)
 
-> ![3D visualization of the segmented joint space](../images/research/bone_modeling/img4.jpg)
-> 3D visualization of the segmented joint space (shown in red) using the proposed method. From left to right, calcaneocuboid joint, talonavicular joint, and talocalcaneal joint.
+> ![Figure 4. 3D visualization of the segmented joint space (shown in red) using the proposed method. From left to right, calcaneocuboid joint, talonavicular joint, and talocalcaneal joint.](../images/research/bone_modeling/img4.jpg)
 
-> ![Extracted sole (red) and two feature points](../images/research/bone_modeling/img5.jpg)
-> Extracted sole (red) and two feature points (yellow)
+> ![Figure 5. Extracted sole (red) and two feature points (yellow)](../images/research/bone_modeling/img5.jpg)
 
-> ![Centers of hallux and 4th toe](../images/research/bone_modeling/img6.jpg)
-> (Left) Centers of hallux and 4th toe. (Right) Refined position of hallux and 4th toe (the tips of the arrows).
+> ![Figure 6. (Left) Centers of hallux and 4th toe. (Right) Refined position of hallux and 4th toe (the tips of the arrows).](../images/research/bone_modeling/img6.jpg)
 
-> ![Directions of the 1st and the 2nd axes with the extracted feature points](../images/research/bone_modeling/img7.jpg)
-> (Left) Directions of the 1st and the 2nd axes with the extracted feature points. (Right) The 3rd axis is a distal to proximal direction, which is a cross product of the 1st and the 2nd axes.
+> ![Figure 7. (Left) Directions of the 1st and the 2nd axes with the extracted feature points. (Right) The 3rd axis is a distal to proximal direction, which is a cross product of the 1st and the 2nd axes.](../images/research/bone_modeling/img7.jpg)
 
 ## Contact
 

@@ -2,7 +2,6 @@ const path = require('path')
 const _ = require('lodash')
 const moment = require('moment');
 
-
 module.exports.onCreateNode = ({node, actions}) => {
     const {createNodeField} = actions
     if(node.internal.type == 'MarkdownRemark'){
@@ -23,6 +22,23 @@ module.exports.onCreateNode = ({node, actions}) => {
         })
     }
 
+    if(node.internal.type === 'PapersJson') {
+        const authorList = node.author
+        var authorString = ""
+        var i
+        for(i = 0; i < authorList.length; i++)
+        {
+            authorString += authorList[i]
+            if(i != authorList.length - 1)
+                authorString += ", "
+        }
+        createNodeField({
+            name: 'author_string',
+            node,
+            value: authorString,
+        })
+    }
+
     if(node.internal.type === 'PhotosJson') {
         const data = node.date
         createNodeField({
@@ -34,7 +50,7 @@ module.exports.onCreateNode = ({node, actions}) => {
 }
 
 module.exports.createPages = async ({graphql,actions}) => {
-    const { createPage } = actions
+    const { createPage, createNodeField } = actions
     const newsTemplate = path.resolve(`src/templates/newsTemplate.js`)
     var yearIter
     for(yearIter = 2002; yearIter < 2020; yearIter++)
@@ -136,6 +152,7 @@ module.exports.createPages = async ({graphql,actions}) => {
     const visibleEntities = 5
     const entitiesPerPage = 10
     const numPaperPages = Math.ceil(entities.length / entitiesPerPage)
+    
     Array.from({length: numPaperPages}).forEach((_, i) => {
         createPage({
             path: i == 0 ? `/publication` : `/publication/${i + 1}`,
@@ -149,7 +166,7 @@ module.exports.createPages = async ({graphql,actions}) => {
             },
         })
     })
-    const publicationByTagTempate = path.resolve(`src/templates/publicationByTagTemplate.js`)
+    
     tags = ["International Journal", "International Conference", "Domestic Journal", "Domestic Conference"]
     paths = ["international_journal", "international_conference", "domestic_journal", "domestic_conference"]
 
@@ -178,7 +195,7 @@ module.exports.createPages = async ({graphql,actions}) => {
                     component: publicationByTagTempate,
                     context: {
                         limit: entitiesPerPage,
-                        skip: i * entitiesPerPage,
+                        skip: j * entitiesPerPage,
                         numTotalPages: numPages,
                         visibleEntities,
                         currentPage: j + 1,

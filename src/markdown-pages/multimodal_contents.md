@@ -13,14 +13,11 @@ Haptic interaction has become an essential component in constructing immersive v
 
 To address this problem, we developed the interactive human anatomy learning platform. The distinguishable feature of our platform is the user-creatable multimodal learning scenario. The script containing the learning scenario is written in XML format. Since it provides intuitive grammar, the user without any prior knowledge of haptics or even programming languages can produce his or her own scenarios. The script engine interprets the script file, and haptic and visual rendering loops deliver the contents in the script to the user via corresponding modalities. The multimodal interactions between the system and the user then increase the presence and the immersion. We expect our platform to promote many haptic-based applications in learning environment, especially for young children to learn about the human body structures more effectively.
 
-> ![Overview of the platform](../images/research/multimodal_contents/img1.png)
-> Overview of the platform
+> ![Figure 1. Overview of the platform](../images/research/multimodal_contents/img1.png)
 
-> ![Abridged example of the script file and its structure](../images/research/multimodal_contents/img2.png)
-> Abridged example of the script file and its structure
+> ![Figure 2. Abridged example of the script file and its structure](../images/research/multimodal_contents/img2.png)
 
-> ![Snapshots of human anatomy learning contents](../images/research/multimodal_contents/img3.jpg)
-> Snapshots of human anatomy learning contents
+> ![Figure 3. Snapshots of human anatomy learning contents](../images/research/multimodal_contents/img3.jpg)
 
 ## Contact
 

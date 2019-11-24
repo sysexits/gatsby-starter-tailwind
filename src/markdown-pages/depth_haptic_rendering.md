@@ -11,14 +11,11 @@ date: "2015-06-01"
 
 We present a haptic plug-in system that operates on already-developed existing interactive 3D graphics applications. There are various high-quality graphics applications developed without taking into consideration the haptic features. Our system augments haptic interaction in a simple manner to enhance the experience. The proposed system consists of two separate modules. While one module captures the depth map from a graphics pipeline of the target application, the other module calculates the haptic feedback force based on the captured depth map. We address efficient and effective ways of capturing and transferring depth map data for haptic rendering and present a working solution.
 
-> ![Overview of AnyHaptics system](../images/research/depth_haptic_rendering/img1.jpg)
-> Overview of AnyHaptics system
+> ![Figure 1. Overview of AnyHaptics system](../images/research/depth_haptic_rendering/img1.jpg)
 
-> ![Technical blocks for building the haptics plug-in](../images/research/depth_haptic_rendering/img2.jpg)
-> Technical blocks for building the haptics plug-in
+> ![Figure 2. Technical blocks for building the haptics plug-in](../images/research/depth_haptic_rendering/img2.jpg)
 
-> ![Operation of AnyHaptics system](../images/research/depth_haptic_rendering/img3.jpg)
-> Operation of AnyHaptics system
+> ![Figure 3. Operation of AnyHaptics system](../images/research/depth_haptic_rendering/img3.jpg)
 
 ## Contact
 
