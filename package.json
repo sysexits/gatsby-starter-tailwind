@@ -6,6 +6,7 @@
   "dependencies": {
     "@mdx-js/loader": "^1.5.1",
     "@mdx-js/mdx": "^1.5.1",
+    "@reach/router": "^1.2.1",
     "algoliasearch": "^3.35.1",
     "autoprefixer": "^9.7.2",
     "dotenv": "^8.2.0",
@@ -19,6 +20,7 @@
     "gatsby-plugin-purgecss": "4.0.1",
     "gatsby-plugin-react-helmet": "3.1.14",
     "gatsby-plugin-sharp": "^2.2.38",
+    "gatsby-plugin-styled-components": "^3.1.13",
     "gatsby-plugin-webfonts": "^1.1.0",
     "gatsby-remark-copy-linked-files": "^2.1.30",
     "gatsby-remark-images": "^3.1.32",
@@ -36,6 +38,7 @@
     "prismjs": "^1.17.1",
     "prop-types": "15.7.2",
     "react": "16.11.0",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-device-detect": "^1.9.10",
     "react-dom": "16.11.0",
     "react-helmet": "5.2.1",
@@ -47,6 +50,7 @@
     "react-modal": "^3.11.1",
     "react-responsive-carousel": "^3.1.51",
     "react-router-dom": "^5.1.2",
+    "styled-components": "^4.4.1",
     "typeface-noto-sans": "0.0.72"
   },
   "keywords": [

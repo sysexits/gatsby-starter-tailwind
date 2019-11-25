@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import {graphql, Link} from 'gatsby'
 import Layout from "../components/layout";
 
@@ -55,54 +55,46 @@ const Publication=(props)=>{
             pageList.push(i);
         }
     }
-    
+    const inputElement = useRef(null)
+    const searchWithQuery = () => {
+        window.location.href = "/search/?query="+inputElement.current.value;
+    }
+
+    const searchWithQueryForm = (event) => {
+        event.preventDefault();
+        window.location.href = "/search/?query="+inputElement.current.value;
+    }
+
+    const onChangeEvent = (event) => {
+        var text = event.target.value;
+        window.location.href = text;
+    }
+
     return(
         <Layout>
-            
-            <h3 className="bg-blue-800 text-white text-xl font-bold inline-block mb-4 p-3">Publications</h3>
-            
-            <div className="w-full">
-                <div id="category" className="inline-block relative w-64 mb-4">
-                    <select id="research-category" className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline" onClick={()=>{
-                        var selectBox = document.getElementById("research-category");
-                        
-                        if(selectBox.selectedIndex === 1)
-                        {
-                            window.location.href = "/publication/tags/international_journal"
-                        }
-                        if(selectBox.selectedIndex === 2)
-                        {
-                            window.location.href = "/publication/tags/international_conference"
-                        }
-                        if(selectBox.selectedIndex === 3)
-                        {
-                            window.location.href = "/publication/tags/domestic_journal"
-                        }
-                        if(selectBox.selectedIndex === 4)
-                        {
-                            window.location.href = "/publication/tags/domestic_conference"
-                        }
-                        if(selectBox.selectedIndex === 5)
-                        {
-                            window.location.href = "/publication/tags/patent"
-                        }
-                    }}>
+            <div id="category" className="inline-block relative w-64 mb-4">
+                    <select id="research-category" className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline" onChange={onChangeEvent} >
                         <option>Category</option>
-                        <option>International Journal</option>
-                        <option>International Conference</option>
-                        <option>Domestic Journal</option>
-                        <option>Domestic Conference</option>
-                        <option>Patent</option>
+                        <option value="/publication/tags/international_journal">International Journal</option>
+                        <option value="/publication/tags/international_conference">International Conference</option>
+                        <option value="/publication/tags/domestic_journal">Domestic Journal</option>
+                        <option value="/publication/tags/domestic_conference">Domestic Conference</option>
+                        <option value="/publication/tags/patent">Patent</option>
                     </select>
                     <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 ">
                         <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
                     </div>
                 </div>
-                <a href="/search">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mx-8">
-                    Search Publication
-                </button>
-                </a>
+            <h3 className="bg-blue-800 text-white text-xl font-bold inline-block mb-4 p-3">Publications</h3>
+            <form onSubmit={searchWithQueryForm} className="w-full mb-4">
+                <div className="flex items-center border-b border-b-2 border-blue-500 py-2">
+                    <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Search Publication" ref={inputElement} />
+                    <button className="flex-shrink-0 bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700 text-sm border-4 text-white py-1 px-2 rounded" onClick={searchWithQuery}>Search</button>
+                </div>
+            </form>
+            <div className="w-full">
+                
+                
 
                 {entities.map(({node}) => {
                     return (
@@ -126,7 +118,7 @@ const Publication=(props)=>{
                                     <div className="w-full sm:w-auto py-2">
                                         {node.author.map((tag,index) => {
                                             return (
-                                                <span key={index} className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-medium text-gray-800 mr-2">{tag}</span>
+                                                <span key={index} className="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-medium text-gray-800 mb-1 mr-2">{tag}</span>
                                             )}
                                         )}
                                     </div>

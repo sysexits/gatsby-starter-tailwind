@@ -36,7 +36,7 @@ input{
     display: none
 }
 .ais-Hits-item{
-    width: 32%;
+    width: 100%;
 }
 .ais-Pagination-list{
     display: flex;
@@ -60,9 +60,17 @@ input{
     border-radius: .5em;
     padding: 15px
 }
+.ais-Highlight-highlighted{
+    @apply bg-yellow-400;
+}
 
 .search-icon {
     width: 25px;
     height: 25px;
     margin: auto;
 }
+
+.pagination {
+    margin: 2rem auto;
+    text-align: center;
+  }

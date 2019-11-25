@@ -1,5 +1,540 @@
-
 [
+    {
+        "thumbnail": null,
+        "title": "Bayesian structural equation modeling for coastal management: The case of the Saemangeum coast of Korea for water quality improvements",
+        "subtitle": "Ocean & Coastal Management",
+        "vol": "136",
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "120-132",
+        "labelPP": "",
+		"author": [
+            "Jinah Kim",
+            "Jinah Park"
+        ],
+        "date": "2017.02.01",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1016/j.ocecoaman.2016.10.014",
+        "abstract": "The data-driven paradigm is widely used in ocean science and includes the statistical modeling of various phenomena in coastal marine environments and data assimilation in numerical models. One of the most important challenges in the data-driven paradigm is finding the model that best approximates the underlying mechanism of a phenomenon with measurement data. In this paper, we propose a Bayesian approach to modeling coastal marine environments using ocean observational data, and we apply it to the Saemangeum coast. There are two main advantages to the Bayesian method: domain knowledge can be encoded to prior probability, and Markov-chain Monte Carlo simulation can be used in model estimation and inference. We apply the method to estimate model parameters and predict coastal water quality and sea current for maintaining optimal coastal water quality. The threshold quantity of sea current is computed to ensure sustainable coastal development. One of the interesting results we have obtained is a flat plateau relationship between the sea current for water exchange and the level of improvement of coastal water quality. This means that coastal water quality is not always being improved, even if the amount of water exchange is increased. The computed results are in good agreement with oceanographic theory, while showing a valid difference compared to the results using the frequentist approach and probabilistic inference using the probabilistic graphical model. These results will be helpful in coastal water quality management, ultimately contributing to sustainable coastal development.",
+        "keywords": ["Data-driven modeling","Bayesian method","Coastal marine environments","Coastal water quality","Coastal management"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Associations between hippocampal morphology, diffusion characteristics, and salivary cortisol in older men",
+        "subtitle": "Psychoneuroendocrinology",
+        "vol": "78",
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "151-158",
+        "labelPP": "",
+		"author": [
+            "Simon R. Cox",
+            "Maria del C. Valdés Hernández",
+            "Jaeil Kim",
+            "Natalie A. Royle",
+            "Sarah E. MacPherson",
+            "Karen J. Ferguson",
+            "Susana Muñoz Maniega",
+            "Devasuda Anblagan",
+            "Benjamin S. Aribisala",
+            "Mark E. Bastin",
+            "Jinah Park",
+            "John M. Starr",
+            "Ian J. Deary",
+            "Alasdair M.J. MacLullich",
+            "Joanna M. Wardlaw"
+        ],
+        "date": "2017.04.01",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1016/j.psyneuen.2017.01.027",
+        "abstract": "High, unabated glucocorticoid (GC) levels are thought to selectively damage certain tissue types. The hippocampus is thought to be particularly susceptible to such effects, and though findings from animal models and human patients provide some support for this hypothesis, evidence for associations between elevated GCs and lower hippocampal volumes in older age (when GC levels are at greater risk of dysregulation) is inconclusive. To address the possibility that the effects of GCs in non-pathological ageing may be too subtle for gross volumetry to reliably detect, we analyse associations between salivary cortisol (diurnal and reactive measures), hippocampal morphology and diffusion characteristics in 88 males, aged ∼73 years. However, our results provide only weak support for this hypothesis. Though nominally significant peaks in morphology were found in both hippocampi across all salivary cortisol measures (standardised β magnitudes < 0.518, puncorrected > 0.0000003), associations were both positive and negative, and none survived false discovery rate correction. We found one single significant association (out of 12 comparisons) between a general measure of hippocampal diffusion and reactive cortisol slope (β = 0.290, p = 0.008) which appeared to be driven predominantly by mean diffusivity but did not survive correction for multiple testing. The current data therefore do not clearly support the hypothesis that elevated cortisol levels are associated with subtle variations in hippocampal shape or microstructure in non-pathological older age.",
+        "keywords": ["Cortisol","MRI","Brain","Hippocampus","3D shape analysis","Ageing"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Morphological and Microstructural Changes of the Hippocampus in Early MCI: A Study Utilizing the Alzheimer's Disease Neuroimaging Initiative Database",
+        "subtitle": "Journal of Clinical Neurology",
+        "vol": "13",
+        "labelVol": "",
+		"num": "2",
+        "labelNum": "",
+		"pp": "144-154",
+        "labelPP": "",
+		"author": [
+            "Peter Lee",
+            "Hojin Ryoo",
+            "Jinah Park",
+            "Yong Jeong",
+            "Alzheimer's Disease Neuroimaging Initiative"
+        ],
+        "date": "2017.04.01",
+        "type": "International Journal",
+        "doi": "http://dx.doi.org/10.3988/jcn.2017.13.2.144",
+        "abstract": "With the aim of facilitating the early detection of Alzheimer's disease, the Alzheimer's Disease Neuroimaging Initiative proposed two stages based on the memory performance: early mild cognitive impairment (EMCI) and late mild cognitive impairment (LMCI). The current study was designed to investigate structural differences in terms of surface atrophy and microstructural changes of the hippocampus in EMCI and LMCI.",
+        "keywords": ["Alzheimer's disease","biomarkers","mild cognitive impairment","hippocampus","magnetic resonance imaging","diffusion-tensor imaging"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Hippocampal morphology and cognitive functions in community-dwelling older people: the Lothian Birth Cohort 1936",
+        "subtitle": "Neurobiology of Aging",
+        "vol": "52",
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "1-11",
+        "labelPP": "",
+		"author": [
+            "Maria del C. Valdés Hernández",
+            "Simon R. Cox",
+            "Jaeil Kim",
+            "Natalie A. Royle",
+            "Susana Muñoz Maniega",
+            "Alan J. Gow",
+            "Devasuda Anblagan",
+            "Mark E. Bastin",
+            "Jinah Park"
+        ],
+        "date": "2017.04.01",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1016/j.neurobiolaging.2016.12.012",
+        "abstract": "Structural measures of the hippocampus have been linked to a variety of memory processes and also to broader cognitive abilities. Gross volumetry has been widely used, yet the hippocampus has a complex formation, comprising distinct subfields which may be differentially sensitive to the deleterious effects of age, and to different aspects of cognitive performance. However, a comprehensive analysis of multidomain cognitive associations with hippocampal deformations among a large group of cognitively normal older adults is currently lacking. In 654 participants of the Lothian Birth Cohort 1936 (mean age = 72.5, SD = 0.71 years), we examined associations between the morphology of the hippocampus and a variety of memory tests (spatial span, letter-number sequencing, verbal recall, and digit backwards), as well as broader cognitive domains (latent measures of speed, fluid intelligence, and memory). Following correction for age, sex, and vascular risk factors, analysis of memory subtests revealed that only right hippocampal associations in relation to spatial memory survived type 1 error correction in subiculum and in CA1 at the head (β = 0.201, p = 5.843 × 10−4, outward), and in the ventral tail section of CA1 (β = −0.272, p = 1.347 × 10−5, inward). With respect to latent measures of cognitive domains, only deformations associated with processing speed survived type 1 error correction in bilateral subiculum (βabsolute ≤ 0.247, p < 1.369 × 10−4, outward), bilaterally in the ventral tail section of CA1 (βabsolute ≤ 0.242, p < 3.451 × 10−6, inward), and a cluster at the left anterior-to-dorsal region of the head (β = 0.199, p = 5.220 × 10−6, outward). Overall, our results indicate that a complex pattern of both inward and outward hippocampal deformations are associated with better processing speed and spatial memory in older age, suggesting that complex shape-based hippocampal analyses may provide valuable information beyond gross volumetry.",
+        "keywords": ["Hippocampus","Memory","Aging","Morphology","Mesh models","Intelligence"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Computer-Aided Assessment of Foot Posture from Standard Template Model",
+        "subtitle": "Journal of Medical Imaging and Health Informatics",
+        "vol": "8",
+        "labelVol": "",
+		"num": "5",
+        "labelNum": "",
+		"pp": "1113-1119",
+        "labelPP": "",
+		"author": [
+            "Taeho Kim",
+            "Dong Yeon Lee",
+            "Jinah Park"
+        ],
+        "date": "2018.06.01",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1166/jmihi.2018.2409",
+        "abstract": "Clinical diagnosis in foot pathology requires repeated measurement of the geometrical relationship among bones. To analyze the complex structure of a foot and to capture a 3D pose of the bones, CT or MRI has been used in addition to the conventional radiograph. However, due to the lack of standard method for measuring 3D angles from 3D data of foot bones, clinical measurements are mostly obtained by measuring the distances and angles in 2D slices in a way similar to the measurements on a conventional radiograph image. In this paper, we propose an approach using a 3D foot template model for posture assessment to bring more reliable 3D foot analysis. To quantify robustly the bony relationship, we construct a template model with encoded articular surfaces on each bone which represents the neutral position of the foot as a reference for the measurement. The subject-specific foot posture is described by presenting angular changes and distance differences compared to the template model. We address the quantified postural difference between subjects in a unified frame-of-reference and perform an experimental study based on the proposed method. The resulting posture between a standing position and a supine position are clearly distinguishable in terms of both distance and angle. The proposed technique provides not only quantified measures of the foot posture but also guidance for finding meaningful differences between postures from different subjects.",
+        "keywords": ["3D anatomical angle","Computer-aided diagnosis","foot and ankle","template model"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Collaborative Haptic Exploration of Dynamic Remote Environments",
+        "subtitle": "IEEE Computer Graphics and Applications",
+        "vol": "38",
+        "labelVol": "",
+		"num": "5",
+        "labelNum": "",
+		"pp": "84-99",
+        "labelPP": "",
+		"author": [
+            "Seokyeol Kim",
+            "Jinah Park"
+        ],
+        "date": "2018.09.01",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1109/MCG.2018.053491733",
+        "abstract": "Haptic perception is an important modality in reinforcing the presence of virtual or remote targets, but providing haptic feedback of dynamic environments still remains a challenging task. We address the issue of haptic telepresence systems by improving and integrating two independent approaches: real-time haptic rendering of unstructured spatial data and collaborative interaction with a remote partner. Contact with physical constraints is directly estimated from streaming point-cloud data without surface reconstruction, and haptic guidance cues that restrict or promote the users motion can be provided by both predefined triggers and gesture-based input from a helper. Through a user study with a proof-of-concept prototype, the authors show that the proposed approach significantly improves the performance of remote exploration tasks while enabling stable haptic interaction with real-world spatial data.",
+        "keywords": ["Haptic interfaces", "Collaboration", "Task analysis", "Telepresence", "Three-dimensional displays", "Rendering"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Clinical, Radiographic, Morphometric Risk Factors for Adjacent and Remote Vertebral Compression Fractures over a Minimum Follow-up of 4 Years after Percutaneous Vertebroplasty for Osteoporotic Vertebral Compression Fractures",
+        "subtitle": "World Neurosurgery",
+        "vol": "125",
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "e146-e157",
+        "labelPP": "",
+		"author": [
+            "Hong-Jae Lee",
+            "Jinah Park",
+            "Il-Woo Lee",
+            "Jin-seok Yi",
+            "Taeho Kim"
+        ],
+        "date": "2019.05.01",
+        "type": "International Journal",
+        "doi": "https://doi.org/10.1016/j.wneu.2019.01.020",
+        "abstract": "This study aimed to analyze the risk factors for secondary new vertebral compression fractures (SNVCFs) after percutaneous vertebroplasty (PVP) for osteoporotic vertebral compression fractures.",
+        "keywords": ["Bone mineral density","Osteoporosis","Percutaneous vertebroplasty","Risk factor","Vertebral compression fracture","Voxel"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Non-rigid Registration of Dynamic Deformable Volumetric Data using Thin-plate Spline (박판 스플라인을 이용한 동적 가변형 볼륨 데이터의 비강직 정합 기법)",
+        "subtitle": "대한PACS학회지",
+        "vol": "25",
+        "labelVol": "",
+		"num": "",
+        "labelNum": "",
+		"pp": "61-67",
+        "labelPP": "",
+		"author": [
+            "Jinah Kim",
+            "Jinah Park"
+        ],
+        "date": "2005",
+        "type": "Domestic Journal",
+        "doi": "",
+        "abstract": "Medical image registration generally refers to the process of determining the geometric transformation of images to get a complimentary structural, biological or functional correspondence. Especially, in the medical image analysis for the human organs, non-rigid registration is necessary to properly register the local deformation. Especially for the dynamic organs like a heart and lungs, it is essential to process the registration method in three-dimensional space to track their through-plane motion. In this paper, we suggest the 3D non-rigid registration method based on the corresponding anatomical landmarks using thin-plate spline (TPS) with volumetric CT lung data. By extending two-dimensional TPS, we developed 3D TPS and computed its bending energy function to register the local deformations of the volumetric time-varying CT lung data due to the respiration. Our experimental results show that our method is suitable for handling volumetric deformation with a small number of anatomical landmarks within an interactive time.",
+        "keywords": ["Non-rigid Registration","Volumetric Data","Thin-plate Spline", "CT lung data", "Through-plane motion"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Medical Simulation : Virtual Surgery (의료 시뮬레이션: 가상 수술)",
+        "subtitle": "정보과학회지",
+        "vol": "23",
+        "labelVol": "",
+		"num": "10",
+        "labelNum": "",
+		"pp": "49-51",
+        "labelPP": "",
+		"author": [
+            "Jinah Park"
+        ],
+        "date": "2005.10.01",
+        "type": "Domestic Journal",
+        "doi": "http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE00672707&language=ko_KR",
+        "abstract": "",
+        "keywords": []
+    },
+    {
+        "thumbnail": null,
+        "title": "Web-based Self-directed Learning for Multi-contents Service  (멀티 콘텐츠 서비스를 위한 웹 기반 자기주도적 학습 시스템)",
+        "subtitle": "Journal of KIISE: Computing Practices and Letters (정보과학회논문지: 컴퓨팅의 실제 및 레터)",
+        "vol": "16",
+        "labelVol": "",
+		"num": "1",
+        "labelNum": "",
+		"pp": "115-119",
+        "labelPP": "",
+		"author": [
+            "Jiseon Kim",
+            "Jinah Park"
+        ],
+        "date": "2010.01.01",
+        "type": "Domestic Journal",
+        "doi": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01328798",
+        "abstract": "As the subjects of education has been changed from the instructors to learners, a web-based self-directed learning which can accelerate the initiative of learners and can be free from the restriction of time and space has been received attention. In this paper, the web-based self-directed learning system was designed. For the design, to make the learners build their own lecture plan, the service was designed to provide three kinds of lectures of video clip, slide lecture, and e-text lecture that were focused on various lecture contents. In addition, a learner and an assistant was man to man matched to enable the on-line mentoring for mutual communication between learners and assistants. Implementation was carried out by three sets of module - Manager, Learner and Assistant - that were applied to the real educational activities. The survey on satisfaction for the education, efficiency of ability improvement, and educational intelligibility for the attendants on the education showed more than 67.2% of satisfaction in satisfaction for the education. Furthermore, more than 86.9% of attendants replied that their ability were improved after the education of this system. The educational system realized in this paper shows effectiveness for the self-directed learning.",
+        "keywords": ["Self-directed Learning","Web based Self-directed Learning System","IT Education"]
+    },
+    {
+        "thumbnail": null,
+        "title": "A Collision Model for Real-time Simulation of Tooth Preparation (실시간 치아 형성 시뮬레이션을 위한 충돌 모델)",
+        "subtitle": "Journal of KIISE: Computing Practices and Letters (정보과학회논문지: 컴퓨팅의 실제 및 레터)",
+        "vol": "17",
+        "labelVol": "",
+		"num": "12",
+        "labelNum": "",
+		"pp": "677-681",
+        "labelPP": "",
+		"author": [
+            "Kimin Kim",
+            "Jai-hyun Kim",
+            "Jinah Park"
+        ],
+        "date": "2011.12.01",
+        "type": "Domestic Journal",
+        "doi": "http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01757713&language=ko_KR",
+        "abstract": "The cutting of the tooth with a bur is one of the most essential procedures that should be offered from a virtual reality based dental training system. Since instruments for tooth cutting are small and sharp as compared to the tooth, it is needed that not only elaborate but also accurate collision model handling the plastic deformation of the tooth caused by cutting instruments. To address this issue, we propose a real-time collision model, which the tooth is represented as a volume model with a distance field for the tooth. This volume model is shared by not only a procedure to visualize shape deformation of the tooth but also a procedure to detect collision and compute feedback force for haptic rendering. A method using an octree is also presented to accelerate collision detection between the tooth and the instrument.",
+        "keywords": ["Haptics","Dental Simulator","Volume-based Collision Detection"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Web-based Information System for Ocean / Coastal Environmental Data Service (해양환경자료의 서비스를 위한 웹 기반 정보시스템)",
+        "subtitle": "Journal of KIISE: Computing Practices and Letters (정보과학회논문지: 컴퓨팅의 실제 및 레터)",
+        "vol": "17",
+        "labelVol": "",
+		"num": "12",
+        "labelNum": "",
+		"pp": "630-639",
+        "labelPP": "",
+		"author": [
+            "Jinah Kim",
+            "Gwang Soon Park",
+            "Jaeil Kwon",
+            "Jinah Park"
+        ],
+        "date": "2011.12.01",
+        "type": "Domestic Journal",
+        "doi": "http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01757697&language=ko_KR",
+        "abstract": "Ocean/coastal environmental information is the current status and forecasted ocean and coast information required to support ocean activities and solve ocean-related problems in government agencies, industries and general public. It can be largely classified current status by in-situ ocean observation and predicted forecast by numerical modeling about the sea state. These data consist of positional information of latitude, longitude and depth and mapped observation and prediction values to each position and have some properties such as tremendous multi-dimensional multi-variate spatio-temporal data. It's hard to understand and interpret the complex phenomenon unless you are an expert because these data exist on around of whole Korea coastal areas so the data volume is so big and ways of data collection and data types and properties are so variety and heterogeneous. Therefore, in this paper, we implemented web-based information system for whole series of collection-processing-storage (database)-geo-spatial processing-scientific visualization process for service of ocean/coastal environmental information. Moreover, by implementing spatio-temporal and cross-relational analysis and information query functions, we try to help to understand complex oceanic process, solve ocean-related problems and support the decision making over simple information providence.",
+        "keywords": ["Ocean/coastal environmental information","Information system","Web","Spatio-temporal analysis","Multi-dimensional","Multi-variable"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Effective Volume Rendering and Virtual Staining Framework for Visualizing 3D Cell Image Data (3차원 세포 영상 데이터의 효과적인 볼륨 렌더링 및 가상 염색 프레임워크)",
+        "subtitle": "Journal of the Korea Computer Graphics Society (컴퓨터그래픽스학회논문지)",
+        "vol": "24",
+        "labelVol": "",
+		"num": "1",
+        "labelNum": "",
+		"pp": "9-17",
+        "labelPP": "",
+		"author": [
+            "Taeho Kim",
+            "Jinah Park"
+        ],
+        "date": "2018.03.01",
+        "type": "Domestic Journal",
+        "doi": "http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07404200&language=ko_KR",
+        "abstract": "In this paper, we introduce a visualization framework for cell image data obtained from optical diffraction tomography (ODT), including a method for representing cell morphology in 3D virtual environment and a color mapping protocol. Unlike commonly know volume data sets, such as CT images of human organ or industrial machinery, that have solid structural information, the cell image data have rather vague information with much morphological variations on the boundaries. Therefore, it is difficult to come up with consistent representation of cell structure for visualization results. To obtain desired visual representation of cellular structures, we propose an interactive visualization technique for the ODT data. In visualization of 3D shape of the cell, we adopt a volume rendering technique which is generally applied to volume data visualization and improve the quality of volume rendering result by using empty space jittering method. Furthermore, we provide a layer-based independent rendering method for multiple transfer functions to represent two or more cellular structures in unified render window. In the experiment, we examined effectiveness of proposed method by visualizing various type of the cell obtained from the microscope which can capture ODT image and fluorescence image together.",
+        "keywords": ["Direct Volume Rendering","Optical Diffraction Tomography","Cell Imaging"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Real-time Spray Painting using Rays and Texture Map (레이와 텍스처 기법을 이용한 실시간 스프레이 페인팅)",
+        "subtitle": "Journal of KIISE: Computing Practices and Letters (정보과학회논문지: 컴퓨팅의 실제 및 레터)",
+        "vol": "14",
+        "labelVol": "",
+		"num": "8",
+        "labelNum": "",
+		"pp": "818-822",
+        "labelPP": "",
+		"author": [
+            "Daeseok Kim",
+            "Jinah Park"
+        ],
+        "date": "2008.11.01",
+        "type": "Domestic Journal",
+        "doi": "http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01084395&language=ko_KR",
+        "abstract": "The purpose of this study is to develop realistic painting simulation in real-time as well as to represent the thickness of the deposited paint on the surface. The Gaussian model is used for a painting deposition model to calculate the thickness of paints. For a painting simulation, rather than implementing particle systems, we propose a new heuristic algorithm for painting process based on a few number of rays. After we find the collision points of the rays with an environment, we compute the painted area using flood-fill searching method on the texture map and visualize paint effects. We analyzed time complexity of our method to verify that our system is suitable for real-time VR applications.",
+        "keywords": ["simulation","deposition model","virtual training","visualization","collision detection","spray painting"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Medical Fusion Contents: Simulation (의료융합 콘텐츠: 시뮬레이션)",
+        "subtitle": "Communications of the Korean Isnstitute of Information Scientists and Engineers (정보과학회지)",
+        "vol": "26",
+        "labelVol": "",
+		"num": "12",
+        "labelNum": "",
+		"pp": "28-33",
+        "labelPP": "",
+		"author": [
+            "Jinah Park"
+        ],
+        "date": "2008.12.01",
+        "type": "Domestic Journal",
+        "doi": "http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01102879&language=ko_KR",
+        "abstract": "",
+        "keywords": []
+    },
+    {
+        "thumbnail": null,
+        "title": "Development of a Web Service based GIS-enabled Storm-surge Visualization System (웹 서비스 기반 GIS 연동 폭풍ㆍ해일 시각화 시스템 개발)",
+        "subtitle": "Journal of KIISE: Computing Practices and Letters (정보과학회논문지: 컴퓨팅의 실제 및 레터)",
+        "vol": "14",
+        "labelVol": "",
+		"num": "9",
+        "labelNum": "",
+		"pp": "841-849",
+        "labelPP": "",
+		"author": [
+            "Jinah Kim",
+            "Jinah Park",
+            "Gwang Soon Park",
+            "Jaeil Kwon"
+        ],
+        "date": "2008.12.01",
+        "type": "Domestic Journal",
+        "doi": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01104776&language=ko_KR",
+        "abstract": "Natural disaster such as inundation due to the typhoon induced storm-surge has inflicted severe losses on the coastal area. The problem of global warming and sea surface rising has issued and thus influences the increase of frequency and potential power of storm-surge. What we can do is to make intelligent effort to predict and prevent the losses through the early warning and prevention activity from the accurate prediction and forecasting about the time-varying storm-surge height and its arriving time resulted from the numerical simulation with sea observations. In this paper, we developed the web service based GIS-Enabled storm-surge visualization system to predict and prevent the storm-surge disasters. Moreover, for more accurate topography around coastal area and fine-grid storm-surge numerical model, we have accomplished GIS-based coastal mapping through LiDAR measurement.",
+        "keywords": ["Web-Services","Storm-surge scientific visualization","Coastal Mapping"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Protein Interaction Network Visualization System Combined with Gene Ontology (유전자 온톨로지와 연계한 단백질 상호작용 네트워크 시각화 시스템)",
+        "subtitle": "Journal of KIISE: Computer Systems and Theory (정보과학회논문지: 시스템 및 이론)",
+        "vol": "36",
+        "labelVol": "",
+		"num": "2",
+        "labelNum": "",
+		"pp": "60-67",
+        "labelPP": "",
+		"author": [
+            "Yunkyu Choi",
+            "Seok Kim",
+            "Gwamsu Yi",
+            "Jinah Park"
+        ],
+        "date": "2009.04.01",
+        "type": "Domestic Journal",
+        "doi": "http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01182679&language=ko_KR",
+        "abstract": "Analyzing protein-protein interactions(PPI) is an important task in bioinformatics as it can help in new drugs' discovery process. However, due to vast amount of PPI data and their complexity, efficient visualization of the data is still remained as a challenging problem. We have developed efficient and effective visualization system that integrates Gene Ontology(GO) and PPI network to provide better insights to scientists. To provide efficient data visualization, we have employed dynamic interactive graph drawing methods and context-based browsing strategy. In addition, quick and flexible cross-reference system between GO and PPI; LCA(Least Common Ancestor) finding for GO; and etc are supported as special features. In terms of interface, our visualization system provides two separate graphical windows side-by-side for GO graphs and PPI network, and also provides cross-reference functions between them.",
+        "keywords": ["Protein-protein interaction","Gene Ontology","Dynamic Graph","Context-based browsing","Least Common Ancestor"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Adaptive Mass-Spring Method for the Synchronization of Dual Deformable Model (듀얼 가변형 모델 동기화를 위한 적응성 질량-스프링 기법)",
+        "subtitle": "Journal of Korea Computer Graphics Society (한국컴퓨터그래픽스학회논문지)",
+        "vol": "15",
+        "labelVol": "",
+		"num": "3",
+        "labelNum": "",
+		"pp": "1-9",
+        "labelPP": "",
+		"author": [
+            "Jaehwan Cho",
+            "Jinah Park"
+        ],
+        "date": "2009.09.01",
+        "type": "Domestic Journal",
+        "doi": "http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01962389&language=ko_KR",
+        "abstract": "Traditional computer simulation uses only traditional input and output devices. With the recent emergence of haptic techniques, which can give users kinetic and tactile feedback, the field of computer simulation is diversifying. In particular, as the virtual-reality-based surgical simulation has been recognized as an effective training tool in medical education, the practical virtual simulation of surgery becomes a stimulating new research area. The surgical simulation framework should represent the realistic properties of human organ for the high immersion of a user interaction with a virtual object. The framework should make proper both haptic and visual feedback for high immersed virtual environment. However, one model may not be suitable to simulate both haptic and visual feedback because the perceptive channels of two feedbacks are different from each other and the system requirements are also different. Therefore, we separated two models to simulate haptic and visual feedback independently but at the same time. We propose an adaptive mass-spring method as a multi-modal simulation technique to synchronize those two separated models and present a framework for a dual model of simulation that can realistically simulate the behavior of the soft, pliable human body, along with haptic feedback from the user's interaction",
+        "keywords": ["Surgical Simulation","Soft body Simulation","Deformable Model", "Haptics"]
+    },
+    {
+        "thumbnail": null,
+        "title": "IT의료융합-의료훈련시뮬레이터기술동향",
+        "subtitle": "정보과학회지",
+        "vol": "28",
+        "labelVol": "",
+		"num": "7",
+        "labelNum": "",
+		"pp": "28-35",
+        "labelPP": "",
+		"author": [
+            "Jeha Ryu",
+            "Jinah Park",
+            "Jung Kim",
+            "Hee-Byeong Choi"
+        ],
+        "date": "2010.07.01",
+        "type": "Domestic Journal",
+        "doi": "http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01496999&language=ko_KR",
+        "abstract": "",
+        "keywords": []
+    },
+    {
+        "thumbnail": null,
+        "title": "Designing a Framework of Multimodal Contents Creation and Playback System for Immersive Textbook (실감형 교과서를 위한 멀티모달 콘텐츠 저작 및 재생 프레임워크 설계)",
+        "subtitle": "Journal of the Korea Contents Association (한국콘텐츠학회논문지)",
+        "vol": "10",
+        "labelVol": "",
+		"num": "8",
+        "labelNum": "",
+		"pp": "1-10",
+        "labelPP": "",
+		"author": [
+            "Seokyeol Kim",
+            "Jinah Park"
+        ],
+        "date": "2010.08.01",
+        "type": "Domestic Journal",
+        "doi": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01513066&language=ko_KR#none",
+        "abstract": "For virtual education, the multimodal learning environment with haptic feedback, termed ‘immersive textbook', is necessary to enhance the learning effectiveness. However, the learning contents for immersive textbook are not widely available due to the constraints in creation and playback environments. To address this problem, we propose a framework for producing and displaying the multimodal contents for immersive textbook. Our framework provides an XML-based meta-language to produce the multimodal learning contents in the form of intuitive script. Thus it can help the user, without any prior knowledge of multimodal interactions, produce his or her own learning contents. The contents are then interpreted by script engine and delivered to the user by visual and haptic rendering loops. Also we implemented a prototype based on the aforementioned proposals and performed user evaluation to verify the validity of our framework.",
+        "keywords": ["Virtual Education","Multimodal Contents","Haptic Feedback","Immersive Textbook"]
+    },
+    {
+        "thumbnail": null,
+        "title": "A Study on Virtual Assembly Simulation Using Virtual Reality Technology (가상현실 기술을 이용한 가상 조립 시뮬레이션에 대한 연구)",
+        "subtitle": "Journal of Korea Multimedia Society (멀티미디어학회논문지)",
+        "vol": "13",
+        "labelVol": "",
+		"num": "11",
+        "labelNum": "",
+		"pp": "1715-1727",
+        "labelPP": "",
+		"author": [
+            "Yongwan Kim",
+            "Jinah Park"
+        ],
+        "date": "2010.11.01",
+        "type": "Domestic Journal",
+        "doi": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01606816&language=ko_KR",
+        "abstract": "Although a hand haptic interaction which provides direct and natural sensation is the most natural way of interacting with VR environment, the hand haptic interaction has still limitations with respect to the complexity of articulated hand and related hardware capabilities. Particularly, virtual assembly simulation which refers to the verification process of digital mockup in product development lifecycle is one of the most challenging topics in virtual reality applications. However, hand haptic interaction is considered as a big obstacle, because difficulty initial grasping and non-dextrous manipulation remain as unsolved problems. In this paper, we propose that common hand haptic interactions involves two separate stages with different aspects. We present the hand haptic interaction method enables us to stably grasp a virtual object at initial grasping and delicately manipulate an object at task operating by one's intention. Therefore, proposed method provides the robustness using grasping quality and dextrous manipulation using physically simulation. We conducted experiments to evaluate the effectiveness of our proposed method under different display environments -monoscopic and stereoscopic. From 2-way ANOVA test, we show that the proposed method satisfies two aspects of hand haptic interaction. Finally, we demonstrated an actual application of various assembly simulation for relatively complex models.",
+        "keywords": ["Assembly Simulation","Haptic Interaction","Grasping","Virtual Reality"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Real-time Collision Detection of Deformable Objects for Haptic Rendering using Distance Field and Point Shell (햅틱 렌더링을 위한 거리 영역과 포인트 쉘 기반의 실시간 변형체 충돌 검사)",
+        "subtitle": "Journal of KIISE: Software and Applications (정보과학논문지: 소프트웨어 및 응용)",
+        "vol": "38",
+        "labelVol": "",
+		"num": "7",
+        "labelNum": "",
+		"pp": "358-368",
+        "labelPP": "",
+		"author": [
+            "Seok Kim",
+            "Jinah Park"
+        ],
+        "date": "2011.07.01",
+        "type": "Domestic Journal",
+        "doi": "http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01661924&language=ko_KR",
+        "abstract": "Collision detection using Distance Field and Point Shell is one of efficient methods to detect collision between objects in interactive simulation. The Distance Field is defined as 3D uniform grid, but the Point Shell denotes the set of points which are sampled from an object. In the Distance Field, each grid point has the signed shortest distance from the surface of an object within the Distance Field. By interpolating the distance of grid points, it is possible to calculate the distance between each sampled point of Point Shell and the object within the Distance Field. The result is used to detect collision fast. However, when the object within the Distance Field is deformed, the update of the Distance Field is too slow because the shortest surface distance of all grid points must be recomputed. In this paper, we present new approach to detect collision of deformable objects using grid cells instead of shortest distance of grid point. In our approach, each grid cell is defined one of three types based on the relative position of the object within the Distance Field; boundary cell, interior cell, and exterior cell. By using the grid cells of Distance Field and sampled points of Point Shell, we introduce fast collision detection for deformable objects. The advantage of our approach is to reduce the time required to update Distance Field. In addition, our approach is applied to Cholecystectomy simulation which is one of common surgeries.",
+        "keywords": ["Deformation","Collision Detection","Distance Field","Point Shell","Haptic Rendering"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Implementation of Saemangeum Coastal Environmental Information System Using GIS (지리정보시스템을 이용한 새만금 해양환경정보시스템 구축)",
+        "subtitle": "Journal of the Korean Association of Geographic Information Studies (한국지리정보학회지)",
+        "vol": "14",
+        "labelVol": "",
+		"num": "4",
+        "labelNum": "",
+		"pp": "128-136",
+        "labelPP": "",
+		"author": [
+            "Jinah Kim",
+            "Changsik Kim",
+            "Jinah Park"
+        ],
+        "date": "2011.12.01",
+        "type": "Domestic Journal",
+        "doi": "http://www.riss.kr/link?id=A82710348",
+        "abstract": "To monitor and predict the change of coastal environment according to the construction of Saemangeum sea dyke and the development of land reclamation, we have done real-time and periodic ocean observation and numerical simulation since 2002. Saemangeum coastal environmental data can be largely classified to marine meteorology, ocean physics and circulation, water quality, marine geology and marine ecosystem and each part of data has been generated continuously and accumulated over about 10 years. The collected coastal environmental data are huge amounts of heterogeneous dataset and have some characteristics of multi-dimension, multivariate and spatio-temporal distribution. Thus the implementation of information system possible to data collection, processing, management and service is necessary. In this study, through the implementation of Saemangeum coastal environmental information system using geographic information system, it enables the integral data collection and management and the data querying and analysis of enormous and high-complexity data through the design of intuitive and effective web user interface and scientific data visualization using statistical graphs and thematic cartography. Furthermore, through the quantitative analysis of trend changed over long-term by the geo-spatial analysis with geo- processing, it`s being used as a tool for provide a scientific basis for sustainable development and decision support in Saemangeum coast. Moreover, for the effective web-based information service, multi-level map cache, multi-layer architecture and geospatial database were implemented together.",
+        "keywords": []
+    },
+    {
+        "thumbnail": null,
+        "title": "A Dual Modeling Method for a Real-Time Palpation Simulator",
+        "subtitle": "Korea Information Processing Society (한국정보처리학회)",
+        "vol": "8",
+        "labelVol": "",
+		"num": "1",
+        "labelNum": "",
+		"pp": "55-66",
+        "labelPP": "",
+		"author": [
+            "Sang-Youn Kim",
+            "Sekil Park",
+            "Jinah Park"
+        ],
+        "date": "2012.03.31",
+        "type": "Domestic Journal",
+        "doi": "https://doi.org/10.3745/JIPS.2012.8.1.055",
+        "abstract": "This paper presents a dual modeling method that simulates the graphic and haptic behavior of a volumetric deformable object and conveys the behavior to a human operator. Although conventional modeling methods (a mass-spring model and a finite element method) are suitable for the real-time computation of an object's deformation, it is not easy to compute the haptic behavior of a volumetric deformable object with the conventional modeling method in real-time (within a 1kHz) due to a computational burden. Previously, we proposed a fast volume haptic rendering method based on the S-chain model that can compute the deformation of a volumetric non-rigid object and its haptic feedback in real-time. When the S-chain model represents the object, the haptic feeling is realistic, whereas the graphical results of the deformed shape look linear. In order to improve the graphic and haptic behavior at the same time, we propose a dual modeling framework in which a volumetric haptic model and a surface graphical model coexist. In order to inspect the graphic and haptic behavior of objects represented by the proposed dual model, experiments are conducted with volumetric objects consisting of about 20,000 nodes at a haptic update rate of 1000Hz and a graphic update rate of 30Hz. We also conduct human factor studies to show that the haptic and graphic behavior from our model is realistic. Our experiments verify that our model provides a realistic haptic and graphic feeling to users in real-time.",
+        "keywords": ["Haptic Feedback", "Dual Model", "Palpation", "Real-Time Simulation", "S-chain Model"]
+    },
+    {
+        "thumbnail": null,
+        "title": "Organ Shape Modeling Based on the Laplacian Deformation Framework for Surface-Based Morphometry Studies",
+        "subtitle": "Journal of Computing Science and Engineering",
+        "vol": "6",
+        "labelVol": "",
+		"num": "3",
+        "labelNum": "",
+		"pp": "219-226",
+        "labelPP": "",
+		"author": [
+            "Jaeil Kim",
+            "Jinah Park"
+        ],
+        "date": "2012.09.01",
+        "type": "Domestic Journal",
+        "doi": "https://doi.org/10.5626/JCSE.2012.6.3.219",
+        "abstract": "Recently, shape analysis of human organs has achieved much attention, owing to its potential to localize structural abnormalities. For a group-wise shape analysis, it is important to accurately restore the shape of a target structure in each subject and to build the inter-subject shape correspondences. To accomplish this, we propose a shape modeling method based on the Laplacian deformation framework. We deform a template model of a target structure in the segmented images while restoring subject-specific shape features by using Laplacian surface representation. In order to build the inter-subject shape correspondences, we implemented the progressive weighting scheme for adaptively controlling the rigidity parameter of the deformable model. This weighting scheme helps to preserve the relative distance between each point in the template model as much as possible during model deformation. This area-preserving deformation allows each point of the template model to be located at an anatomically consistent position in the target structure. Another advantage of our method is its application to human organs of non-spherical topology. We present the experiments for evaluating the robustness of shape modeling against large variations in shape and size with the synthetic sets of the second cervical vertebrae (C2), which has a complex shape with holes.",
+        "keywords": ["Shape modeling","Laplacian deformation framework","Progressive weighting scheme","Surface-based shape analysis"]
+    },
     {
         "thumbnail": null,
         "title": "Quantitative Measurement Method for Possible Rib Fractures in Chest Radiographs",
@@ -382,7 +917,7 @@
     },
     {
         "thumbnail": null,
-        "title": "Monitoring the Evolutionary Aspect of the Gene Ontology to Enhance Predictability and Usability",
+        "title": "Disk Diagram: An Interactive Visualization Technique of Fuzzy Set Operations for the Analysis of Fuzzy Data",
         "subtitle": "Information Visualization",
         "vol": "9",
         "labelVol": "",
@@ -407,7 +942,7 @@
         "vol": "9",
         "labelVol": "",
 		"num": "3",
-        "labelNum": "",
+        "labelNum": "Suppl",
 		"pp": "S7",
         "labelPP": "",
 		"author": [
@@ -418,7 +953,7 @@
         "date": "2008.04.11",
         "type": "International Journal",
         "doi": "https://doi.org/10.1186/1471-2105-9-S3-S7",
-        "abstract": "",
+        "abstract": "Much effort is currently made to develop the Gene Ontology (GO). Due to the dynamic nature of information it addresses, GO undergoes constant updates whose results are released at regular intervals as separate versions. Although there are a large number of computational tools to aid the development of GO, they are operating on a particular version of GO, making it difficult for GO curators to anticipate the full impact of particular changes along the time axis on a larger scale. We present a method for tapping into such an evolutionary aspect of GO, by making it possible to keep track of important temporal changes to any of the terms and relations of GO and by consequently making it possible to recognize associated trends.",
         "keywords": []
     },
     {
@@ -439,8 +974,8 @@
         "date": "2007.07.00",
         "type": "International Journal",
         "doi": "http://dx.doi.org/10.1163/156855307781035619",
-        "abstract": "",
-        "keywords": []
+        "abstract": "Although people usually contact a surface with some area rather than a point, most haptic devices allow a user to interact with a virtual object at one point at a time and likewise most haptic rendering algorithms deal with such situations only. In a palpation procedure, medical doctors push and rub the organ's surface, and are provided the sensation of distributed pressure and contact force (reflecting force) for discerning doubtable areas of the organ. In this paper, we suggest real-time area-based haptic rendering to describe distributed pressure and contact force simultaneously, and present a haptic interface system to generate surface properties in accordance with the haptic rendering algorithm. We represent the haptic model using the shape-retaining chain link (S-chain) framework for a fast and stable computation of the contact force and distributed pressure from a volumetric virtual object. In addition, we developed a compact pin-array-type tactile display unit and attached it to the PHANToMTM haptic device to complement each other. For the evaluation, experiments were conducted with non-homogenous volumetric cubic objects consisting of approximately 500 000 volume elements. The experimental results show that compared to the point contact, the area contact provides the user with more precise perception of the shape and softness of the object's composition, and that our proposed system satisfies the real-time and realism constraints to be useful for a virtual reality application.",
+        "keywords": ["Voxel-based Representation","Haptic Rendering","Tactile Device","Palpation simulator"]
     },
     {
         "thumbnail": null,
@@ -460,7 +995,7 @@
         "date": "2006.03.00",
         "type": "International Journal",
         "doi": "http://dx.doi.org/10.4051/ibce.2009.1.0007",
-        "abstract": "",
+        "abstract": "The paradigm in biology is currently changing from that of conducting hypothesis-driven individual experiments to that of utilizing the results of a massive data analysis with appropriate computational tools. We present LayMap, an implemented visualization system that helps the user to deal with a high volume of the biomedical literatu re such as MEDLINE, through the layered maps that are constructed on the results of an information extraction system. LayMap also utilizes filtering and granularity for an enhanced view of the results. Since a biomedical information extraction system gives rise to a focused and effective way of slicing up the data space, the combined use of LayMap with such an information extraction system can help the user to navigate the data space in a speedy and guided manner. As a case study, we have applied the system to datasets of journal abstracts on 'MAPK pathway' and 'bufalin' from MEDLINE. With the proposed visualization, we have successfully rediscovered pathway maps of a reasonable quality for ERK, p38 and JNK. Furthermore, with respect to bufalin, we were able to identify the potentially interesting relation between the Chinese medicine Chan su and apoptosis with a high level of detail.",
         "keywords": []
     },
     {
@@ -480,9 +1015,9 @@
         ],
         "date": "2005.05.01",
         "type": "International Journal",
-        "doi": "https://doi.org/10.1093/ietisy%2Fe88-d.5.1012",
-        "abstract": "",
-        "keywords": []
+        "doi": "https://doi.org/10.1093/ietisy/e88-d.5.1012",
+        "abstract": "This paper presents a new model which computes the deformation and the feedback force of high-resolution biomedical volumetric objects consisting of hundreds of thousands of volume elements. The main difficulty in the simulation of these high-resolution volumetric objects is to compute and generate stable feedback force from the objects within a haptic update time (1 msec). In our model, springs are used in order to represent material properties of volume elements and cylinders are used to activate corresponding springs according to the amount of deformation. Unlike in a mass-spring model, springs in our model have constraint conditions. In our model, the deformation is calculated locally and then is propagated outward through object's volume as if a chain is pulled or pushed. The deformed configuration is then used to compute the object's internal potential energy that is reflected to the user. The simple nature of our model allows the much faster calculation of the deformation and the feedback force from the volumetric deformable object than the conventional model (an FEM or a mass-spring model). Experiments are conducted with homogenous and non-homogenous volumetric cubic objects and a volumetric human liver model obtained from CT data at a haptic update rate of 1000 Hz and a graphic update rate of 100 Hz to show that our model can be utilized in the real-time volume haptic rendering. We verify that our model provides a realistic haptic feeling for the user in real time through comparative study.",
+        "keywords": ["medical simulation", "modeling", "haptic", "biomedical volumetric object", "virtual reality" ]
     },
     {
         "thumbnail": null,
@@ -502,8 +1037,8 @@
         "date": "2005.01.00",
         "type": "International Journal",
         "doi": "http://dx.doi.org/10.1163/156855305774307022",
-        "abstract": "",
-        "keywords": []
+        "abstract": "A collaborative virtual environment (CVE) is a shared environment that allows geographically separated users to watch and manipulate the same object at the same time. This paper presents a fast haptic rendering method when users interact with a virtual object at multiple points or multiple areas in a CVE. Previously, we proposed a new model (Shape-retaining Chain Linked Model) for real-time volume haptic rendering. The haptic rendering of an object represented by our model guarantees real-time performance because the deformation of the object is computed locally and is then propagated outward through its volume. However, this local computation approach presented us with a new issue for handling virtual deformable objects in a CVE, where interactions occur at multiple points or multiple areas. In order to overcome the limitation of the local computation, we construct a modeling framework that allows colliding interactions among geographically separated users. For the modeling framework, we vectorially sum forces generated at interaction points or areas. In order to inspect the behavior of objects modeled with our method, experiments are conducted with volumetric objects consisting of about 500 000 nodes at a haptic update rate of 1000 Hz. We perform a calculation time analysis to investigate real-time performance and conduct human factor studies to show that the feedback force from our model is realistic. Our experiments verify that our model provides realistic haptic feeling to participants in real-time under a CVE.",
+        "keywords": ["Haptic", "Virtual Reality", "Volumetric Object","Modeling","Simulation"]
     },
     {
         "thumbnail": null,
@@ -512,7 +1047,7 @@
         "vol": "35",
         "labelVol": "",
 		"num": "7",
-        "labelNum": "",
+        "labelNum": "Issue",
 		"pp": "555-564",
         "labelPP": "",
 		"author": [
@@ -523,8 +1058,8 @@
         "date": "2005.10.00",
         "type": "International Journal",
         "doi": "https://doi.org/10.1016/j.compbiomed.2004.04.005",
-        "abstract": "",
-        "keywords": []
+        "abstract": "We propose a graphic tool for curating molecular interaction networks constructed from the literature by information extraction (IE). In order to turn preliminary results from IE into useful biomedical resources, we propose to use a controlled environment in which visualization and IE work synergistically. The usability of the proposed graphic tool is shown with respect to the identification of incorrectly extracted results that are due to the much troubling coordination phenomena in natural language texts. Through the experiment on molecular interactions in Saccaharomyces cerevisiae, we have seen a meaningful increase (from 91.5% to 97.5%) in the number of correctly extracted interaction information.",
+        "keywords": ["Visualization","Protein–protein interactions","Information extraction","Natural language processing","Bioinformatics"]
     },
     {
         "thumbnail": null,
@@ -541,11 +1076,11 @@
             "Changsu Lee",
             "Jong C. Park"
         ],
-        "date": "2004.12.00",
+        "date": "2004.12.01",
         "type": "International Journal",
         "doi": "https://doi.org/10.4028/www.scientific.net/KEM.277-279.259",
-        "abstract": "",
-        "keywords": []
+        "abstract": "An abundant amount of information is produced in the digital domain, and an effective information extraction (IE) system is required to surf through this sea of information. In this paper, we show that an interactive visualization system works effectively to complement an IE system. In particular, three-dimensional (3D) visualization can turn a data-centric system into a user-centric one by facilitating the human visual system as a powerful pattern recognizer to become a part of the IE cycle. Because information as data is multidimensional in nature, 2D visualization has been the preferred mode. However, we argue that the extra dimension available for us in a 3D mode provides a valuable space where we can pack an orthogonal aspect of the available information. As for candidates of this orthogonal information, we have considered the following two aspects: 1) abstraction of the unstructured source data, and 2) the history line of the discovery process. We have applied our proposal to text data mining in bioinformatics. Through case studies of data mining for molecular interaction in the yeast and mitogen-activated protein kinase pathways, we demonstrate the possibility of interpreting the extracted results with a 3D visualization system.",
+        "keywords": ["Bioinformatics","Knowledge Discovery","Molecular Interactions","Visualization"]
     },
     {
         "thumbnail": null,
@@ -606,9 +1141,9 @@
         ],
         "date": "2019.11.10",
         "type": "International Conference",
-        "doi": "",
-        "abstract": "",
-        "keywords": []
+        "doi": "https://doi.org/10.1145/3343055.3360753",
+        "abstract": "We present an interactive exhibition concept built on existing physical wall panels in a museum. By combining the unique exhibition contents with various rendering and interface techniques, we create immersive contents that have two-way communication and multi-modal feedback as key features to provide engaging experiences. We apply our interactive panel concept to a mummy exhibit in a natural history museum in Korea and demonstrate its effectiveness. The final goal of this project is for it to serve as a platform for virtual museums to provide an opportunity to expand offline museums to an online experience.",
+        "keywords": ["interactive design", "touchscreen interface", "virtual museum"]
     },
     {
         "thumbnail": null,
